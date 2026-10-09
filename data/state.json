@@ -1,10 +1,10 @@
 {
- "updated": 1791574321481,
+ "updated": 1791582760563,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-09T19:00:59.853Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.33).",
+ "briefing": null,
  "signals": [
   {
    "sym": "ADAUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791475199999,
-   "price": 0.2364,
+   "price": 0.241,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,16 +42,14 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791489599999,
-   "price": 82468.01,
+   "price": 82532.71,
    "entry": 81775.52,
    "sl": 83588.92985412903,
    "tp": 79055.40521880645,
    "size": 22.5,
    "news": {
     "score": 0,
-    "heads": [
-     "Bitcoin consolidates near $82.5K as crypto weathers Ledger theft reports"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.586,
@@ -64,12 +62,7 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": -0.33,
-    "risk": "low",
-    "note": "sentiment -0.33 su 1 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   }
  ],
  "paper": {
