@@ -1,0 +1,82 @@
+{
+ "updated": 1791572464350,
+ "riskPct": 0.5,
+ "blackout": null,
+ "minPaper": 10,
+ "scannedAt": "2026-10-09T19:00:59.853Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.33).",
+ "signals": [
+  {
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 30/100 SL1.5/TP3 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1791475199999,
+   "price": 0.2372,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.6,
+    "t": 2.11,
+    "n": 20,
+    "sharpeTest": 4.34
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "ADAUSDT-1h-sma-30-100-1.5-3"
+  },
+  {
+   "sym": "BTCUSDT",
+   "tf": "4h",
+   "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1791489599999,
+   "price": 82450,
+   "entry": 81775.52,
+   "sl": 83588.92985412903,
+   "tp": 79055.40521880645,
+   "size": 22.5,
+   "news": {
+    "score": 0,
+    "heads": [
+     "Bitcoin consolidates near $82.5K as crypto weathers Ledger theft reports"
+    ]
+   },
+   "bt": {
+    "wrTest": 0.586,
+    "t": 2.2,
+    "n": 29,
+    "sharpeTest": 2.44
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": -0.33,
+    "risk": "low",
+    "note": "sentiment -0.33 su 1 titoli"
+   }
+  }
+ ],
+ "paper": {
+  "n": 0,
+  "wr": null,
+  "avgR": null,
+  "sumPct": 0
+ },
+ "recent": []
+}

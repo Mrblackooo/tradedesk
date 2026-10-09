@@ -4,8 +4,58 @@
  "maxActive": 4,
  "minPaper": 10,
  "universe": {
-  "symbols": ["BTCUSDT","ETHUSDT","SOLUSDT","XRPUSDT","BNBUSDT","DOGEUSDT","ADAUSDT","LINKUSDT"],
-  "tfs": ["1h","4h"]
+  "symbols": [
+   "BTCUSDT",
+   "ETHUSDT",
+   "SOLUSDT",
+   "XRPUSDT",
+   "BNBUSDT",
+   "DOGEUSDT",
+   "ADAUSDT",
+   "LINKUSDT"
+  ],
+  "tfs": [
+   "1h",
+   "4h"
+  ]
  },
- "watch": []
+ "watch": [
+  {
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "st": "sma",
+   "a": 30,
+   "b": 100,
+   "ks": 1.5,
+   "kt": 3,
+   "lo": false,
+   "active": true,
+   "bt": {
+    "wrTest": 0.6,
+    "t": 2.11,
+    "n": 20,
+    "sharpeTest": 4.34
+   },
+   "tested": "2026-10-09T19:00:59.853Z"
+  },
+  {
+   "sym": "BTCUSDT",
+   "tf": "4h",
+   "st": "sma",
+   "a": 20,
+   "b": 80,
+   "ks": 2,
+   "kt": 3,
+   "lo": false,
+   "active": true,
+   "bt": {
+    "wrTest": 0.586,
+    "t": 2.2,
+    "n": 29,
+    "sharpeTest": 2.44
+   },
+   "tested": "2026-10-09T19:00:59.853Z"
+  }
+ ],
+ "scannedAt": "2026-10-09T19:00:59.853Z"
 }
