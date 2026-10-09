@@ -1,0 +1,1 @@
+{"scripts":{"signals":"node worker/run.js","retest":"node worker/auto.js"}}
