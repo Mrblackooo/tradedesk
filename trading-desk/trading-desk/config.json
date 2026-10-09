@@ -1,0 +1,10 @@
+{
+ "riskPct": 0.5,
+ "feePct": 0.08,
+ "watch": [
+  {"sym":"BTCUSDT","tf":"1h"},
+  {"sym":"ETHUSDT","tf":"1h"},
+  {"sym":"XRPUSDT","tf":"1h"},
+  {"sym":"SOLUSDT","tf":"1h"}
+ ]
+}
