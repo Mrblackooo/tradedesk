@@ -1,10 +1,10 @@
 {
- "updated": 1791640438485,
+ "updated": 1791654696668,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-10T10:42:56.778Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.68).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.58).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791341999999,
-   "price": 63.87,
+   "price": 64.23,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791475199999,
-   "price": 0.2551,
+   "price": 0.2543,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1787443199999,
-   "price": 109.92,
+   "price": 110.13,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1790884799999,
-   "price": 0.3315,
+   "price": 0.3311,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1790207999999,
-   "price": 0.08587,
+   "price": 0.08619,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,16 +158,15 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791489599999,
-   "price": 82812.01,
+   "price": 83158,
    "entry": 81775.52,
    "sl": 83588.92985412903,
    "tp": 79055.40521880645,
    "size": 22.5,
    "news": {
-    "score": -2,
+    "score": -1,
     "heads": [
-     "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
-     "Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?"
+     "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks"
     ]
    },
    "bt": {
@@ -183,9 +182,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.68,
+    "score": 0.58,
     "risk": "medium",
-    "note": "sentiment +0.68 su 2 titoli"
+    "note": "sentiment +0.58 su 1 titoli"
    }
   }
  ],
