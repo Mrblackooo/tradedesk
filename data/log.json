@@ -1,1 +1,1 @@
-[]
+[{"id":"LTCUSDT-1h-1791673199999","key":"LTCUSDT-1h-sma-8-80-3-4.5","sym":"LTCUSDT","tf":"1h","dir":"LONG","entry":64,"sl":63.060763821383816,"tp":65.40885426792428,"slPct":1.468,"t0":1791673199999,"status":"open","news":0,"blackout":false},{"id":"ADAUSDT-1h-1791669599999","key":"ADAUSDT-1h-sma-30-100-1.5-3","sym":"ADAUSDT","tf":"1h","dir":"LONG","entry":0.253,"sl":0.2492340091656545,"tp":0.260531981668691,"slPct":1.489,"t0":1791669599999,"status":"open","news":0,"blackout":false}]
