@@ -1,10 +1,10 @@
 {
- "updated": 1791654696668,
+ "updated": 1791660581440,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-10T10:42:56.778Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.58).",
+ "briefing": null,
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791341999999,
-   "price": 64.23,
+   "price": 64.12,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791475199999,
-   "price": 0.2543,
+   "price": 0.2525,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1787443199999,
-   "price": 110.13,
+   "price": 110.48,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1790207999999,
-   "price": 0.08619,
+   "price": 0.08617,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,16 +158,14 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791489599999,
-   "price": 83158,
+   "price": 83042.7,
    "entry": 81775.52,
    "sl": 83588.92985412903,
    "tp": 79055.40521880645,
    "size": 22.5,
    "news": {
-    "score": -1,
-    "heads": [
-     "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks"
-    ]
+    "score": 0,
+    "heads": []
    },
    "bt": {
     "wrTest": 0.586,
@@ -180,12 +178,7 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": 0.58,
-    "risk": "medium",
-    "note": "sentiment +0.58 su 1 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   }
  ],
  "paper": {
