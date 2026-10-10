@@ -1,10 +1,10 @@
 {
- "updated": 1791628978839,
+ "updated": 1791640438485,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-10T10:42:56.778Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.01).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.68).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791341999999,
-   "price": 63.58,
+   "price": 63.87,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1787443199999,
-   "price": 109.52,
+   "price": 109.92,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1790884799999,
-   "price": 0.3309,
+   "price": 0.3315,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1790207999999,
-   "price": 0.08588,
+   "price": 0.08587,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -156,18 +156,18 @@
    "tf": "4h",
    "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
    "dir": "SHORT",
-   "action": "IN ATTESA (rischio news LLM)",
+   "action": "ATTIVO",
    "since": 1791489599999,
-   "price": 82804.13,
+   "price": 82812.01,
    "entry": 81775.52,
    "sl": 83588.92985412903,
    "tp": 79055.40521880645,
    "size": 22.5,
    "news": {
-    "score": -1,
+    "score": -2,
     "heads": [
-     "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018",
-     "Sam Altman-backed Bitcoin life insurer, Meanwhile, raises more funds"
+     "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
+     "Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?"
     ]
    },
    "bt": {
@@ -183,9 +183,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 1.01,
-    "risk": "high",
-    "note": "sentiment +1.01 su 2 titoli"
+    "score": 0.68,
+    "risk": "medium",
+    "note": "sentiment +0.68 su 2 titoli"
    }
   }
  ],
