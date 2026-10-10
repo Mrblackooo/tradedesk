@@ -1,11 +1,40 @@
 {
- "updated": 1791628895145,
+ "updated": 1791628978839,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-10-09T19:00:59.853Z",
+ "scannedAt": "2026-10-10T10:42:56.778Z",
  "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.01).",
  "signals": [
+  {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1791341999999,
+   "price": 63.58,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.517,
+    "t": 2.24,
+    "n": 29,
+    "sharpeTest": 4.55
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "LTCUSDT-1h-sma-8-80-3-4.5"
+  },
   {
    "sym": "ADAUSDT",
    "tf": "1h",
@@ -13,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791475199999,
-   "price": 0.2552,
+   "price": 0.2551,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -36,13 +65,100 @@
    "key": "ADAUSDT-1h-sma-30-100-1.5-3"
   },
   {
+   "sym": "SOLUSDT",
+   "tf": "1d",
+   "strat": "Incrocio SMA 20/30 SL2/TP3 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1787443199999,
+   "price": 109.52,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.545,
+    "t": 2.1,
+    "n": 22,
+    "sharpeTest": 1.65
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "SOLUSDT-1d-sma-20-30-2-3"
+  },
+  {
+   "sym": "TRXUSDT",
+   "tf": "4h",
+   "strat": "Breakout 20 SL1/TP2 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1790884799999,
+   "price": 0.3309,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.6,
+    "t": 2.09,
+    "n": 30,
+    "sharpeTest": 2.48
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "TRXUSDT-4h-brk-20-0-1-2"
+  },
+  {
+   "sym": "DOGEUSDT",
+   "tf": "1d",
+   "strat": "Incrocio SMA 10/30 SL1.5/TP3 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1790207999999,
+   "price": 0.08588,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.5,
+    "t": 2.26,
+    "n": 28,
+    "sharpeTest": 1.79
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "DOGEUSDT-1d-sma-10-30-1.5-3"
+  },
+  {
    "sym": "BTCUSDT",
    "tf": "4h",
    "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
    "dir": "SHORT",
    "action": "IN ATTESA (rischio news LLM)",
    "since": 1791489599999,
-   "price": 82809.99,
+   "price": 82804.13,
    "entry": 81775.52,
    "sl": 83588.92985412903,
    "tp": 79055.40521880645,
@@ -56,9 +172,9 @@
    },
    "bt": {
     "wrTest": 0.586,
-    "t": 2.2,
+    "t": 2.17,
     "n": 29,
-    "sharpeTest": 2.44
+    "sharpeTest": 2.41
    },
    "stage": "osservazione",
    "proof": {

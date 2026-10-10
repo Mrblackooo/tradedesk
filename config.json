@@ -4,8 +4,135 @@
  "maxActive": 6,
  "minPaper": 10,
  "universe": {
-  "symbols": ["BTCUSDT","ETHUSDT","SOLUSDT","XRPUSDT","BNBUSDT","DOGEUSDT","ADAUSDT","LINKUSDT","AVAXUSDT","DOTUSDT","LTCUSDT","TRXUSDT"],
-  "tfs": ["1h","4h","1d"]
+  "symbols": [
+   "BTCUSDT",
+   "ETHUSDT",
+   "SOLUSDT",
+   "XRPUSDT",
+   "BNBUSDT",
+   "DOGEUSDT",
+   "ADAUSDT",
+   "LINKUSDT",
+   "AVAXUSDT",
+   "DOTUSDT",
+   "LTCUSDT",
+   "TRXUSDT"
+  ],
+  "tfs": [
+   "1h",
+   "4h",
+   "1d"
+  ]
  },
- "watch": []
+ "watch": [
+  {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "st": "sma",
+   "a": 8,
+   "b": 80,
+   "ks": 3,
+   "kt": 4.5,
+   "lo": false,
+   "active": true,
+   "bt": {
+    "wrTest": 0.517,
+    "t": 2.24,
+    "n": 29,
+    "sharpeTest": 4.55
+   },
+   "tested": "2026-10-10T10:42:56.778Z"
+  },
+  {
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "st": "sma",
+   "a": 30,
+   "b": 100,
+   "ks": 1.5,
+   "kt": 3,
+   "lo": false,
+   "active": true,
+   "bt": {
+    "wrTest": 0.6,
+    "t": 2.11,
+    "n": 20,
+    "sharpeTest": 4.34
+   },
+   "tested": "2026-10-10T10:42:56.778Z"
+  },
+  {
+   "sym": "SOLUSDT",
+   "tf": "1d",
+   "st": "sma",
+   "a": 20,
+   "b": 30,
+   "ks": 2,
+   "kt": 3,
+   "lo": false,
+   "active": true,
+   "bt": {
+    "wrTest": 0.545,
+    "t": 2.1,
+    "n": 22,
+    "sharpeTest": 1.65
+   },
+   "tested": "2026-10-10T10:42:56.778Z"
+  },
+  {
+   "sym": "TRXUSDT",
+   "tf": "4h",
+   "st": "brk",
+   "a": 20,
+   "b": 0,
+   "ks": 1,
+   "kt": 2,
+   "lo": false,
+   "active": true,
+   "bt": {
+    "wrTest": 0.6,
+    "t": 2.09,
+    "n": 30,
+    "sharpeTest": 2.48
+   },
+   "tested": "2026-10-10T10:42:56.778Z"
+  },
+  {
+   "sym": "DOGEUSDT",
+   "tf": "1d",
+   "st": "sma",
+   "a": 10,
+   "b": 30,
+   "ks": 1.5,
+   "kt": 3,
+   "lo": false,
+   "active": true,
+   "bt": {
+    "wrTest": 0.5,
+    "t": 2.26,
+    "n": 28,
+    "sharpeTest": 1.79
+   },
+   "tested": "2026-10-10T10:42:56.778Z"
+  },
+  {
+   "sym": "BTCUSDT",
+   "tf": "4h",
+   "st": "sma",
+   "a": 20,
+   "b": 80,
+   "ks": 2,
+   "kt": 3,
+   "lo": false,
+   "active": true,
+   "bt": {
+    "wrTest": 0.586,
+    "t": 2.17,
+    "n": 29,
+    "sharpeTest": 2.41
+   },
+   "tested": "2026-10-10T10:42:56.778Z"
+  }
+ ],
+ "scannedAt": "2026-10-10T10:42:56.778Z"
 }
