@@ -1,10 +1,10 @@
 {
- "updated": 1791595455568,
+ "updated": 1791616951859,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-09T19:00:59.853Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.01).",
  "signals": [
   {
    "sym": "ADAUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791475199999,
-   "price": 0.2458,
+   "price": 0.2535,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -40,16 +40,19 @@
    "tf": "4h",
    "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
    "dir": "SHORT",
-   "action": "ATTIVO",
+   "action": "IN ATTESA (rischio news LLM)",
    "since": 1791489599999,
-   "price": 82629.32,
+   "price": 82640.31,
    "entry": 81775.52,
    "sl": 83588.92985412903,
    "tp": 79055.40521880645,
    "size": 22.5,
    "news": {
-    "score": 0,
-    "heads": []
+    "score": -1,
+    "heads": [
+     "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018",
+     "Sam Altman-backed Bitcoin life insurer, Meanwhile, raises more funds"
+    ]
    },
    "bt": {
     "wrTest": 0.586,
@@ -62,7 +65,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 1.01,
+    "risk": "high",
+    "note": "sentiment +1.01 su 2 titoli"
+   }
   }
  ],
  "paper": {
