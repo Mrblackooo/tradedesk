@@ -1,9 +1,9 @@
 {
- "updated": 1791696836015,
+ "updated": 1791718254087,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-10-10T10:42:56.778Z",
+ "scannedAt": "2026-10-11T09:45:39.899Z",
  "briefing": null,
  "signals": [
   {
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791680399999,
-   "price": 63.55,
+   "price": 63.47,
    "entry": 63.58,
    "sl": 64.53832099074559,
    "tp": 62.14251851388161,
@@ -23,10 +23,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.517,
-    "t": 2.24,
-    "n": 29,
-    "sharpeTest": 4.55
+    "wrTest": 0.484,
+    "t": 2.17,
+    "n": 31,
+    "sharpeTest": 4.47
    },
    "stage": "osservazione",
    "proof": {
@@ -36,71 +36,13 @@
    "key": "LTCUSDT-1h-sma-8-80-3-4.5"
   },
   {
-   "sym": "ADAUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 30/100 SL1.5/TP3 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1791676799999,
-   "price": 0.2477,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.6,
-    "t": 2.11,
-    "n": 20,
-    "sharpeTest": 4.34
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 1,
-    "avgR": -1.11
-   },
-   "key": "ADAUSDT-1h-sma-30-100-1.5-3"
-  },
-  {
-   "sym": "SOLUSDT",
-   "tf": "1d",
-   "strat": "Incrocio SMA 20/30 SL2/TP3 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1787443199999,
-   "price": 109.67,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.545,
-    "t": 2.1,
-    "n": 22,
-    "sharpeTest": 1.65
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 0,
-    "avgR": null
-   },
-   "key": "SOLUSDT-1d-sma-20-30-2-3"
-  },
-  {
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1790884799999,
-   "price": 0.3306,
+   "price": 0.3307,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1790207999999,
-   "price": 0.08546,
+   "price": 0.0852,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,7 +100,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791489599999,
-   "price": 83090.01,
+   "price": 83064.01,
    "entry": 81775.52,
    "sl": 83588.92985412903,
    "tp": 79055.40521880645,
@@ -169,9 +111,9 @@
    },
    "bt": {
     "wrTest": 0.586,
-    "t": 2.17,
+    "t": 2.16,
     "n": 29,
-    "sharpeTest": 2.41
+    "sharpeTest": 2.43
    },
    "stage": "osservazione",
    "proof": {
@@ -179,6 +121,35 @@
     "avgR": null
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3"
+  },
+  {
+   "sym": "SOLUSDT",
+   "tf": "1d",
+   "strat": "MACD 5/35 SL1.5/TP2 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1791503999999,
+   "price": 109.46,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.508,
+    "t": 2.07,
+    "n": 59,
+    "sharpeTest": 1.47
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "SOLUSDT-1d-macd-5-35-1.5-2"
   }
  ],
  "paper": {
