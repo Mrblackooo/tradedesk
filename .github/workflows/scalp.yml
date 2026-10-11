@@ -2,7 +2,7 @@ name: scalp
 on:
   push:
     branches: [main]
-    paths: ['scalp.js', 'engine.js']
+    paths: ['scalp.js', 'engine.js', '.github/workflows/scalp.yml']
   schedule:
     - cron: '17 4 * * *'
   workflow_dispatch:
