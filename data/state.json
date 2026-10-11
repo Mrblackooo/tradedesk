@@ -1,10 +1,10 @@
 {
- "updated": 1791737088005,
+ "updated": 1791742481317,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-11T09:45:39.899Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.14).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1791734399999,
-   "price": 64.63,
+   "price": 64.59,
    "entry": 64.57,
    "sl": 63.47514749323309,
    "tp": 66.21227876015035,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1790884799999,
-   "price": 0.3315,
+   "price": 0.3311,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1790207999999,
-   "price": 0.08736,
+   "price": 0.08697,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,14 +100,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 83913.36,
+   "price": 83844,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "Saylor teases Strategy Bitcoin buying after ending September with STRC buybacks"
+    ]
    },
    "bt": {
     "wrTest": 0.586,
@@ -120,7 +122,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.14,
+    "risk": "low",
+    "note": "sentiment +0.14 su 1 titoli"
+   }
   },
   {
    "sym": "SOLUSDT",
@@ -129,7 +136,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 112.2,
+   "price": 112.05,
    "entry": null,
    "sl": null,
    "tp": null,
