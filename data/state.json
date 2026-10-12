@@ -1,10 +1,10 @@
 {
- "updated": 1791763298585,
+ "updated": 1791783836518,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-11T09:45:39.899Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.64).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1791734399999,
-   "price": 64.65,
+   "price": 65.36,
    "entry": 64.57,
    "sl": 63.47514749323309,
    "tp": 66.21227876015035,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1790884799999,
-   "price": 0.3304,
+   "price": 0.3325,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08679,
+   "price": 0.0874,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -100,14 +100,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 83779.86,
+   "price": 83940,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
-    "heads": []
+    "score": -1,
+    "heads": [
+     "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls"
+    ]
    },
    "bt": {
     "wrTest": 0.586,
@@ -120,7 +122,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.64,
+    "risk": "low",
+    "note": "sentiment +0.64 su 1 titoli"
+   }
   },
   {
    "sym": "SOLUSDT",
@@ -129,7 +136,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 111.36,
+   "price": 112.59,
    "entry": null,
    "sl": null,
    "tp": null,
