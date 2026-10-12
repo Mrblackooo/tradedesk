@@ -1,23 +1,23 @@
 {
- "updated": 1791812052982,
+ "updated": 1791841860084,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-12T10:24:01.305Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.51).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.9).",
  "signals": [
   {
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
-   "dir": "LONG",
+   "dir": "SHORT",
    "action": "ATTIVO",
-   "since": 1791734399999,
-   "price": 64.19,
-   "entry": 64.57,
-   "sl": 63.47514749323309,
-   "tp": 66.21227876015035,
-   "size": 29.5,
+   "since": 1791824399999,
+   "price": 61.75,
+   "entry": 62.66,
+   "sl": 64.28912479840776,
+   "tp": 60.216312802388366,
+   "size": 19.2,
    "news": {
     "score": 0,
     "heads": []
@@ -30,8 +30,8 @@
    },
    "stage": "osservazione",
    "proof": {
-    "n": 1,
-    "avgR": -0.59
+    "n": 2,
+    "avgR": -0.84
    },
    "key": "LTCUSDT-1h-sma-8-80-3-4.5"
   },
@@ -42,7 +42,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08607,
+   "price": 0.08386,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1790884799999,
-   "price": 0.3315,
+   "price": 0.3298,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 110.22,
+   "price": 107.04,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,19 +129,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 82672.01,
+   "price": 82690,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -1,
+    "score": 0,
     "heads": [
-     "Bitcoin falls below $83,000 as dollar strength keeps markets on edge",
-     "South Korea just got its first traditional bank loans backed by bitcoin",
-     "SWI raises $894 million to repurpose former FTX bitcoin miner Genesis Digital to AI",
-     "Altcoins rally on thin trading as bitcoin holds below $83,500",
-     "Strategy adds 250 Bitcoin as holdings reach 848,250 BTC"
+     "Bitcoin miners face widening AI financing costs as lenders scrutinize deals",
+     "Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high"
     ]
    },
    "bt": {
@@ -157,9 +154,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 1.51,
+    "score": -0.9,
     "risk": "low",
-    "note": "sentiment +1.51 su 5 titoli"
+    "note": "sentiment -0.9 su 2 titoli"
    }
   },
   {
@@ -169,7 +166,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791676799999,
-   "price": 0.2477,
+   "price": 0.2384,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -193,10 +190,10 @@
   }
  ],
  "paper": {
-  "n": 2,
+  "n": 3,
   "wr": 0,
-  "avgR": -0.85,
-  "sumPct": -2.51
+  "avgR": -0.93,
+  "sumPct": -4.37
  },
  "recent": [
   {
@@ -225,9 +222,13 @@
    "tp": 66.21227876015035,
    "slPct": 1.696,
    "t0": 1791734399999,
-   "status": "open",
+   "status": "sl",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 63.47514749323309,
+   "t1": 1791813600000,
+   "pct": -1.856,
+   "r": -1.09
   },
   {
    "id": "ADAUSDT-1h-1791669599999",
