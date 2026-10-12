@@ -35,31 +35,14 @@
    "kt": 4.5,
    "lo": false,
    "active": true,
+   "adopted": "2026-10-12T10:24:01.303Z",
    "bt": {
-    "wrTest": 0.484,
-    "t": 2.17,
-    "n": 31,
-    "sharpeTest": 4.47
+    "wrTest": 0.5,
+    "t": 1.93,
+    "n": 32,
+    "sharpeTest": 4.01
    },
-   "tested": "2026-10-11T09:45:39.899Z"
-  },
-  {
-   "sym": "TRXUSDT",
-   "tf": "4h",
-   "st": "brk",
-   "a": 20,
-   "b": 0,
-   "ks": 1,
-   "kt": 2,
-   "lo": false,
-   "active": true,
-   "bt": {
-    "wrTest": 0.6,
-    "t": 2.09,
-    "n": 30,
-    "sharpeTest": 2.48
-   },
-   "tested": "2026-10-11T09:45:39.899Z"
+   "tested": "2026-10-12T10:24:01.303Z"
   },
   {
    "sym": "DOGEUSDT",
@@ -71,31 +54,33 @@
    "kt": 3,
    "lo": false,
    "active": true,
+   "adopted": "2026-10-12T10:24:01.304Z",
    "bt": {
-    "wrTest": 0.5,
-    "t": 2.26,
-    "n": 28,
+    "wrTest": 0.483,
+    "t": 2.25,
+    "n": 29,
     "sharpeTest": 1.79
    },
-   "tested": "2026-10-11T09:45:39.899Z"
+   "tested": "2026-10-12T10:24:01.304Z"
   },
   {
-   "sym": "BTCUSDT",
+   "sym": "TRXUSDT",
    "tf": "4h",
-   "st": "sma",
+   "st": "brk",
    "a": 20,
-   "b": 80,
-   "ks": 2,
-   "kt": 3,
+   "b": 0,
+   "ks": 1,
+   "kt": 2,
    "lo": false,
    "active": true,
+   "adopted": "2026-10-12T10:24:01.305Z",
    "bt": {
-    "wrTest": 0.586,
-    "t": 2.16,
-    "n": 29,
-    "sharpeTest": 2.43
+    "wrTest": 0.6,
+    "t": 2.09,
+    "n": 30,
+    "sharpeTest": 2.48
    },
-   "tested": "2026-10-11T09:45:39.899Z"
+   "tested": "2026-10-12T10:24:01.305Z"
   },
   {
    "sym": "SOLUSDT",
@@ -107,14 +92,53 @@
    "kt": 2,
    "lo": false,
    "active": true,
+   "adopted": "2026-10-12T10:24:01.305Z",
    "bt": {
     "wrTest": 0.508,
     "t": 2.07,
     "n": 59,
     "sharpeTest": 1.47
    },
-   "tested": "2026-10-11T09:45:39.899Z"
+   "tested": "2026-10-12T10:24:01.305Z"
+  },
+  {
+   "sym": "BTCUSDT",
+   "tf": "4h",
+   "st": "sma",
+   "a": 20,
+   "b": 80,
+   "ks": 2,
+   "kt": 3,
+   "lo": false,
+   "active": true,
+   "adopted": "2026-10-12T10:24:01.305Z",
+   "bt": {
+    "wrTest": 0.571,
+    "t": 1.9,
+    "n": 28,
+    "sharpeTest": 2.16
+   },
+   "tested": "2026-10-12T10:24:01.305Z"
+  },
+  {
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "st": "sma",
+   "a": 30,
+   "b": 100,
+   "ks": 1.5,
+   "kt": 2,
+   "lo": false,
+   "active": true,
+   "adopted": "2026-10-12T10:24:01.305Z",
+   "bt": {
+    "wrTest": 0.667,
+    "t": 2.21,
+    "n": 21,
+    "sharpeTest": 4.72
+   },
+   "tested": "2026-10-12T10:24:01.305Z"
   }
  ],
- "scannedAt": "2026-10-11T09:45:39.899Z"
+ "scannedAt": "2026-10-12T10:24:01.305Z"
 }
