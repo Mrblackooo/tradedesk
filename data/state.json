@@ -1,10 +1,10 @@
 {
- "updated": 1791751050123,
+ "updated": 1791763298585,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-11T09:45:39.899Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.14).",
+ "briefing": null,
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1791734399999,
-   "price": 64.7,
+   "price": 64.65,
    "entry": 64.57,
    "sl": 63.47514749323309,
    "tp": 66.21227876015035,
@@ -68,14 +68,14 @@
    "sym": "DOGEUSDT",
    "tf": "1d",
    "strat": "Incrocio SMA 10/30 SL1.5/TP3 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1790207999999,
-   "price": 0.08701,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1791763199999,
+   "price": 0.08679,
+   "entry": 0.08679,
+   "sl": 0.09378852301469316,
+   "tp": 0.0727929539706137,
+   "size": 6.2,
    "news": {
     "score": 0,
     "heads": []
@@ -100,16 +100,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 83682,
+   "price": 83779.86,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "Saylor teases Strategy Bitcoin buying after ending September with STRC buybacks"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.586,
@@ -122,12 +120,7 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": 0.14,
-    "risk": "low",
-    "note": "sentiment +0.14 su 1 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   },
   {
    "sym": "SOLUSDT",
@@ -136,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 111.32,
+   "price": 111.36,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -166,6 +159,21 @@
   "sumPct": -2.51
  },
  "recent": [
+  {
+   "id": "DOGEUSDT-1d-1791763199999",
+   "key": "DOGEUSDT-1d-sma-10-30-1.5-3",
+   "sym": "DOGEUSDT",
+   "tf": "1d",
+   "dir": "SHORT",
+   "entry": 0.08679,
+   "sl": 0.09378852301469316,
+   "tp": 0.0727929539706137,
+   "slPct": 8.064,
+   "t0": 1791763199999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
   {
    "id": "LTCUSDT-1h-1791734399999",
    "key": "LTCUSDT-1h-sma-8-80-3-4.5",
