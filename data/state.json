@@ -1,10 +1,10 @@
 {
- "updated": 1791859474363,
+ "updated": 1791884765654,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-12T10:24:01.305Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.51).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791853199999,
-   "price": 61.49,
+   "price": 61.45,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08335,
+   "price": 0.08384,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1790884799999,
-   "price": 0.3299,
+   "price": 0.3298,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 106.61,
+   "price": 107.01,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,14 +129,19 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 82875.27,
+   "price": 83532.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
-    "heads": []
+    "score": -2,
+    "heads": [
+     "UK court ruling boosts government’s chances of keeping $5 billion in seized bitcoin",
+     "Bitcoin whale that sat through the March 2020 crash moves $378 million",
+     "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures",
+     "Chinese fraud victims lose key court battle over 61,000 Bitcoin"
+    ]
    },
    "bt": {
     "wrTest": 0.571,
@@ -149,20 +154,25 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.51,
+    "risk": "low",
+    "note": "sentiment +0.51 su 4 titoli"
+   }
   },
   {
    "sym": "ADAUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 30/100 SL1.5/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1791676799999,
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1791860399999,
    "price": 0.2347,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "entry": 0.2356,
+   "sl": 0.24113236495696921,
+   "tp": 0.22822351339070773,
+   "size": 21.3,
    "news": {
     "score": 0,
     "heads": []
