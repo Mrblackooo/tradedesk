@@ -26,25 +26,6 @@
  },
  "watch": [
   {
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "st": "sma",
-   "a": 8,
-   "b": 80,
-   "ks": 3,
-   "kt": 4.5,
-   "lo": false,
-   "active": true,
-   "adopted": "2026-10-12T10:24:01.303Z",
-   "bt": {
-    "wrTest": 0.5,
-    "t": 1.93,
-    "n": 32,
-    "sharpeTest": 4.01
-   },
-   "tested": "2026-10-12T10:24:01.303Z"
-  },
-  {
    "sym": "DOGEUSDT",
    "tf": "1d",
    "st": "sma",
@@ -56,12 +37,50 @@
    "active": true,
    "adopted": "2026-10-12T10:24:01.304Z",
    "bt": {
-    "wrTest": 0.483,
-    "t": 2.25,
+    "wrTest": 0.517,
+    "t": 2.33,
     "n": 29,
-    "sharpeTest": 1.79
+    "sharpeTest": 1.84
    },
-   "tested": "2026-10-12T10:24:01.304Z"
+   "tested": "2026-10-13T10:14:07.772Z"
+  },
+  {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "st": "sma",
+   "a": 8,
+   "b": 80,
+   "ks": 3,
+   "kt": 4.5,
+   "lo": false,
+   "active": true,
+   "adopted": "2026-10-12T10:24:01.303Z",
+   "bt": {
+    "wrTest": 0.469,
+    "t": 1.89,
+    "n": 32,
+    "sharpeTest": 4.02
+   },
+   "tested": "2026-10-13T10:14:07.773Z"
+  },
+  {
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "st": "sma",
+   "a": 30,
+   "b": 100,
+   "ks": 1.5,
+   "kt": 2,
+   "lo": false,
+   "active": true,
+   "adopted": "2026-10-12T10:24:01.305Z",
+   "bt": {
+    "wrTest": 0.682,
+    "t": 2.2,
+    "n": 22,
+    "sharpeTest": 4.77
+   },
+   "tested": "2026-10-13T10:14:07.774Z"
   },
   {
    "sym": "TRXUSDT",
@@ -80,7 +99,7 @@
     "n": 30,
     "sharpeTest": 2.48
    },
-   "tested": "2026-10-12T10:24:01.305Z"
+   "tested": "2026-10-13T10:14:07.774Z"
   },
   {
    "sym": "SOLUSDT",
@@ -95,11 +114,11 @@
    "adopted": "2026-10-12T10:24:01.305Z",
    "bt": {
     "wrTest": 0.508,
-    "t": 2.07,
+    "t": 2.1,
     "n": 59,
-    "sharpeTest": 1.47
+    "sharpeTest": 1.5
    },
-   "tested": "2026-10-12T10:24:01.305Z"
+   "tested": "2026-10-13T10:14:07.774Z"
   },
   {
    "sym": "BTCUSDT",
@@ -118,27 +137,8 @@
     "n": 28,
     "sharpeTest": 2.16
    },
-   "tested": "2026-10-12T10:24:01.305Z"
-  },
-  {
-   "sym": "ADAUSDT",
-   "tf": "1h",
-   "st": "sma",
-   "a": 30,
-   "b": 100,
-   "ks": 1.5,
-   "kt": 2,
-   "lo": false,
-   "active": true,
-   "adopted": "2026-10-12T10:24:01.305Z",
-   "bt": {
-    "wrTest": 0.667,
-    "t": 2.21,
-    "n": 21,
-    "sharpeTest": 4.72
-   },
-   "tested": "2026-10-12T10:24:01.305Z"
+   "tested": "2026-10-13T10:14:07.774Z"
   }
  ],
- "scannedAt": "2026-10-12T10:24:01.305Z"
+ "scannedAt": "2026-10-13T10:14:07.774Z"
 }
