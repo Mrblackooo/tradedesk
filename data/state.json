@@ -1,40 +1,11 @@
 {
- "updated": 1791884765654,
+ "updated": 1791911392370,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-10-12T10:24:01.305Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.51).",
+ "scannedAt": "2026-10-13T10:14:07.774Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.46).",
  "signals": [
-  {
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1791853199999,
-   "price": 61.45,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.5,
-    "t": 1.93,
-    "n": 32,
-    "sharpeTest": 4.01
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 2,
-    "avgR": -0.84
-   },
-   "key": "LTCUSDT-1h-sma-8-80-3-4.5"
-  },
   {
    "sym": "DOGEUSDT",
    "tf": "1d",
@@ -42,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08384,
+   "price": 0.08431,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -52,10 +23,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.483,
-    "t": 2.25,
+    "wrTest": 0.517,
+    "t": 2.33,
     "n": 29,
-    "sharpeTest": 1.79
+    "sharpeTest": 1.84
    },
    "stage": "osservazione",
    "proof": {
@@ -65,13 +36,71 @@
    "key": "DOGEUSDT-1d-sma-10-30-1.5-3"
   },
   {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1791853199999,
+   "price": 61.32,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.469,
+    "t": 1.89,
+    "n": 32,
+    "sharpeTest": 4.02
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 2,
+    "avgR": -0.84
+   },
+   "key": "LTCUSDT-1h-sma-8-80-3-4.5"
+  },
+  {
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 30/100 SL1.5/TP2 ATR",
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1791860399999,
+   "price": 0.235,
+   "entry": 0.2356,
+   "sl": 0.24113236495696921,
+   "tp": 0.22822351339070773,
+   "size": 21.3,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.682,
+    "t": 2.2,
+    "n": 22,
+    "sharpeTest": 4.77
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "ADAUSDT-1h-sma-30-100-1.5-2"
+  },
+  {
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1790884799999,
-   "price": 0.3298,
+   "price": 0.3275,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 107.01,
+   "price": 107.38,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -111,9 +140,9 @@
    },
    "bt": {
     "wrTest": 0.508,
-    "t": 2.07,
+    "t": 2.1,
     "n": 59,
-    "sharpeTest": 1.47
+    "sharpeTest": 1.5
    },
    "stage": "osservazione",
    "proof": {
@@ -129,18 +158,18 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 83532.01,
+   "price": 83230.97,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -2,
+    "score": 0,
     "heads": [
-     "UK court ruling boosts government’s chances of keeping $5 billion in seized bitcoin",
-     "Bitcoin whale that sat through the March 2020 crash moves $378 million",
-     "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures",
-     "Chinese fraud victims lose key court battle over 61,000 Bitcoin"
+     "Stacks' STX, a Bitcoin layer-2 token, has surged by 50% in four weeks",
+     "Strive reports $208M in warrant exercises as Bitcoin holdings jump 11%",
+     "Bitcoin keeps up pressure on $84K as US stocks skirt Korea tech sell-off",
+     "Is Bitcoin kidding itself about the Lightning Network?"
     ]
    },
    "bt": {
@@ -156,39 +185,10 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.51,
+    "score": 1.46,
     "risk": "low",
-    "note": "sentiment +0.51 su 4 titoli"
+    "note": "sentiment +1.46 su 4 titoli"
    }
-  },
-  {
-   "sym": "ADAUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 30/100 SL1.5/TP2 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1791860399999,
-   "price": 0.2347,
-   "entry": 0.2356,
-   "sl": 0.24113236495696921,
-   "tp": 0.22822351339070773,
-   "size": 21.3,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.667,
-    "t": 2.21,
-    "n": 21,
-    "sharpeTest": 4.72
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 0,
-    "avgR": null
-   },
-   "key": "ADAUSDT-1h-sma-30-100-1.5-2"
   }
  ],
  "paper": {
