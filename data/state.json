@@ -1,10 +1,10 @@
 {
- "updated": 1791911392370,
+ "updated": 1791928383265,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-13T10:14:07.774Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.46).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – SOL: neutro (+0.01); BTC: positivo (+0.73).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08431,
+   "price": 0.0847,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791853199999,
-   "price": 61.32,
+   "price": 61.67,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791860399999,
-   "price": 0.235,
+   "price": 0.2374,
    "entry": 0.2356,
    "sl": 0.24113236495696921,
    "tp": 0.22822351339070773,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1790884799999,
-   "price": 0.3275,
+   "price": 0.328,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,14 +129,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 107.38,
+   "price": 107.16,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "Most tokenized stock trading on Solana, BNB Chain occurs outside US market hours"
+    ]
    },
    "bt": {
     "wrTest": 0.508,
@@ -149,7 +151,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "SOLUSDT-1d-macd-5-35-1.5-2"
+   "key": "SOLUSDT-1d-macd-5-35-1.5-2",
+   "llm": {
+    "score": 0.01,
+    "risk": "low",
+    "note": "sentiment +0.01 su 1 titoli"
+   }
   },
   {
    "sym": "BTCUSDT",
@@ -158,7 +165,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 83230.97,
+   "price": 83496.02,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -166,10 +173,7 @@
    "news": {
     "score": 0,
     "heads": [
-     "Stacks' STX, a Bitcoin layer-2 token, has surged by 50% in four weeks",
-     "Strive reports $208M in warrant exercises as Bitcoin holdings jump 11%",
-     "Bitcoin keeps up pressure on $84K as US stocks skirt Korea tech sell-off",
-     "Is Bitcoin kidding itself about the Lightning Network?"
+     "Strive reports $208M in warrant exercises as Bitcoin holdings jump 11%"
     ]
    },
    "bt": {
@@ -185,9 +189,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 1.46,
+    "score": 0.73,
     "risk": "low",
-    "note": "sentiment +1.46 su 4 titoli"
+    "note": "sentiment +0.73 su 1 titoli"
    }
   }
  ],
