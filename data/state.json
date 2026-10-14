@@ -1,10 +1,10 @@
 {
- "updated": 1791939911328,
+ "updated": 1791957812566,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-13T10:14:07.774Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – SOL: neutro (+0.01); BTC: neutro (+0.47).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – SOL: neutro (+0.17); BTC: positivo (+0.89).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08451,
+   "price": 0.08457,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791853199999,
-   "price": 61.42,
+   "price": 61.69,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791860399999,
-   "price": 0.2371,
+   "price": 0.235,
    "entry": 0.2356,
    "sl": 0.24113236495696921,
    "tp": 0.22822351339070773,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1790884799999,
-   "price": 0.3282,
+   "price": 0.3312,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,15 +129,15 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 107.24,
+   "price": 107.27,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
+    "score": 1,
     "heads": [
-     "Most tokenized stock trading on Solana, BNB Chain occurs outside US market hours"
+     "Solana sets Oct. 21 for Alpenglow upgrade targeting 150-millisecond finality"
     ]
    },
    "bt": {
@@ -153,9 +153,9 @@
    },
    "key": "SOLUSDT-1d-macd-5-35-1.5-2",
    "llm": {
-    "score": 0.01,
+    "score": 0.17,
     "risk": "low",
-    "note": "sentiment +0.01 su 1 titoli"
+    "note": "sentiment +0.17 su 1 titoli"
    }
   },
   {
@@ -165,7 +165,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 83340.01,
+   "price": 83463.37,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -173,7 +173,8 @@
    "news": {
     "score": 0,
     "heads": [
-     "Strive raising $500 million to buy additional bitcoin with new preferred share class"
+     "Coinbase, which holds 5% of all bitcoin, wants the quantum fix started now",
+     "Bitcoin climbs toward $84,000 after Fed’s Williams sees no rate hikes in 2027"
     ]
    },
    "bt": {
@@ -189,9 +190,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.47,
+    "score": 0.89,
     "risk": "low",
-    "note": "sentiment +0.47 su 1 titoli"
+    "note": "sentiment +0.89 su 2 titoli"
    }
   }
  ],
