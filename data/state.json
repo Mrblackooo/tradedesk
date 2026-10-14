@@ -1,10 +1,10 @@
 {
- "updated": 1792008515316,
+ "updated": 1792019831835,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-14T08:28:37.800Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.29).",
+ "briefing": null,
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08208,
+   "price": 0.08204,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791853199999,
-   "price": 59.91,
+   "price": 59.52,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791986399999,
-   "price": 0.2289,
+   "price": 0.2305,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1791979199999,
-   "price": 0.3333,
+   "price": 0.3325,
    "entry": 0.3335,
    "sl": 0.3319478707062672,
    "tp": 0.3366042585874656,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 104.23,
+   "price": 104.57,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,17 +158,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 81888.97,
+   "price": 81614.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "Crypto Long & Short: Why gold and bitcoin belong in the same portfolio",
-     "Bitcoin price dips below $82K as high oil prices spike US CPI inflation"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.571,
@@ -181,12 +178,7 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": -0.29,
-    "risk": "low",
-    "note": "sentiment -0.29 su 2 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   }
  ],
  "paper": {
