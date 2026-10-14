@@ -1,5 +1,5 @@
 {
- "updated": 1791892487687,
+ "updated": 1791970613217,
  "feePct": 0.05,
  "strategies": [],
  "report": [
@@ -17,7 +17,7 @@
     "wr": 0.556,
     "n": 18,
     "t": 0.48,
-    "costR": 0.819
+    "costR": 0.822
    },
    "ok": false,
    "why": [
@@ -57,18 +57,19 @@
    "atrPct": 0.402,
    "best": {
     "st": "rsi",
-    "a": 30,
-    "b": 80,
+    "a": 20,
+    "b": 85,
     "ks": 1.5,
     "kt": 3,
-    "wr": 0.288,
-    "n": 52,
-    "t": -1.44,
+    "wr": 0.4,
+    "n": 15,
+    "t": 0.23,
     "costR": 0.166
    },
    "ok": false,
    "why": [
-    "test",
+    "train",
+    "trade",
     "signif"
    ]
   },
@@ -76,17 +77,17 @@
    "sym": "ETHUSDT",
    "tf": "5m",
    "candles": 60000,
-   "atrPct": 0.166,
+   "atrPct": 0.165,
    "best": {
     "st": "rsi",
     "a": 25,
     "b": 80,
     "ks": 1.5,
     "kt": 3,
-    "wr": 0.455,
-    "n": 44,
-    "t": 0.14,
-    "costR": 0.402
+    "wr": 0.476,
+    "n": 42,
+    "t": 0.37,
+    "costR": 0.403
    },
    "ok": false,
    "why": [
@@ -145,7 +146,7 @@
    "sym": "SOLUSDT",
    "tf": "5m",
    "candles": 60000,
-   "atrPct": 0.204,
+   "atrPct": 0.203,
    "best": {
     "st": "rsi",
     "a": 20,
@@ -155,7 +156,7 @@
     "wr": 0.368,
     "n": 19,
     "t": 0.24,
-    "costR": 0.327
+    "costR": 0.328
    },
    "ok": false,
    "why": [
