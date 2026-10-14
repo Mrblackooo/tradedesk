@@ -1,10 +1,10 @@
 {
- "updated": 1791978052432,
+ "updated": 1791993536640,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-14T08:28:37.800Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.04).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.43).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08441,
+   "price": 0.08194,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791853199999,
-   "price": 61.76,
+   "price": 58.92,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -68,14 +68,14 @@
    "sym": "ADAUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 30/100 SL1.5/TP2 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1791860399999,
-   "price": 0.2348,
-   "entry": 0.2356,
-   "sl": 0.24113236495696921,
-   "tp": 0.22822351339070773,
-   "size": 21.3,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1791986399999,
+   "price": 0.2268,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
     "score": 0,
     "heads": []
@@ -97,14 +97,14 @@
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1790884799999,
-   "price": 0.3334,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1791979199999,
+   "price": 0.3331,
+   "entry": 0.3335,
+   "sl": 0.3319478707062672,
+   "tp": 0.3366042585874656,
+   "size": 107.4,
    "news": {
     "score": 0,
     "heads": []
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 107.17,
+   "price": 103.91,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,7 +158,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 83440,
+   "price": 81645.13,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -166,11 +166,11 @@
    "news": {
     "score": 0,
     "heads": [
+     "Crypto Long & Short: Why gold and bitcoin belong in the same portfolio",
+     "U.S. September CPI comes in hot, sending bitcoin sharply lower",
      "Here's how analysts see U.S. inflation influencing bitcoin",
      "Bitcoin holds above $83,000 ahead of U.S. inflation data as altcoins lag",
-     "Live updates: Bitcoin treading water near $83,000 ahead of U.S. inflation data",
-     "Standard Chartered unlocks direct bitcoin and ether trading for affluent UAE clients",
-     "Coinbase, which holds 5% of all bitcoin, wants the quantum fix started now"
+     "Bitcoin price dips below $82K as high oil prices spike US CPI inflation"
     ]
    },
    "bt": {
@@ -186,9 +186,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 1.04,
+    "score": -0.43,
     "risk": "low",
-    "note": "sentiment +1.04 su 5 titoli"
+    "note": "sentiment -0.43 su 5 titoli"
    }
   }
  ],
@@ -199,6 +199,21 @@
   "sumPct": -4.37
  },
  "recent": [
+  {
+   "id": "TRXUSDT-4h-1791979199999",
+   "key": "TRXUSDT-4h-brk-20-0-1-2",
+   "sym": "TRXUSDT",
+   "tf": "4h",
+   "dir": "LONG",
+   "entry": 0.3335,
+   "sl": 0.3319478707062672,
+   "tp": 0.3366042585874656,
+   "slPct": 0.465,
+   "t0": 1791979199999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
   {
    "id": "DOGEUSDT-1d-1791763199999",
    "key": "DOGEUSDT-1d-sma-10-30-1.5-3",
