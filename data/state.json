@@ -1,10 +1,10 @@
 {
- "updated": 1791928383265,
+ "updated": 1791939911328,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-13T10:14:07.774Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – SOL: neutro (+0.01); BTC: positivo (+0.73).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – SOL: neutro (+0.01); BTC: neutro (+0.47).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.0847,
+   "price": 0.08451,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791853199999,
-   "price": 61.67,
+   "price": 61.42,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791860399999,
-   "price": 0.2374,
+   "price": 0.2371,
    "entry": 0.2356,
    "sl": 0.24113236495696921,
    "tp": 0.22822351339070773,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1790884799999,
-   "price": 0.328,
+   "price": 0.3282,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 107.16,
+   "price": 107.24,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -165,7 +165,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 83496.02,
+   "price": 83340.01,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -173,7 +173,7 @@
    "news": {
     "score": 0,
     "heads": [
-     "Strive reports $208M in warrant exercises as Bitcoin holdings jump 11%"
+     "Strive raising $500 million to buy additional bitcoin with new preferred share class"
     ]
    },
    "bt": {
@@ -189,9 +189,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.73,
+    "score": 0.47,
     "risk": "low",
-    "note": "sentiment +0.73 su 1 titoli"
+    "note": "sentiment +0.47 su 1 titoli"
    }
   }
  ],
