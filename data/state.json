@@ -1,10 +1,10 @@
 {
- "updated": 1792045260298,
+ "updated": 1792064623579,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-10-14T08:28:37.800Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-1.88).",
+ "scannedAt": "2026-10-15T08:04:07.080Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.29).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07941,
+   "price": 0.0804,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -24,9 +24,9 @@
    },
    "bt": {
     "wrTest": 0.517,
-    "t": 2.3,
+    "t": 2.37,
     "n": 29,
-    "sharpeTest": 1.82
+    "sharpeTest": 1.87
    },
    "stage": "osservazione",
    "proof": {
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791853199999,
-   "price": 57.82,
+   "price": 58.17,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -65,42 +65,13 @@
    "key": "LTCUSDT-1h-sma-8-80-3-4.5"
   },
   {
-   "sym": "ADAUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 30/100 SL1.5/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1791986399999,
-   "price": 0.22,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.619,
-    "t": 1.91,
-    "n": 21,
-    "sharpeTest": 4.08
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 0,
-    "avgR": null
-   },
-   "key": "ADAUSDT-1h-sma-30-100-1.5-2"
-  },
-  {
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792036799999,
-   "price": 0.3312,
+   "price": 0.3314,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -110,10 +81,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.6,
-    "t": 2.09,
-    "n": 30,
-    "sharpeTest": 2.48
+    "wrTest": 0.581,
+    "t": 1.92,
+    "n": 31,
+    "sharpeTest": 2.31
    },
    "stage": "osservazione",
    "proof": {
@@ -123,13 +94,82 @@
    "key": "TRXUSDT-4h-brk-20-0-1-2"
   },
   {
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 30/100 SL1.5/TP2 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1791986399999,
+   "price": 0.2221,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.667,
+    "t": 2.23,
+    "n": 21,
+    "sharpeTest": 4.72
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "ADAUSDT-1h-sma-30-100-1.5-2"
+  },
+  {
+   "sym": "BTCUSDT",
+   "tf": "4h",
+   "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1791734399999,
+   "price": 81092,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": -2,
+    "heads": [
+     "Bitcoin, copper, stocks, yields all fall; gold rises",
+     "Bitcoin holds above $80,000 as Asian stock rout drags altcoins lower",
+     "Live updates: Bitcoin back under $81,000 as AI selloff worsens",
+     "Bitcoin dips to $80.1K as KOSPI closes at its lowest since April",
+     "Babylon advances native Bitcoin lending proposal on Aave V4"
+    ]
+   },
+   "bt": {
+    "wrTest": 0.571,
+    "t": 1.9,
+    "n": 28,
+    "sharpeTest": 2.16
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": -0.29,
+    "risk": "low",
+    "note": "sentiment -0.29 su 5 titoli"
+   }
+  },
+  {
    "sym": "SOLUSDT",
    "tf": "1d",
    "strat": "MACD 5/35 SL1.5/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 102.06,
+   "price": 102.49,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -150,45 +190,6 @@
     "avgR": null
    },
    "key": "SOLUSDT-1d-macd-5-35-1.5-2"
-  },
-  {
-   "sym": "BTCUSDT",
-   "tf": "4h",
-   "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1791734399999,
-   "price": 80839.13,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": -3,
-    "heads": [
-     "Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide",
-     "Bitcoin mining pool once handling 2.3% of network shuts after hashrate falls 65%",
-     "Bitcoin wilts as Fed rate uncertainty weighs. Kospi plunges 8%",
-     "Bitcoin miners plunge up to 13% in Wall Street’s worst selloff since July"
-    ]
-   },
-   "bt": {
-    "wrTest": 0.571,
-    "t": 1.9,
-    "n": 28,
-    "sharpeTest": 2.16
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 0,
-    "avgR": null
-   },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": -1.88,
-    "risk": "low",
-    "note": "sentiment -1.88 su 4 titoli"
-   }
   }
  ],
  "paper": {
