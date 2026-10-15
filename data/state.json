@@ -1,10 +1,10 @@
 {
- "updated": 1792027927219,
+ "updated": 1792045260298,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-14T08:28:37.800Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-1.88).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08176,
+   "price": 0.07941,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791853199999,
-   "price": 59.36,
+   "price": 57.82,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791986399999,
-   "price": 0.2283,
+   "price": 0.22,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -97,14 +97,14 @@
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
-   "dir": "LONG",
-   "action": "ATTIVO",
-   "since": 1791979199999,
-   "price": 0.3321,
-   "entry": 0.3335,
-   "sl": 0.3319478707062672,
-   "tp": 0.3366042585874656,
-   "size": 107.4,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1792036799999,
+   "price": 0.3312,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
     "score": 0,
     "heads": []
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 104.55,
+   "price": 102.06,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,14 +158,19 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 81790.55,
+   "price": 80839.13,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
-    "heads": []
+    "score": -3,
+    "heads": [
+     "Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide",
+     "Bitcoin mining pool once handling 2.3% of network shuts after hashrate falls 65%",
+     "Bitcoin wilts as Fed rate uncertainty weighs. Kospi plunges 8%",
+     "Bitcoin miners plunge up to 13% in Wall Street’s worst selloff since July"
+    ]
    },
    "bt": {
     "wrTest": 0.571,
@@ -178,7 +183,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": -1.88,
+    "risk": "low",
+    "note": "sentiment -1.88 su 4 titoli"
+   }
   }
  ],
  "paper": {
