@@ -38,11 +38,11 @@
    "adopted": "2026-10-12T10:24:01.304Z",
    "bt": {
     "wrTest": 0.517,
-    "t": 2.3,
+    "t": 2.37,
     "n": 29,
-    "sharpeTest": 1.82
+    "sharpeTest": 1.87
    },
-   "tested": "2026-10-14T08:28:37.799Z"
+   "tested": "2026-10-15T08:04:07.078Z"
   },
   {
    "sym": "LTCUSDT",
@@ -61,26 +61,7 @@
     "n": 32,
     "sharpeTest": 4.02
    },
-   "tested": "2026-10-14T08:28:37.800Z"
-  },
-  {
-   "sym": "ADAUSDT",
-   "tf": "1h",
-   "st": "sma",
-   "a": 30,
-   "b": 100,
-   "ks": 1.5,
-   "kt": 2,
-   "lo": false,
-   "active": true,
-   "adopted": "2026-10-12T10:24:01.305Z",
-   "bt": {
-    "wrTest": 0.619,
-    "t": 1.91,
-    "n": 21,
-    "sharpeTest": 4.08
-   },
-   "tested": "2026-10-14T08:28:37.800Z"
+   "tested": "2026-10-15T08:04:07.079Z"
   },
   {
    "sym": "TRXUSDT",
@@ -94,31 +75,31 @@
    "active": true,
    "adopted": "2026-10-12T10:24:01.305Z",
    "bt": {
-    "wrTest": 0.6,
-    "t": 2.09,
-    "n": 30,
-    "sharpeTest": 2.48
+    "wrTest": 0.581,
+    "t": 1.92,
+    "n": 31,
+    "sharpeTest": 2.31
    },
-   "tested": "2026-10-14T08:28:37.800Z"
+   "tested": "2026-10-15T08:04:07.079Z"
   },
   {
-   "sym": "SOLUSDT",
-   "tf": "1d",
-   "st": "macd",
-   "a": 5,
-   "b": 35,
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "st": "sma",
+   "a": 30,
+   "b": 100,
    "ks": 1.5,
    "kt": 2,
    "lo": false,
    "active": true,
    "adopted": "2026-10-12T10:24:01.305Z",
    "bt": {
-    "wrTest": 0.508,
-    "t": 2.11,
-    "n": 59,
-    "sharpeTest": 1.5
+    "wrTest": 0.667,
+    "t": 2.23,
+    "n": 21,
+    "sharpeTest": 4.72
    },
-   "tested": "2026-10-14T08:28:37.800Z"
+   "tested": "2026-10-15T08:04:07.080Z"
   },
   {
    "sym": "BTCUSDT",
@@ -137,8 +118,27 @@
     "n": 28,
     "sharpeTest": 2.16
    },
-   "tested": "2026-10-14T08:28:37.800Z"
+   "tested": "2026-10-15T08:04:07.080Z"
+  },
+  {
+   "sym": "SOLUSDT",
+   "tf": "1d",
+   "st": "macd",
+   "a": 5,
+   "b": 35,
+   "ks": 1.5,
+   "kt": 2,
+   "lo": false,
+   "active": true,
+   "adopted": "2026-10-12T10:24:01.305Z",
+   "bt": {
+    "wrTest": 0.508,
+    "t": 2.11,
+    "n": 59,
+    "sharpeTest": 1.5
+   },
+   "tested": "2026-10-15T08:04:07.080Z"
   }
  ],
- "scannedAt": "2026-10-14T08:28:37.800Z"
+ "scannedAt": "2026-10-15T08:04:07.080Z"
 }
