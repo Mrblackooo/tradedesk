@@ -1,10 +1,10 @@
 {
- "updated": 1792127351372,
+ "updated": 1792144453263,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-10-15T08:04:07.080Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.21).",
+ "scannedAt": "2026-10-16T07:58:16.686Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.09).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08221,
+   "price": 0.08229,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -24,9 +24,9 @@
    },
    "bt": {
     "wrTest": 0.517,
-    "t": 2.37,
+    "t": 2.57,
     "n": 29,
-    "sharpeTest": 1.87
+    "sharpeTest": 2.02
    },
    "stage": "osservazione",
    "proof": {
@@ -42,7 +42,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1792112399999,
-   "price": 61.13,
+   "price": 60.99,
    "entry": 61.27,
    "sl": 59.31207768605712,
    "tp": 64.20688347091432,
@@ -52,10 +52,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.469,
-    "t": 1.89,
-    "n": 32,
-    "sharpeTest": 4.02
+    "wrTest": 0.455,
+    "t": 1.84,
+    "n": 33,
+    "sharpeTest": 3.92
    },
    "stage": "osservazione",
    "proof": {
@@ -65,42 +65,13 @@
    "key": "LTCUSDT-1h-sma-8-80-3-4.5"
   },
   {
-   "sym": "TRXUSDT",
-   "tf": "4h",
-   "strat": "Breakout 20 SL1/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1792036799999,
-   "price": 0.3349,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.581,
-    "t": 1.92,
-    "n": 31,
-    "sharpeTest": 2.31
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 1,
-    "avgR": -1.34
-   },
-   "key": "TRXUSDT-4h-brk-20-0-1-2"
-  },
-  {
    "sym": "ADAUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 30/100 SL1.5/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791986399999,
-   "price": 0.2305,
+   "price": 0.2312,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -123,13 +94,42 @@
    "key": "ADAUSDT-1h-sma-30-100-1.5-2"
   },
   {
+   "sym": "TRXUSDT",
+   "tf": "4h",
+   "strat": "Breakout 20 SL1/TP2 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1792036799999,
+   "price": 0.336,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.581,
+    "t": 1.92,
+    "n": 31,
+    "sharpeTest": 2.31
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 1,
+    "avgR": -1.34
+   },
+   "key": "TRXUSDT-4h-brk-20-0-1-2"
+  },
+  {
    "sym": "BTCUSDT",
    "tf": "4h",
    "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 82304.01,
+   "price": 82096,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -137,7 +137,11 @@
    "news": {
     "score": 0,
     "heads": [
-     "Bitcoin buyers snap up a brief drop below $80,000 as Asian stocks rebound"
+     "Live updates: Bitcoin back above $82,000, ZEC jumps 11% as ETF outflows continue",
+     "XRP has failed to make holders rich like bitcoin and ether. Here’s why",
+     "Bitcoin buyers snap up a brief drop below $80,000 as Asian stocks rebound",
+     "Bitcoin may seek 20-month trend line reclaim before new record highs: CryptoQuant",
+     "Capital B reports $78M H1 loss driven by Bitcoin impairment charge"
     ]
    },
    "bt": {
@@ -153,9 +157,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.21,
+    "score": -0.09,
     "risk": "low",
-    "note": "sentiment -0.21 su 1 titoli"
+    "note": "sentiment -0.09 su 5 titoli"
    }
   },
   {
@@ -165,7 +169,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 106.18,
+   "price": 106.42,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -178,7 +182,7 @@
     "wrTest": 0.508,
     "t": 2.11,
     "n": 59,
-    "sharpeTest": 1.5
+    "sharpeTest": 1.51
    },
    "stage": "osservazione",
    "proof": {
