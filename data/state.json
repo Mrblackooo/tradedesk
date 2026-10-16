@@ -1,10 +1,10 @@
 {
- "updated": 1792144453263,
+ "updated": 1792161843702,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-16T07:58:16.686Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.09).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.98); SOL: neutro (-0.29).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08229,
+   "price": 0.08209,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -42,7 +42,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1792112399999,
-   "price": 60.99,
+   "price": 60.97,
    "entry": 61.27,
    "sl": 59.31207768605712,
    "tp": 64.20688347091432,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791986399999,
-   "price": 0.2312,
+   "price": 0.23,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792036799999,
-   "price": 0.336,
+   "price": 0.3362,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 82096,
+   "price": 82357,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -137,11 +137,11 @@
    "news": {
     "score": 0,
     "heads": [
-     "Live updates: Bitcoin back above $82,000, ZEC jumps 11% as ETF outflows continue",
-     "XRP has failed to make holders rich like bitcoin and ether. Here’s why",
-     "Bitcoin buyers snap up a brief drop below $80,000 as Asian stocks rebound",
-     "Bitcoin may seek 20-month trend line reclaim before new record highs: CryptoQuant",
-     "Capital B reports $78M H1 loss driven by Bitcoin impairment charge"
+     "Quantum Alliance forms amid warnings 6.4 million bitcoin face future quantum threat",
+     "Altcoins outpace bitcoin as celestia jumps 16%, Warsh silent on interest-rate plans",
+     "Scammer gets scammed in Ledger spy-chip exploit, loses almost $5 million in bitcoin",
+     "Live updates: Bitcoin steady near $82,000 after Fed Chair Warsh's comments",
+     "Bitcoin may seek 20-month trend line reclaim before new record highs: CryptoQuant"
     ]
    },
    "bt": {
@@ -157,9 +157,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.09,
+    "score": 0.98,
     "risk": "low",
-    "note": "sentiment -0.09 su 5 titoli"
+    "note": "sentiment +0.98 su 5 titoli"
    }
   },
   {
@@ -169,14 +169,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 106.42,
+   "price": 106.45,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
-    "heads": []
+    "score": 1,
+    "heads": [
+     "Solana’s Liu says Shanghai event postponed over registration surge"
+    ]
    },
    "bt": {
     "wrTest": 0.508,
@@ -189,7 +191,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "SOLUSDT-1d-macd-5-35-1.5-2"
+   "key": "SOLUSDT-1d-macd-5-35-1.5-2",
+   "llm": {
+    "score": -0.29,
+    "risk": "low",
+    "note": "sentiment -0.29 su 1 titoli"
+   }
   }
  ],
  "paper": {
