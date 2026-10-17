@@ -1,10 +1,10 @@
 {
- "updated": 1792234301393,
+ "updated": 1792245503065,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-17T07:35:52.804Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – SOL: positivo (+0.7).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08046,
+   "price": 0.07972,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -42,7 +42,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792177199999,
-   "price": 59.56,
+   "price": 59.26,
    "entry": 59.42,
    "sl": 61.138163592937495,
    "tp": 56.84275461059376,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791986399999,
-   "price": 0.2237,
+   "price": 0.2207,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792036799999,
-   "price": 0.3361,
+   "price": 0.3372,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 81663.62,
+   "price": 81509.27,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,14 +158,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 105.02,
+   "price": 104.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "Solana shows resilience, but some areas need continued observation, Fidelity says"
+    ]
    },
    "bt": {
     "wrTest": 0.508,
@@ -178,7 +180,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "SOLUSDT-1d-macd-5-35-1.5-2"
+   "key": "SOLUSDT-1d-macd-5-35-1.5-2",
+   "llm": {
+    "score": 0.7,
+    "risk": "low",
+    "note": "sentiment +0.7 su 1 titoli"
+   }
   }
  ],
  "paper": {
