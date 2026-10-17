@@ -1,10 +1,10 @@
 {
- "updated": 1792201065078,
+ "updated": 1792217759417,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-16T07:58:16.686Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.07).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08012,
+   "price": 0.08065,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -42,7 +42,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792177199999,
-   "price": 59.43,
+   "price": 59.76,
    "entry": 59.42,
    "sl": 61.1381635929375,
    "tp": 56.84275461059376,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791986399999,
-   "price": 0.2242,
+   "price": 0.2241,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,14 +129,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 81523.55,
+   "price": 81605.98,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough"
+    ]
    },
    "bt": {
     "wrTest": 0.571,
@@ -149,7 +151,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.07,
+    "risk": "low",
+    "note": "sentiment +0.07 su 1 titoli"
+   }
   },
   {
    "sym": "SOLUSDT",
@@ -158,7 +165,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 104.48,
+   "price": 104.98,
    "entry": null,
    "sl": null,
    "tp": null,
