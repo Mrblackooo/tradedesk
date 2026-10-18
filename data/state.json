@@ -1,10 +1,10 @@
 {
- "updated": 1792332672566,
+ "updated": 1792344316350,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-18T07:51:02.396Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.06).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.13).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07798,
+   "price": 0.078,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -42,7 +42,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792177199999,
-   "price": 59.21,
+   "price": 58.36,
    "entry": 59.42,
    "sl": 61.1381635929375,
    "tp": 56.84275461059375,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791986399999,
-   "price": 0.2165,
+   "price": 0.2166,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792036799999,
-   "price": 0.3323,
+   "price": 0.3326,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 81300,
+   "price": 81209.78,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -137,6 +137,7 @@
    "news": {
     "score": 0,
     "heads": [
+     "Wall Street freaked out Friday. VIX and bitcoin say the fear may fade Monday.",
      "Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook"
     ]
    },
@@ -153,9 +154,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.06,
+    "score": 0.13,
     "risk": "low",
-    "note": "sentiment +0.06 su 1 titoli"
+    "note": "sentiment +0.13 su 2 titoli"
    }
   },
   {
@@ -165,7 +166,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 102.54,
+   "price": 102.39,
    "entry": null,
    "sl": null,
    "tp": null,
