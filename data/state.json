@@ -1,9 +1,9 @@
 {
- "updated": 1792303172825,
+ "updated": 1792320732571,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-10-17T07:35:52.804Z",
+ "scannedAt": "2026-10-18T07:51:02.396Z",
  "briefing": null,
  "signals": [
   {
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07908,
+   "price": 0.07941,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -24,9 +24,9 @@
    },
    "bt": {
     "wrTest": 0.517,
-    "t": 2.54,
+    "t": 2.58,
     "n": 29,
-    "sharpeTest": 2
+    "sharpeTest": 2.04
    },
    "stage": "osservazione",
    "proof": {
@@ -42,7 +42,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792177199999,
-   "price": 58.8,
+   "price": 59.31,
    "entry": 59.42,
    "sl": 61.138163592937495,
    "tp": 56.84275461059376,
@@ -52,10 +52,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.455,
-    "t": 1.65,
+    "wrTest": 0.485,
+    "t": 1.71,
     "n": 33,
-    "sharpeTest": 3.6
+    "sharpeTest": 3.67
    },
    "stage": "osservazione",
    "proof": {
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791986399999,
-   "price": 0.2192,
+   "price": 0.2209,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792036799999,
-   "price": 0.3335,
+   "price": 0.3333,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -110,10 +110,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.581,
-    "t": 1.9,
-    "n": 31,
-    "sharpeTest": 2.27
+    "wrTest": 0.567,
+    "t": 1.74,
+    "n": 30,
+    "sharpeTest": 2.1
    },
    "stage": "osservazione",
    "proof": {
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 81728.77,
+   "price": 82131.98,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,7 +158,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 103.52,
+   "price": 104.07,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -169,9 +169,9 @@
    },
    "bt": {
     "wrTest": 0.508,
-    "t": 2.11,
+    "t": 2.01,
     "n": 59,
-    "sharpeTest": 1.5
+    "sharpeTest": 1.42
    },
    "stage": "osservazione",
    "proof": {
