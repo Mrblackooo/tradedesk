@@ -1,10 +1,10 @@
 {
- "updated": 1792393025410,
+ "updated": 1792420479639,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-10-18T07:51:02.396Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.62).",
+ "scannedAt": "2026-10-19T08:35:04.255Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.06).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07985,
+   "price": 0.07884,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -26,7 +26,7 @@
     "wrTest": 0.517,
     "t": 2.58,
     "n": 29,
-    "sharpeTest": 2.04
+    "sharpeTest": 2.03
    },
    "stage": "osservazione",
    "proof": {
@@ -39,23 +39,23 @@
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1792353599999,
-   "price": 59.98,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1792396799999,
+   "price": 59.65,
+   "entry": 59.89,
+   "sl": 58.25125564116656,
+   "tp": 62.34811653825017,
+   "size": 18.3,
    "news": {
     "score": 0,
     "heads": []
    },
    "bt": {
     "wrTest": 0.485,
-    "t": 1.71,
+    "t": 1.97,
     "n": 33,
-    "sharpeTest": 3.67
+    "sharpeTest": 4.24
    },
    "stage": "osservazione",
    "proof": {
@@ -65,55 +65,26 @@
    "key": "LTCUSDT-1h-sma-8-80-3-4.5"
   },
   {
-   "sym": "ADAUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 30/100 SL1.5/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1791986399999,
-   "price": 0.2209,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.667,
-    "t": 2.23,
-    "n": 21,
-    "sharpeTest": 4.72
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 0,
-    "avgR": null
-   },
-   "key": "ADAUSDT-1h-sma-30-100-1.5-2"
-  },
-  {
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1792036799999,
-   "price": 0.3317,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1792396799999,
+   "price": 0.332,
+   "entry": 0.3306,
+   "sl": 0.3319938438800375,
+   "tp": 0.32781231223992496,
+   "size": 118.6,
    "news": {
     "score": 0,
     "heads": []
    },
    "bt": {
-    "wrTest": 0.567,
-    "t": 1.74,
-    "n": 30,
-    "sharpeTest": 2.1
+    "wrTest": 0.548,
+    "t": 1.68,
+    "n": 31,
+    "sharpeTest": 2.03
    },
    "stage": "osservazione",
    "proof": {
@@ -129,16 +100,19 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 82809.8,
+   "price": 81895.33,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 1,
+    "score": 2,
     "heads": [
-     "Bitcoin whale moves $34 million in BTC it got in 2013 when coins traded at $131",
-     "Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates"
+     "Strategy's price chart is about to flash a major bullish signal weeks after bitcoin did",
+     "Live updates: Bitcoin edges higher as U.S. stocks rebound early Monday",
+     "Bitcoin extends bounce above $82,000 as stocks rebound, DeFi tokens lead altcoin gains",
+     "Bitcoin mining offshoot Nscale loses Microsoft AI deal as power delay stretches into 2030s",
+     "CME’s bitcoin cash, uniswap futures, global PMIs: Crypto Week Ahead"
     ]
    },
    "bt": {
@@ -154,9 +128,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.62,
+    "score": 1.06,
     "risk": "low",
-    "note": "sentiment +0.62 su 2 titoli"
+    "note": "sentiment +1.06 su 5 titoli"
    }
   },
   {
@@ -166,7 +140,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 105.8,
+   "price": 103.69,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -187,6 +161,35 @@
     "avgR": null
    },
    "key": "SOLUSDT-1d-macd-5-35-1.5-2"
+  },
+  {
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 30/100 SL1.5/TP2 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1791986399999,
+   "price": 0.2162,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.667,
+    "t": 2.23,
+    "n": 21,
+    "sharpeTest": 4.72
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "ADAUSDT-1h-sma-30-100-1.5-2"
   }
  ],
  "paper": {
@@ -196,6 +199,21 @@
   "sumPct": -4.99
  },
  "recent": [
+  {
+   "id": "TRXUSDT-4h-1792396799999",
+   "key": "TRXUSDT-4h-brk-20-0-1-2",
+   "sym": "TRXUSDT",
+   "tf": "4h",
+   "dir": "SHORT",
+   "entry": 0.3306,
+   "sl": 0.3319938438800375,
+   "tp": 0.32781231223992496,
+   "slPct": 0.422,
+   "t0": 1792396799999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
   {
    "id": "TRXUSDT-4h-1791979199999",
    "key": "TRXUSDT-4h-brk-20-0-1-2",
