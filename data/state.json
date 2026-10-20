@@ -1,10 +1,10 @@
 {
- "updated": 1792518892215,
+ "updated": 1792531863345,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-20T08:16:21.114Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.8).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.08).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08133,
+   "price": 0.08186,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -42,7 +42,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1792508399999,
-   "price": 60.37,
+   "price": 60.93,
    "entry": 60.95,
    "sl": 59.14851256648689,
    "tp": 63.65223115026967,
@@ -100,19 +100,17 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 82854.49,
+   "price": 82922.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -1,
+    "score": 0,
     "heads": [
      "The Coinbase allegations expose Bitcoin's corporate governance gap",
-     "BlackRock seeks to shield bitcoin investors from losses after rival fund weathers 50% crash",
      "Strive closes $630M SATS IPO, leaves Bitcoin allocation unspecified",
-     "Bitcoin price spikes to $83.3K as US stocks rise on Q3 earnings, oil falls",
-     "FINMA approves Switzerland’s first Bitcoin ETF for retail investors"
+     "Bitcoin price spikes to $83.3K as US stocks rise on Q3 earnings, oil falls"
     ]
    },
    "bt": {
@@ -128,9 +126,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.8,
+    "score": 0.08,
     "risk": "low",
-    "note": "sentiment +0.8 su 5 titoli"
+    "note": "sentiment +0.08 su 3 titoli"
    }
   },
   {
@@ -140,7 +138,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 106.79,
+   "price": 106.7,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -169,7 +167,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791986399999,
-   "price": 0.2227,
+   "price": 0.2237,
    "entry": null,
    "sl": null,
    "tp": null,
