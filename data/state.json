@@ -1,10 +1,10 @@
 {
- "updated": 1792462146813,
+ "updated": 1792482022443,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-19T08:35:04.255Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.47); SOL: neutro (+0.24).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.52).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07914,
+   "price": 0.07923,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -42,7 +42,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1792396799999,
-   "price": 59.25,
+   "price": 59.38,
    "entry": 59.89,
    "sl": 58.25125564116656,
    "tp": 62.34811653825017,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3316,
+   "price": 0.3319,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,15 +100,15 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 81593.17,
+   "price": 81596.59,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 1,
+    "score": 0,
     "heads": [
-     "Bitcoin rally could revive treasury buying, but easy-money days over"
+     "US Bitcoin ETFs draw $527M in biggest showing since September"
     ]
    },
    "bt": {
@@ -124,9 +124,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.47,
+    "score": 0.52,
     "risk": "low",
-    "note": "sentiment +0.47 su 1 titoli"
+    "note": "sentiment +0.52 su 1 titoli"
    }
   },
   {
@@ -136,16 +136,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 104.51,
+   "price": 104.45,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "Solana treasury firm SkyAI sells all SOL holdings, launches $201M buyback"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.508,
@@ -158,12 +156,7 @@
     "n": 0,
     "avgR": null
    },
-   "key": "SOLUSDT-1d-macd-5-35-1.5-2",
-   "llm": {
-    "score": 0.24,
-    "risk": "low",
-    "note": "sentiment +0.24 su 1 titoli"
-   }
+   "key": "SOLUSDT-1d-macd-5-35-1.5-2"
   },
   {
    "sym": "ADAUSDT",
@@ -172,7 +165,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791986399999,
-   "price": 0.2165,
+   "price": 0.2164,
    "entry": null,
    "sl": null,
    "tp": null,
