@@ -1,10 +1,10 @@
 {
- "updated": 1792501371247,
+ "updated": 1792518892215,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-20T08:16:21.114Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.08); SOL: neutro (+0.09).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.8).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07908,
+   "price": 0.08133,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -39,14 +39,14 @@
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
-   "dir": "SHORT",
+   "dir": "LONG",
    "action": "ATTIVO",
-   "since": 1792497599999,
-   "price": 58.69,
-   "entry": 58.56,
-   "sl": 60.03241762292216,
-   "tp": 56.35137356561676,
-   "size": 19.9,
+   "since": 1792508399999,
+   "price": 60.37,
+   "entry": 60.95,
+   "sl": 59.14851256648689,
+   "tp": 63.65223115026967,
+   "size": 16.9,
    "news": {
     "score": 0,
     "heads": []
@@ -59,8 +59,8 @@
    },
    "stage": "osservazione",
    "proof": {
-    "n": 2,
-    "avgR": -0.84
+    "n": 3,
+    "avgR": -0.91
    },
    "key": "LTCUSDT-1h-sma-8-80-3-4.5"
   },
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3315,
+   "price": 0.3313,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,19 +100,19 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 81450,
+   "price": 82854.49,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 1,
+    "score": -1,
     "heads": [
-     "Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month",
-     "JPMorgan sees 10% annual bitcoin returns, topping stocks, bonds and gold over next decade",
-     "Bitcoin drops to $81,400 as Asian chip stocks tumble, options traders seek downside protection",
-     "Bitcoin ETFs just saw their biggest day in a month thanks entirely to BlackRock",
-     "JPMorgan projects Bitcoin to outperform US stocks and gold over next decade"
+     "The Coinbase allegations expose Bitcoin's corporate governance gap",
+     "BlackRock seeks to shield bitcoin investors from losses after rival fund weathers 50% crash",
+     "Strive closes $630M SATS IPO, leaves Bitcoin allocation unspecified",
+     "Bitcoin price spikes to $83.3K as US stocks rise on Q3 earnings, oil falls",
+     "FINMA approves Switzerland’s first Bitcoin ETF for retail investors"
     ]
    },
    "bt": {
@@ -128,9 +128,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 1.08,
+    "score": 0.8,
     "risk": "low",
-    "note": "sentiment +1.08 su 5 titoli"
+    "note": "sentiment +0.8 su 5 titoli"
    }
   },
   {
@@ -140,16 +140,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 104.24,
+   "price": 106.79,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "BlackRock files for third Bitcoin ETF, still no Solana or XRP"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.508,
@@ -162,12 +160,7 @@
     "n": 0,
     "avgR": null
    },
-   "key": "SOLUSDT-1d-macd-5-35-1.5-2",
-   "llm": {
-    "score": 0.09,
-    "risk": "low",
-    "note": "sentiment +0.09 su 1 titoli"
-   }
+   "key": "SOLUSDT-1d-macd-5-35-1.5-2"
   },
   {
    "sym": "ADAUSDT",
@@ -176,7 +169,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791986399999,
-   "price": 0.2161,
+   "price": 0.2227,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -200,10 +193,10 @@
   }
  ],
  "paper": {
-  "n": 5,
+  "n": 6,
   "wr": 0,
-  "avgR": -1.1,
-  "sumPct": -5.58
+  "avgR": -1.09,
+  "sumPct": -8.25
  },
  "recent": [
   {
@@ -217,9 +210,13 @@
    "tp": 56.35137356561676,
    "slPct": 2.514,
    "t0": 1792497599999,
-   "status": "open",
+   "status": "sl",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 60.03241762292216,
+   "t1": 1792504800000,
+   "pct": -2.674,
+   "r": -1.06
   },
   {
    "id": "TRXUSDT-4h-1792396799999",
