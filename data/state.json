@@ -1,10 +1,10 @@
 {
- "updated": 1792482022443,
+ "updated": 1792501371247,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-10-19T08:35:04.255Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.52).",
+ "scannedAt": "2026-10-20T08:16:21.114Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.08); SOL: neutro (+0.09).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07923,
+   "price": 0.07908,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -23,10 +23,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.517,
-    "t": 2.58,
-    "n": 29,
-    "sharpeTest": 2.03
+    "wrTest": 0.536,
+    "t": 2.65,
+    "n": 28,
+    "sharpeTest": 2.08
    },
    "stage": "osservazione",
    "proof": {
@@ -39,23 +39,23 @@
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
-   "dir": "LONG",
+   "dir": "SHORT",
    "action": "ATTIVO",
-   "since": 1792396799999,
-   "price": 59.38,
-   "entry": 59.89,
-   "sl": 58.25125564116656,
-   "tp": 62.34811653825017,
-   "size": 18.3,
+   "since": 1792497599999,
+   "price": 58.69,
+   "entry": 58.56,
+   "sl": 60.03241762292216,
+   "tp": 56.35137356561676,
+   "size": 19.9,
    "news": {
     "score": 0,
     "heads": []
    },
    "bt": {
     "wrTest": 0.485,
-    "t": 1.97,
+    "t": 1.88,
     "n": 33,
-    "sharpeTest": 4.24
+    "sharpeTest": 4.04
    },
    "stage": "osservazione",
    "proof": {
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3319,
+   "price": 0.3315,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -82,9 +82,9 @@
    },
    "bt": {
     "wrTest": 0.548,
-    "t": 1.68,
+    "t": 1.6,
     "n": 31,
-    "sharpeTest": 2.03
+    "sharpeTest": 1.95
    },
    "stage": "osservazione",
    "proof": {
@@ -100,15 +100,19 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 81596.59,
+   "price": 81450,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
+    "score": 1,
     "heads": [
-     "US Bitcoin ETFs draw $527M in biggest showing since September"
+     "Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month",
+     "JPMorgan sees 10% annual bitcoin returns, topping stocks, bonds and gold over next decade",
+     "Bitcoin drops to $81,400 as Asian chip stocks tumble, options traders seek downside protection",
+     "Bitcoin ETFs just saw their biggest day in a month thanks entirely to BlackRock",
+     "JPMorgan projects Bitcoin to outperform US stocks and gold over next decade"
     ]
    },
    "bt": {
@@ -124,9 +128,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.52,
+    "score": 1.08,
     "risk": "low",
-    "note": "sentiment +0.52 su 1 titoli"
+    "note": "sentiment +1.08 su 5 titoli"
    }
   },
   {
@@ -136,27 +140,34 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 104.45,
+   "price": 104.24,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "BlackRock files for third Bitcoin ETF, still no Solana or XRP"
+    ]
    },
    "bt": {
     "wrTest": 0.508,
-    "t": 2.01,
+    "t": 1.99,
     "n": 59,
-    "sharpeTest": 1.42
+    "sharpeTest": 1.41
    },
    "stage": "osservazione",
    "proof": {
     "n": 0,
     "avgR": null
    },
-   "key": "SOLUSDT-1d-macd-5-35-1.5-2"
+   "key": "SOLUSDT-1d-macd-5-35-1.5-2",
+   "llm": {
+    "score": 0.09,
+    "risk": "low",
+    "note": "sentiment +0.09 su 1 titoli"
+   }
   },
   {
    "sym": "ADAUSDT",
@@ -165,7 +176,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791986399999,
-   "price": 0.2164,
+   "price": 0.2161,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -195,6 +206,21 @@
   "sumPct": -5.58
  },
  "recent": [
+  {
+   "id": "LTCUSDT-1h-1792497599999",
+   "key": "LTCUSDT-1h-sma-8-80-3-4.5",
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "dir": "SHORT",
+   "entry": 58.56,
+   "sl": 60.03241762292216,
+   "tp": 56.35137356561676,
+   "slPct": 2.514,
+   "t0": 1792497599999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
   {
    "id": "TRXUSDT-4h-1792396799999",
    "key": "TRXUSDT-4h-brk-20-0-1-2",
