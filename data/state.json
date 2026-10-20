@@ -1,10 +1,10 @@
 {
- "updated": 1792453555382,
+ "updated": 1792462146813,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-19T08:35:04.255Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – SOL: neutro (+0.24).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.47); SOL: neutro (+0.24).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07981,
+   "price": 0.07914,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -42,7 +42,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1792396799999,
-   "price": 59.75,
+   "price": 59.25,
    "entry": 59.89,
    "sl": 58.25125564116656,
    "tp": 62.34811653825017,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3321,
+   "price": 0.3316,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,14 +100,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 82062.08,
+   "price": 81593.17,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
-    "heads": []
+    "score": 1,
+    "heads": [
+     "Bitcoin rally could revive treasury buying, but easy-money days over"
+    ]
    },
    "bt": {
     "wrTest": 0.571,
@@ -120,7 +122,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.47,
+    "risk": "low",
+    "note": "sentiment +0.47 su 1 titoli"
+   }
   },
   {
    "sym": "SOLUSDT",
@@ -129,7 +136,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 105.17,
+   "price": 104.51,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -165,7 +172,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791986399999,
-   "price": 0.2184,
+   "price": 0.2165,
    "entry": null,
    "sl": null,
    "tp": null,
