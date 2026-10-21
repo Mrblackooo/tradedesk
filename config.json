@@ -26,6 +26,25 @@
  },
  "watch": [
   {
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "st": "sma",
+   "a": 30,
+   "b": 100,
+   "ks": 1.5,
+   "kt": 2,
+   "lo": false,
+   "active": true,
+   "adopted": "2026-10-12T10:24:01.305Z",
+   "bt": {
+    "wrTest": 0.7,
+    "t": 2.37,
+    "n": 20,
+    "sharpeTest": 4.91
+   },
+   "tested": "2026-10-21T08:21:20.092Z"
+  },
+  {
    "sym": "DOGEUSDT",
    "tf": "1d",
    "st": "sma",
@@ -38,11 +57,11 @@
    "adopted": "2026-10-12T10:24:01.304Z",
    "bt": {
     "wrTest": 0.536,
-    "t": 2.65,
+    "t": 2.61,
     "n": 28,
-    "sharpeTest": 2.08
+    "sharpeTest": 2.04
    },
-   "tested": "2026-10-20T08:16:21.113Z"
+   "tested": "2026-10-21T08:21:20.093Z"
   },
   {
    "sym": "LTCUSDT",
@@ -56,12 +75,12 @@
    "active": true,
    "adopted": "2026-10-12T10:24:01.303Z",
    "bt": {
-    "wrTest": 0.485,
-    "t": 1.88,
-    "n": 33,
-    "sharpeTest": 4.04
+    "wrTest": 0.471,
+    "t": 1.53,
+    "n": 34,
+    "sharpeTest": 3.35
    },
-   "tested": "2026-10-20T08:16:21.114Z"
+   "tested": "2026-10-21T08:21:20.093Z"
   },
   {
    "sym": "TRXUSDT",
@@ -75,12 +94,12 @@
    "active": true,
    "adopted": "2026-10-12T10:24:01.305Z",
    "bt": {
-    "wrTest": 0.548,
-    "t": 1.6,
-    "n": 31,
-    "sharpeTest": 1.95
+    "wrTest": 0.533,
+    "t": 1.42,
+    "n": 30,
+    "sharpeTest": 1.73
    },
-   "tested": "2026-10-20T08:16:21.114Z"
+   "tested": "2026-10-21T08:21:20.093Z"
   },
   {
    "sym": "BTCUSDT",
@@ -99,7 +118,7 @@
     "n": 28,
     "sharpeTest": 2.16
    },
-   "tested": "2026-10-20T08:16:21.114Z"
+   "tested": "2026-10-21T08:21:20.094Z"
   },
   {
    "sym": "SOLUSDT",
@@ -114,31 +133,12 @@
    "adopted": "2026-10-12T10:24:01.305Z",
    "bt": {
     "wrTest": 0.508,
-    "t": 1.99,
+    "t": 2.08,
     "n": 59,
-    "sharpeTest": 1.41
+    "sharpeTest": 1.48
    },
-   "tested": "2026-10-20T08:16:21.114Z"
-  },
-  {
-   "sym": "ADAUSDT",
-   "tf": "1h",
-   "st": "sma",
-   "a": 30,
-   "b": 100,
-   "ks": 1.5,
-   "kt": 2,
-   "lo": false,
-   "active": true,
-   "adopted": "2026-10-12T10:24:01.305Z",
-   "bt": {
-    "wrTest": 0.667,
-    "t": 2.23,
-    "n": 21,
-    "sharpeTest": 4.72
-   },
-   "tested": "2026-10-20T08:16:21.114Z"
+   "tested": "2026-10-21T08:21:20.094Z"
   }
  ],
- "scannedAt": "2026-10-20T08:16:21.114Z"
+ "scannedAt": "2026-10-21T08:21:20.094Z"
 }
