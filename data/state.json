@@ -1,10 +1,10 @@
 {
- "updated": 1792541069389,
+ "updated": 1792557101980,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-20T08:16:21.114Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.47).",
  "signals": [
   {
    "sym": "DOGEUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08183,
+   "price": 0.08163,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -42,7 +42,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1792508399999,
-   "price": 61.71,
+   "price": 61.39,
    "entry": 60.95,
    "sl": 59.14851256648689,
    "tp": 63.65223115026967,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3313,
+   "price": 0.3312,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,14 +100,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 82957.99,
+   "price": 82866,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "Bitcoin hovers around $83,000 as AI earnings revive tech, ZEC jumps 11%"
+    ]
    },
    "bt": {
     "wrTest": 0.571,
@@ -120,7 +122,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.47,
+    "risk": "low",
+    "note": "sentiment +0.47 su 1 titoli"
+   }
   },
   {
    "sym": "SOLUSDT",
@@ -129,7 +136,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 106.45,
+   "price": 106.02,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -155,14 +162,14 @@
    "sym": "ADAUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 30/100 SL1.5/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1791986399999,
-   "price": 0.2241,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1792555199999,
+   "price": 0.2234,
+   "entry": 0.2231,
+   "sl": 0.21987263062628531,
+   "tp": 0.2274031591649529,
+   "size": 34.6,
    "news": {
     "score": 0,
     "heads": []
@@ -188,6 +195,21 @@
   "sumPct": -8.25
  },
  "recent": [
+  {
+   "id": "ADAUSDT-1h-1792555199999",
+   "key": "ADAUSDT-1h-sma-30-100-1.5-2",
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "dir": "LONG",
+   "entry": 0.2231,
+   "sl": 0.21987263062628531,
+   "tp": 0.2274031591649529,
+   "slPct": 1.447,
+   "t0": 1792555199999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
   {
    "id": "LTCUSDT-1h-1792497599999",
    "key": "LTCUSDT-1h-sma-8-80-3-4.5",
