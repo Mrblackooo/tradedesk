@@ -1,10 +1,10 @@
 {
- "updated": 1792593390285,
+ "updated": 1792608785449,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-21T08:21:20.094Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – DOGE: neutro (+0.33); BTC: positivo (+1.71); SOL: neutro (+0.49).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.47); SOL: neutro (+0.49).",
  "signals": [
   {
    "sym": "ADAUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792591199999,
-   "price": 0.2262,
+   "price": 0.2285,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,16 +42,14 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08259,
+   "price": 0.08316,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
    "size": 6.2,
    "news": {
     "score": 0,
-    "heads": [
-     "Dogecoin wallet, app teams unite in push to give DOGE more everyday uses"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.536,
@@ -64,12 +62,7 @@
     "n": 0,
     "avgR": null
    },
-   "key": "DOGEUSDT-1d-sma-10-30-1.5-3",
-   "llm": {
-    "score": 0.33,
-    "risk": "low",
-    "note": "sentiment +0.33 su 1 titoli"
-   }
+   "key": "DOGEUSDT-1d-sma-10-30-1.5-3"
   },
   {
    "sym": "LTCUSDT",
@@ -78,7 +71,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1792508399999,
-   "price": 61.52,
+   "price": 62.06,
    "entry": 60.95,
    "sl": 59.14851256648689,
    "tp": 63.65223115026967,
@@ -107,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.332,
+   "price": 0.3326,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -136,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791734399999,
-   "price": 84183,
+   "price": 84540.65,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -144,11 +137,8 @@
    "news": {
     "score": 0,
     "heads": [
-     "Bitcoin risk management grows more popular as the 'just bet on price' era fades",
-     "Live updates: Bitcoin rises to $84,000 as SpaceX leads markets higher",
-     "SpaceX and Tesla explore merger that would unite more than 30,000 bitcoin",
-     "5 alternatives to Ledger to store your Bitcoin",
-     "Bitcoin ‘top buyers’ halt BTC price upside with $87.7K now key: Glassnode"
+     "Bitcoin price tags $84.6K as US stocks head higher on SpaceX Q3 earnings beat",
+     "5 alternatives to Ledger to store your Bitcoin"
     ]
    },
    "bt": {
@@ -164,9 +154,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 1.71,
+    "score": 0.47,
     "risk": "low",
-    "note": "sentiment +1.71 su 5 titoli"
+    "note": "sentiment +0.47 su 2 titoli"
    }
   },
   {
@@ -176,7 +166,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 107.25,
+   "price": 108.55,
    "entry": null,
    "sl": null,
    "tp": null,
