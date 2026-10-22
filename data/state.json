@@ -1,39 +1,50 @@
 {
- "updated": 1792646780802,
+ "updated": 1792665138155,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-10-21T08:21:20.094Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.14); SOL: neutro (+0.07).",
+ "scannedAt": "2026-10-22T08:23:27.645Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.6); SOL: neutro (+0.03).",
  "signals": [
   {
-   "sym": "ADAUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 30/100 SL1.5/TP2 ATR",
+   "sym": "BTCUSDT",
+   "tf": "4h",
+   "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
-   "since": 1792591199999,
-   "price": 0.22,
+   "since": 1792655999999,
+   "price": 82077.94,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "Live updates: Bitcoin’s round trip to $85,000 burns traders on both sides",
+     "Asian stocks tumble, bitcoin retreats as China enters bear market",
+     "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme",
+     "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally",
+     "Bitcoin ETFs bag another $528M, taking 3-day haul past $1B"
+    ]
    },
    "bt": {
-    "wrTest": 0.7,
-    "t": 2.37,
-    "n": 20,
-    "sharpeTest": 4.91
+    "wrTest": 0.552,
+    "t": 1.73,
+    "n": 29,
+    "sharpeTest": 2
    },
    "stage": "osservazione",
    "proof": {
     "n": 1,
-    "avgR": 1.22
+    "avgR": -1.08
    },
-   "key": "ADAUSDT-1h-sma-30-100-1.5-2"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.6,
+    "risk": "low",
+    "note": "sentiment +0.6 su 5 titoli"
+   }
   },
   {
    "sym": "DOGEUSDT",
@@ -42,7 +53,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08009,
+   "price": 0.07945,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -53,9 +64,9 @@
    },
    "bt": {
     "wrTest": 0.536,
-    "t": 2.61,
+    "t": 2.65,
     "n": 28,
-    "sharpeTest": 2.04
+    "sharpeTest": 2.07
    },
    "stage": "osservazione",
    "proof": {
@@ -68,23 +79,23 @@
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
-   "dir": "LONG",
+   "dir": "SHORT",
    "action": "ATTIVO",
-   "since": 1792508399999,
-   "price": 60.53,
-   "entry": 60.95,
-   "sl": 59.14851256648689,
-   "tp": 63.65223115026967,
-   "size": 16.9,
+   "since": 1792659599999,
+   "price": 59.58,
+   "entry": 59.35,
+   "sl": 60.9470147109452,
+   "tp": 56.95447793358221,
+   "size": 18.6,
    "news": {
     "score": 0,
     "heads": []
    },
    "bt": {
-    "wrTest": 0.471,
-    "t": 1.53,
+    "wrTest": 0.441,
+    "t": 1.3,
     "n": 34,
-    "sharpeTest": 3.35
+    "sharpeTest": 2.87
    },
    "stage": "osservazione",
    "proof": {
@@ -100,7 +111,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3304,
+   "price": 0.3306,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -123,58 +134,21 @@
    "key": "TRXUSDT-4h-brk-20-0-1-2"
   },
   {
-   "sym": "BTCUSDT",
-   "tf": "4h",
-   "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
-   "dir": "LONG",
-   "action": "ATTIVO",
-   "since": 1792627199999,
-   "price": 82910,
-   "entry": 84093.42,
-   "sl": 82471.81234695051,
-   "tp": 86525.83147957422,
-   "size": 25.9,
-   "news": {
-    "score": 1,
-    "heads": [
-     "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally",
-     "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves"
-    ]
-   },
-   "bt": {
-    "wrTest": 0.571,
-    "t": 1.9,
-    "n": 28,
-    "sharpeTest": 2.16
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 0,
-    "avgR": null
-   },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": 0.14,
-    "risk": "low",
-    "note": "sentiment +0.14 su 2 titoli"
-   }
-  },
-  {
    "sym": "SOLUSDT",
    "tf": "1d",
    "strat": "MACD 5/35 SL1.5/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 105.34,
+   "price": 104.71,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 1,
+    "score": 0,
     "heads": [
-     "Solana completes Alpenglow upgrade. Here’s what it means for users"
+     "Solana’s biggest network change since 2020 is live. Here’s how users benefit"
     ]
    },
    "bt": {
@@ -190,19 +164,63 @@
    },
    "key": "SOLUSDT-1d-macd-5-35-1.5-2",
    "llm": {
-    "score": 0.07,
+    "score": 0.03,
     "risk": "low",
-    "note": "sentiment +0.07 su 1 titoli"
+    "note": "sentiment +0.03 su 1 titoli"
    }
+  },
+  {
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 30/100 SL1.5/TP2 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1792591199999,
+   "price": 0.217,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.7,
+    "t": 2.49,
+    "n": 20,
+    "sharpeTest": 5.16
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 1,
+    "avgR": 1.22
+   },
+   "key": "ADAUSDT-1h-sma-30-100-1.5-2"
   }
  ],
  "paper": {
-  "n": 7,
-  "wr": 0.143,
-  "avgR": -0.76,
-  "sumPct": -6.48
+  "n": 8,
+  "wr": 0.125,
+  "avgR": -0.8,
+  "sumPct": -8.57
  },
  "recent": [
+  {
+   "id": "LTCUSDT-1h-1792659599999",
+   "key": "LTCUSDT-1h-sma-8-80-3-4.5",
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "dir": "SHORT",
+   "entry": 59.35,
+   "sl": 60.9470147109452,
+   "tp": 56.95447793358221,
+   "slPct": 2.691,
+   "t0": 1792659599999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
   {
    "id": "BTCUSDT-4h-1792627199999",
    "key": "BTCUSDT-4h-sma-20-80-2-3",
@@ -214,9 +232,13 @@
    "tp": 86525.83147957422,
    "slPct": 1.928,
    "t0": 1792627199999,
-   "status": "open",
+   "status": "sl",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 82471.81234695051,
+   "t1": 1792641600000,
+   "pct": -2.088,
+   "r": -1.08
   },
   {
    "id": "ADAUSDT-1h-1792555199999",
