@@ -1,10 +1,10 @@
 {
- "updated": 1792629785679,
+ "updated": 1792646780802,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-21T08:21:20.094Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.14); SOL: neutro (+0.07).",
  "signals": [
   {
    "sym": "ADAUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792591199999,
-   "price": 0.226,
+   "price": 0.22,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08215,
+   "price": 0.08009,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -71,7 +71,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1792508399999,
-   "price": 61.7,
+   "price": 60.53,
    "entry": 60.95,
    "sl": 59.14851256648689,
    "tp": 63.65223115026967,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3305,
+   "price": 0.3304,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,14 +129,17 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1792627199999,
-   "price": 84326.17,
+   "price": 82910,
    "entry": 84093.42,
    "sl": 82471.81234695051,
    "tp": 86525.83147957422,
    "size": 25.9,
    "news": {
-    "score": 0,
-    "heads": []
+    "score": 1,
+    "heads": [
+     "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally",
+     "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves"
+    ]
    },
    "bt": {
     "wrTest": 0.571,
@@ -149,7 +152,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.14,
+    "risk": "low",
+    "note": "sentiment +0.14 su 2 titoli"
+   }
   },
   {
    "sym": "SOLUSDT",
@@ -158,14 +166,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 107.39,
+   "price": 105.34,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
-    "heads": []
+    "score": 1,
+    "heads": [
+     "Solana completes Alpenglow upgrade. Here’s what it means for users"
+    ]
    },
    "bt": {
     "wrTest": 0.508,
@@ -178,7 +188,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "SOLUSDT-1d-macd-5-35-1.5-2"
+   "key": "SOLUSDT-1d-macd-5-35-1.5-2",
+   "llm": {
+    "score": 0.07,
+    "risk": "low",
+    "note": "sentiment +0.07 su 1 titoli"
+   }
   }
  ],
  "paper": {
