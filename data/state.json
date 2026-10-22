@@ -1,10 +1,10 @@
 {
- "updated": 1792697043947,
+ "updated": 1792708816877,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-22T08:23:27.645Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.05).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.03).",
  "signals": [
   {
    "sym": "BTCUSDT",
@@ -13,17 +13,15 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792655999999,
-   "price": 81434.7,
+   "price": 81403.55,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 1,
+    "score": 0,
     "heads": [
-     "Bitcoin hashrate hits seven-month high as AI shift fails to ease mining competition",
-     "Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower",
-     "CryptoQuant CEO calls rising Bitcoin hashrate ‘indirect bullish signal’ from institutions"
+     "Bitcoin hashrate hits seven-month high as AI shift fails to ease mining competition"
     ]
    },
    "bt": {
@@ -39,9 +37,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.05,
+    "score": -0.03,
     "risk": "low",
-    "note": "sentiment -0.05 su 3 titoli"
+    "note": "sentiment -0.03 su 1 titoli"
    }
   },
   {
@@ -51,7 +49,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07895,
+   "price": 0.07881,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -80,7 +78,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792659599999,
-   "price": 58.54,
+   "price": 58.68,
    "entry": 59.35,
    "sl": 60.9470147109452,
    "tp": 56.95447793358221,
@@ -138,7 +136,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 103.68,
+   "price": 103.53,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -164,14 +162,14 @@
    "sym": "ADAUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 30/100 SL1.5/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1792591199999,
-   "price": 0.2132,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1792702799999,
+   "price": 0.212,
+   "entry": 0.2112,
+   "sl": 0.2146694445445574,
+   "tp": 0.20657407394059016,
+   "size": 30.4,
    "news": {
     "score": 0,
     "heads": []
@@ -197,6 +195,21 @@
   "sumPct": -8.57
  },
  "recent": [
+  {
+   "id": "ADAUSDT-1h-1792702799999",
+   "key": "ADAUSDT-1h-sma-30-100-1.5-2",
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "dir": "SHORT",
+   "entry": 0.2112,
+   "sl": 0.2146694445445574,
+   "tp": 0.20657407394059016,
+   "slPct": 1.643,
+   "t0": 1792702799999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
   {
    "id": "LTCUSDT-1h-1792659599999",
    "key": "LTCUSDT-1h-sma-8-80-3-4.5",
