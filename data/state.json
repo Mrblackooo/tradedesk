@@ -1,10 +1,10 @@
 {
- "updated": 1792665138155,
+ "updated": 1792683159909,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-22T08:23:27.645Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.6); SOL: neutro (+0.03).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.95).",
  "signals": [
   {
    "sym": "BTCUSDT",
@@ -13,19 +13,19 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792655999999,
-   "price": 82077.94,
+   "price": 81481.42,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
+    "score": 1,
     "heads": [
-     "Live updates: Bitcoin’s round trip to $85,000 burns traders on both sides",
-     "Asian stocks tumble, bitcoin retreats as China enters bear market",
-     "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme",
-     "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally",
-     "Bitcoin ETFs bag another $528M, taking 3-day haul past $1B"
+     "Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble",
+     "Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines",
+     "Live updates: Bitcoin slumps below $82,000 as markets go risk off on AI selloff, oil surge",
+     "CryptoQuant CEO calls rising Bitcoin hashrate ‘indirect bullish signal’ from institutions",
+     "Bitcoin ETF buyers are trend followers, not setters, DWF Labs says"
     ]
    },
    "bt": {
@@ -41,9 +41,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.6,
+    "score": -0.95,
     "risk": "low",
-    "note": "sentiment +0.6 su 5 titoli"
+    "note": "sentiment -0.95 su 5 titoli"
    }
   },
   {
@@ -53,7 +53,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07945,
+   "price": 0.0789,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -82,7 +82,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792659599999,
-   "price": 59.58,
+   "price": 58.72,
    "entry": 59.35,
    "sl": 60.9470147109452,
    "tp": 56.95447793358221,
@@ -111,7 +111,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3306,
+   "price": 0.3305,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -140,16 +140,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 104.71,
+   "price": 104.36,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "Solana’s biggest network change since 2020 is live. Here’s how users benefit"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.508,
@@ -162,12 +160,7 @@
     "n": 0,
     "avgR": null
    },
-   "key": "SOLUSDT-1d-macd-5-35-1.5-2",
-   "llm": {
-    "score": 0.03,
-    "risk": "low",
-    "note": "sentiment +0.03 su 1 titoli"
-   }
+   "key": "SOLUSDT-1d-macd-5-35-1.5-2"
   },
   {
    "sym": "ADAUSDT",
@@ -176,7 +169,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792591199999,
-   "price": 0.217,
+   "price": 0.2131,
    "entry": null,
    "sl": null,
    "tp": null,
