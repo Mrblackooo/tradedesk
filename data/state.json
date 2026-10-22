@@ -1,10 +1,10 @@
 {
- "updated": 1792683159909,
+ "updated": 1792697043947,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-22T08:23:27.645Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.95).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.05).",
  "signals": [
   {
    "sym": "BTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792655999999,
-   "price": 81481.42,
+   "price": 81434.7,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -21,11 +21,9 @@
    "news": {
     "score": 1,
     "heads": [
-     "Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble",
-     "Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines",
-     "Live updates: Bitcoin slumps below $82,000 as markets go risk off on AI selloff, oil surge",
-     "CryptoQuant CEO calls rising Bitcoin hashrate ‘indirect bullish signal’ from institutions",
-     "Bitcoin ETF buyers are trend followers, not setters, DWF Labs says"
+     "Bitcoin hashrate hits seven-month high as AI shift fails to ease mining competition",
+     "Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower",
+     "CryptoQuant CEO calls rising Bitcoin hashrate ‘indirect bullish signal’ from institutions"
     ]
    },
    "bt": {
@@ -41,9 +39,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.95,
+    "score": -0.05,
     "risk": "low",
-    "note": "sentiment -0.95 su 5 titoli"
+    "note": "sentiment -0.05 su 3 titoli"
    }
   },
   {
@@ -53,7 +51,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.0789,
+   "price": 0.07895,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -82,7 +80,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792659599999,
-   "price": 58.72,
+   "price": 58.54,
    "entry": 59.35,
    "sl": 60.9470147109452,
    "tp": 56.95447793358221,
@@ -111,7 +109,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3305,
+   "price": 0.3281,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -140,7 +138,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 104.36,
+   "price": 103.68,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -169,7 +167,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792591199999,
-   "price": 0.2131,
+   "price": 0.2132,
    "entry": null,
    "sl": null,
    "tp": null,
