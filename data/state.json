@@ -1,10 +1,10 @@
 {
- "updated": 1792717217812,
+ "updated": 1792734905144,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-22T08:23:27.645Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.39).",
  "signals": [
   {
    "sym": "BTCUSDT",
@@ -13,14 +13,18 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792655999999,
-   "price": 81466.01,
+   "price": 81886.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
-    "heads": []
+    "score": 1,
+    "heads": [
+     "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100",
+     "Bitcoin Core changes security policy as AI makes bugs easier to find",
+     "Switzerland approves first spot Bitcoin ETF for retail investors"
+    ]
    },
    "bt": {
     "wrTest": 0.552,
@@ -33,7 +37,12 @@
     "n": 1,
     "avgR": -1.08
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.39,
+    "risk": "low",
+    "note": "sentiment +0.39 su 3 titoli"
+   }
   },
   {
    "sym": "DOGEUSDT",
@@ -42,7 +51,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07908,
+   "price": 0.08001,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.07279295397061371,
@@ -71,7 +80,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792659599999,
-   "price": 58.82,
+   "price": 59.75,
    "entry": 59.35,
    "sl": 60.9470147109452,
    "tp": 56.95447793358221,
@@ -100,7 +109,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3287,
+   "price": 0.3298,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +138,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 104.06,
+   "price": 104.53,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -155,14 +164,14 @@
    "sym": "ADAUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 30/100 SL1.5/TP2 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1792702799999,
-   "price": 0.2129,
-   "entry": 0.2112,
-   "sl": 0.2146694445445574,
-   "tp": 0.20657407394059016,
-   "size": 30.4,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1792720799999,
+   "price": 0.2171,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
     "score": 0,
     "heads": []
@@ -175,17 +184,17 @@
    },
    "stage": "osservazione",
    "proof": {
-    "n": 1,
-    "avgR": 1.22
+    "n": 2,
+    "avgR": 0.06
    },
    "key": "ADAUSDT-1h-sma-30-100-1.5-2"
   }
  ],
  "paper": {
-  "n": 8,
-  "wr": 0.125,
-  "avgR": -0.8,
-  "sumPct": -8.57
+  "n": 9,
+  "wr": 0.111,
+  "avgR": -0.84,
+  "sumPct": -10.37
  },
  "recent": [
   {
@@ -199,9 +208,13 @@
    "tp": 0.20657407394059016,
    "slPct": 1.643,
    "t0": 1792702799999,
-   "status": "open",
+   "status": "sl",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 0.2146694445445574,
+   "t1": 1792717200000,
+   "pct": -1.803,
+   "r": -1.1
   },
   {
    "id": "LTCUSDT-1h-1792659599999",
