@@ -1,48 +1,39 @@
 {
- "updated": 1792734905144,
+ "updated": 1792754859819,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-10-22T08:23:27.645Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.39).",
+ "scannedAt": "2026-10-23T08:19:33.383Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+2.36).",
  "signals": [
   {
-   "sym": "BTCUSDT",
-   "tf": "4h",
-   "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1792655999999,
-   "price": 81886.01,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1792659599999,
+   "price": 59,
+   "entry": 59.35,
+   "sl": 60.9470147109452,
+   "tp": 56.95447793358221,
+   "size": 18.6,
    "news": {
-    "score": 1,
-    "heads": [
-     "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100",
-     "Bitcoin Core changes security policy as AI makes bugs easier to find",
-     "Switzerland approves first spot Bitcoin ETF for retail investors"
-    ]
+    "score": 0,
+    "heads": []
    },
    "bt": {
-    "wrTest": 0.552,
-    "t": 1.73,
-    "n": 29,
-    "sharpeTest": 2
+    "wrTest": 0.429,
+    "t": 1.26,
+    "n": 35,
+    "sharpeTest": 2.77
    },
    "stage": "osservazione",
    "proof": {
-    "n": 1,
-    "avgR": -1.08
+    "n": 3,
+    "avgR": -0.91
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": 0.39,
-    "risk": "low",
-    "note": "sentiment +0.39 su 3 titoli"
-   }
+   "key": "LTCUSDT-1h-sma-8-80-3-4.5"
   },
   {
    "sym": "DOGEUSDT",
@@ -51,7 +42,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08001,
+   "price": 0.08014,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.07279295397061371,
@@ -62,9 +53,9 @@
    },
    "bt": {
     "wrTest": 0.536,
-    "t": 2.65,
+    "t": 2.63,
     "n": 28,
-    "sharpeTest": 2.07
+    "sharpeTest": 2.06
    },
    "stage": "osservazione",
    "proof": {
@@ -74,42 +65,13 @@
    "key": "DOGEUSDT-1d-sma-10-30-1.5-3"
   },
   {
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1792659599999,
-   "price": 59.75,
-   "entry": 59.35,
-   "sl": 60.9470147109452,
-   "tp": 56.95447793358221,
-   "size": 18.6,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.441,
-    "t": 1.3,
-    "n": 34,
-    "sharpeTest": 2.87
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 3,
-    "avgR": -0.91
-   },
-   "key": "LTCUSDT-1h-sma-8-80-3-4.5"
-  },
-  {
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3298,
+   "price": 0.3305,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -132,13 +94,82 @@
    "key": "TRXUSDT-4h-brk-20-0-1-2"
   },
   {
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 30/100 SL1.5/TP2 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1792720799999,
+   "price": 0.2163,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.667,
+    "t": 2.19,
+    "n": 21,
+    "sharpeTest": 4.72
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 2,
+    "avgR": 0.06
+   },
+   "key": "ADAUSDT-1h-sma-30-100-1.5-2"
+  },
+  {
+   "sym": "BTCUSDT",
+   "tf": "4h",
+   "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1792655999999,
+   "price": 81686.76,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": [
+     "Bitcoin's volatility is well above euro-dollar gyrations, though it has calmed to rival Nvidia's",
+     "Live updates: Bitcoin holds above $81,000 as the AI rout fades and oil climbs",
+     "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13%",
+     "Bitcoin appears to have decoupled from midterm cycle bottom history",
+     "Bitcoin ETFs bleed $635M as October slides back into the red"
+    ]
+   },
+   "bt": {
+    "wrTest": 0.552,
+    "t": 1.73,
+    "n": 29,
+    "sharpeTest": 2
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 1,
+    "avgR": -1.08
+   },
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 2.36,
+    "risk": "low",
+    "note": "sentiment +2.36 su 5 titoli"
+   }
+  },
+  {
    "sym": "SOLUSDT",
    "tf": "1d",
    "strat": "MACD 5/35 SL1.5/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 104.53,
+   "price": 104.24,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -149,7 +180,7 @@
    },
    "bt": {
     "wrTest": 0.508,
-    "t": 2.08,
+    "t": 2.07,
     "n": 59,
     "sharpeTest": 1.48
    },
@@ -159,35 +190,6 @@
     "avgR": null
    },
    "key": "SOLUSDT-1d-macd-5-35-1.5-2"
-  },
-  {
-   "sym": "ADAUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 30/100 SL1.5/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1792720799999,
-   "price": 0.2171,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.7,
-    "t": 2.49,
-    "n": 20,
-    "sharpeTest": 5.16
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 2,
-    "avgR": 0.06
-   },
-   "key": "ADAUSDT-1h-sma-30-100-1.5-2"
   }
  ],
  "paper": {
