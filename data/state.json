@@ -1,10 +1,10 @@
 {
- "updated": 1792754859819,
+ "updated": 1792770734945,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-23T08:19:33.383Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+2.36).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.62).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792659599999,
-   "price": 59,
+   "price": 58.35,
    "entry": 59.35,
    "sl": 60.9470147109452,
    "tp": 56.95447793358221,
@@ -42,7 +42,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.08014,
+   "price": 0.08011,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.07279295397061371,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3305,
+   "price": 0.3298,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792720799999,
-   "price": 0.2163,
+   "price": 0.2158,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,19 +129,19 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792655999999,
-   "price": 81686.76,
+   "price": 81582.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
+    "score": 1,
     "heads": [
-     "Bitcoin's volatility is well above euro-dollar gyrations, though it has calmed to rival Nvidia's",
-     "Live updates: Bitcoin holds above $81,000 as the AI rout fades and oil climbs",
-     "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13%",
-     "Bitcoin appears to have decoupled from midterm cycle bottom history",
-     "Bitcoin ETFs bleed $635M as October slides back into the red"
+     "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
+     "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy",
+     "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
+     "Live updates: Bitcoin holds above $81,000 as oil prices hit six-month high",
+     "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13%"
     ]
    },
    "bt": {
@@ -157,9 +157,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 2.36,
+    "score": 1.62,
     "risk": "low",
-    "note": "sentiment +2.36 su 5 titoli"
+    "note": "sentiment +1.62 su 5 titoli"
    }
   },
   {
@@ -169,7 +169,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 104.24,
+   "price": 104.6,
    "entry": null,
    "sl": null,
    "tp": null,
