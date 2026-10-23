@@ -1,10 +1,10 @@
 {
- "updated": 1792784092279,
+ "updated": 1792794900205,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-23T08:19:33.383Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.35).",
+ "briefing": null,
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,10 +13,10 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792659599999,
-   "price": 58.4,
+   "price": 57.7,
    "entry": 59.35,
    "sl": 60.94701471094519,
-   "tp": 56.95447793358221,
+   "tp": 56.95447793358222,
    "size": 18.6,
    "news": {
     "score": 0,
@@ -42,7 +42,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.079,
+   "price": 0.07863,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.07279295397061371,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.33,
+   "price": 0.3299,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792720799999,
-   "price": 0.213,
+   "price": 0.2115,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,17 +129,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792655999999,
-   "price": 81253.39,
+   "price": 81186.75,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 1,
-    "heads": [
-     "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
-     "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March"
-    ]
+    "score": 0,
+    "heads": []
    },
    "bt": {
     "wrTest": 0.552,
@@ -152,12 +149,7 @@
     "n": 1,
     "avgR": -1.08
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": 1.35,
-    "risk": "low",
-    "note": "sentiment +1.35 su 2 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   },
   {
    "sym": "SOLUSDT",
@@ -166,7 +158,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 103.68,
+   "price": 103.03,
    "entry": null,
    "sl": null,
    "tp": null,
