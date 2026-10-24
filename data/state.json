@@ -1,10 +1,10 @@
 {
- "updated": 1792878566585,
+ "updated": 1792885655331,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-24T07:56:52.523Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.14).",
+ "briefing": null,
  "signals": [
   {
    "sym": "BTCUSDT",
@@ -13,16 +13,14 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792814399999,
-   "price": 80393.66,
+   "price": 80913.99,
    "entry": 80977.92,
    "sl": 82514.25890696287,
    "tp": 78673.41163955569,
    "size": 26.4,
    "news": {
     "score": 0,
-    "heads": [
-     "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.567,
@@ -35,12 +33,7 @@
     "n": 1,
     "avgR": -1.08
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": 0.14,
-    "risk": "low",
-    "note": "sentiment +0.14 su 1 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   },
   {
    "sym": "DOGEUSDT",
@@ -49,7 +42,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07719,
+   "price": 0.07771,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.07279295397061371,
@@ -78,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792796399999,
-   "price": 56.71,
+   "price": 56.99,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -136,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792720799999,
-   "price": 0.2061,
+   "price": 0.2082,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -165,7 +158,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 101.33,
+   "price": 102.4,
    "entry": null,
    "sl": null,
    "tp": null,
