@@ -26,23 +26,23 @@
  },
  "watch": [
   {
-   "sym": "LTCUSDT",
-   "tf": "1h",
+   "sym": "BTCUSDT",
+   "tf": "4h",
    "st": "sma",
-   "a": 8,
+   "a": 20,
    "b": 80,
-   "ks": 3,
-   "kt": 4.5,
+   "ks": 2,
+   "kt": 3,
    "lo": false,
    "active": true,
-   "adopted": "2026-10-12T10:24:01.303Z",
+   "adopted": "2026-10-12T10:24:01.305Z",
    "bt": {
-    "wrTest": 0.429,
-    "t": 1.26,
-    "n": 35,
-    "sharpeTest": 2.77
+    "wrTest": 0.567,
+    "t": 1.75,
+    "n": 30,
+    "sharpeTest": 2.03
    },
-   "tested": "2026-10-23T08:19:33.381Z"
+   "tested": "2026-10-24T07:56:52.521Z"
   },
   {
    "sym": "DOGEUSDT",
@@ -57,11 +57,30 @@
    "adopted": "2026-10-12T10:24:01.304Z",
    "bt": {
     "wrTest": 0.536,
-    "t": 2.63,
+    "t": 2.67,
     "n": 28,
-    "sharpeTest": 2.06
+    "sharpeTest": 2.09
    },
-   "tested": "2026-10-23T08:19:33.383Z"
+   "tested": "2026-10-24T07:56:52.522Z"
+  },
+  {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "st": "sma",
+   "a": 8,
+   "b": 80,
+   "ks": 3,
+   "kt": 4.5,
+   "lo": false,
+   "active": true,
+   "adopted": "2026-10-12T10:24:01.303Z",
+   "bt": {
+    "wrTest": 0.457,
+    "t": 1.5,
+    "n": 35,
+    "sharpeTest": 3.33
+   },
+   "tested": "2026-10-24T07:56:52.522Z"
   },
   {
    "sym": "TRXUSDT",
@@ -75,12 +94,12 @@
    "active": true,
    "adopted": "2026-10-12T10:24:01.305Z",
    "bt": {
-    "wrTest": 0.533,
-    "t": 1.42,
-    "n": 30,
-    "sharpeTest": 1.73
+    "wrTest": 0.552,
+    "t": 1.59,
+    "n": 29,
+    "sharpeTest": 1.91
    },
-   "tested": "2026-10-23T08:19:33.383Z"
+   "tested": "2026-10-24T07:56:52.522Z"
   },
   {
    "sym": "ADAUSDT",
@@ -94,31 +113,12 @@
    "active": true,
    "adopted": "2026-10-12T10:24:01.305Z",
    "bt": {
-    "wrTest": 0.667,
-    "t": 2.19,
-    "n": 21,
-    "sharpeTest": 4.72
+    "wrTest": 0.7,
+    "t": 2.41,
+    "n": 20,
+    "sharpeTest": 5.05
    },
-   "tested": "2026-10-23T08:19:33.383Z"
-  },
-  {
-   "sym": "BTCUSDT",
-   "tf": "4h",
-   "st": "sma",
-   "a": 20,
-   "b": 80,
-   "ks": 2,
-   "kt": 3,
-   "lo": false,
-   "active": true,
-   "adopted": "2026-10-12T10:24:01.305Z",
-   "bt": {
-    "wrTest": 0.552,
-    "t": 1.73,
-    "n": 29,
-    "sharpeTest": 2
-   },
-   "tested": "2026-10-23T08:19:33.383Z"
+   "tested": "2026-10-24T07:56:52.522Z"
   },
   {
    "sym": "SOLUSDT",
@@ -133,12 +133,12 @@
    "adopted": "2026-10-12T10:24:01.305Z",
    "bt": {
     "wrTest": 0.508,
-    "t": 2.07,
+    "t": 2.06,
     "n": 59,
-    "sharpeTest": 1.48
+    "sharpeTest": 1.47
    },
-   "tested": "2026-10-23T08:19:33.383Z"
+   "tested": "2026-10-24T07:56:52.522Z"
   }
  ],
- "scannedAt": "2026-10-23T08:19:33.383Z"
+ "scannedAt": "2026-10-24T07:56:52.523Z"
 }
