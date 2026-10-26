@@ -1,10 +1,10 @@
 {
- "updated": 1792973127213,
+ "updated": 1792989277129,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-25T08:11:26.509Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.08).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.08); SOL: neutro (+0.23).",
  "signals": [
   {
    "sym": "BTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792814399999,
-   "price": 80063.86,
+   "price": 80073.1,
    "entry": 80977.92,
    "sl": 82514.25890696287,
    "tp": 78673.41163955569,
@@ -49,7 +49,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07688,
+   "price": 0.07685,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.07279295397061371,
@@ -78,7 +78,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792796399999,
-   "price": 56.75,
+   "price": 56.58,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -107,7 +107,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792684799999,
-   "price": 11.447,
+   "price": 11.399,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -136,7 +136,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3307,
+   "price": 0.3304,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -165,14 +165,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 101.33,
+   "price": 100.95,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise"
+    ]
    },
    "bt": {
     "wrTest": 0.508,
@@ -185,7 +187,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "SOLUSDT-1d-macd-5-35-1.5-2"
+   "key": "SOLUSDT-1d-macd-5-35-1.5-2",
+   "llm": {
+    "score": 0.23,
+    "risk": "low",
+    "note": "sentiment +0.23 su 1 titoli"
+   }
   }
  ],
  "paper": {
