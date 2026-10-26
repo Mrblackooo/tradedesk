@@ -1,30 +1,30 @@
 {
- "updated": 1793010425694,
+ "updated": 1793033731703,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-26T08:37:28.103Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.03).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.27).",
  "signals": [
   {
    "sym": "BTCUSDT",
    "tf": "4h",
    "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
    "dir": "SHORT",
-   "action": "ATTIVO",
+   "action": "IN ATTESA (rischio news LLM)",
    "since": 1792814399999,
-   "price": 80400.01,
+   "price": 80078.01,
    "entry": 80977.92,
    "sl": 82514.25890696287,
    "tp": 78673.41163955569,
    "size": 26.4,
    "news": {
-    "score": -1,
+    "score": 0,
     "heads": [
-     "Over 11 million bitcoin has no known owner. Here's what it means",
-     "Bitcoin wallet bug let rogue servers steal funds when users tried to speed up payments",
-     "Bitcoin slips under $80,000 as traders de-risk ahead of Fed meeting",
-     "Bitcoin ETFs break 2-week outflow streak with $301M comeback"
+     "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000",
+     "Bitcoin holds near $80,000 as oil retreats and the Fed decision looms",
+     "Live news: Bitcoin sits near $80,000 as tech rallies following Anthropic IPO filing",
+     "Strategy skips Bitcoin purchases, spends $205M on STRC buybacks"
     ]
    },
    "bt": {
@@ -40,9 +40,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.03,
-    "risk": "low",
-    "note": "sentiment -0.03 su 4 titoli"
+    "score": 1.27,
+    "risk": "high",
+    "note": "sentiment +1.27 su 4 titoli"
    }
   },
   {
@@ -52,7 +52,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07715,
+   "price": 0.07726,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.07279295397061371,
@@ -78,14 +78,14 @@
    "sym": "LINKUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1792684799999,
-   "price": 11.447,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1793026799999,
+   "price": 11.44,
+   "entry": 11.569,
+   "sl": 11.456068122050432,
+   "tp": 11.794863755899136,
+   "size": 51.2,
    "news": {
     "score": 0,
     "heads": []
@@ -110,7 +110,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792796399999,
-   "price": 56.71,
+   "price": 56.45,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -139,7 +139,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.331,
+   "price": 0.3308,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -168,7 +168,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 101.47,
+   "price": 101.07,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -198,6 +198,21 @@
   "sumPct": -6.5
  },
  "recent": [
+  {
+   "id": "LINKUSDT-1h-1793026799999",
+   "key": "LINKUSDT-1h-sma-5-50-1-2",
+   "sym": "LINKUSDT",
+   "tf": "1h",
+   "dir": "LONG",
+   "entry": 11.569,
+   "sl": 11.456068122050432,
+   "tp": 11.794863755899136,
+   "slPct": 0.976,
+   "t0": 1793026799999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
   {
    "id": "BTCUSDT-4h-1792814399999",
    "key": "BTCUSDT-4h-sma-20-80-2-3",
