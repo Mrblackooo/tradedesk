@@ -1,10 +1,10 @@
 {
- "updated": 1792989277129,
+ "updated": 1793010425694,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-10-25T08:11:26.509Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.08); SOL: neutro (+0.23).",
+ "scannedAt": "2026-10-26T08:37:28.103Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.03).",
  "signals": [
   {
    "sym": "BTCUSDT",
@@ -13,22 +13,25 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792814399999,
-   "price": 80073.1,
+   "price": 80400.01,
    "entry": 80977.92,
    "sl": 82514.25890696287,
    "tp": 78673.41163955569,
    "size": 26.4,
    "news": {
-    "score": 0,
+    "score": -1,
     "heads": [
-     "AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest"
+     "Over 11 million bitcoin has no known owner. Here's what it means",
+     "Bitcoin wallet bug let rogue servers steal funds when users tried to speed up payments",
+     "Bitcoin slips under $80,000 as traders de-risk ahead of Fed meeting",
+     "Bitcoin ETFs break 2-week outflow streak with $301M comeback"
     ]
    },
    "bt": {
     "wrTest": 0.552,
-    "t": 1.61,
+    "t": 1.64,
     "n": 29,
-    "sharpeTest": 1.86
+    "sharpeTest": 1.9
    },
    "stage": "osservazione",
    "proof": {
@@ -37,9 +40,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.08,
+    "score": -0.03,
     "risk": "low",
-    "note": "sentiment +0.08 su 1 titoli"
+    "note": "sentiment -0.03 su 4 titoli"
    }
   },
   {
@@ -49,7 +52,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07685,
+   "price": 0.07715,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.07279295397061371,
@@ -60,7 +63,7 @@
    },
    "bt": {
     "wrTest": 0.536,
-    "t": 2.69,
+    "t": 2.68,
     "n": 28,
     "sharpeTest": 2.1
    },
@@ -72,42 +75,13 @@
    "key": "DOGEUSDT-1d-sma-10-30-1.5-3"
   },
   {
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1792796399999,
-   "price": 56.58,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.457,
-    "t": 1.46,
-    "n": 35,
-    "sharpeTest": 3.25
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 4,
-    "avgR": -0.33
-   },
-   "key": "LTCUSDT-1h-sma-8-80-3-4.5"
-  },
-  {
    "sym": "LINKUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792684799999,
-   "price": 11.399,
+   "price": 11.447,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -130,13 +104,42 @@
    "key": "LINKUSDT-1h-sma-5-50-1-2"
   },
   {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1792796399999,
+   "price": 56.71,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.457,
+    "t": 1.47,
+    "n": 35,
+    "sharpeTest": 3.26
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 4,
+    "avgR": -0.33
+   },
+   "key": "LTCUSDT-1h-sma-8-80-3-4.5"
+  },
+  {
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3304,
+   "price": 0.331,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -165,34 +168,27 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1791503999999,
-   "price": 100.95,
+   "price": 101.47,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.508,
-    "t": 2.06,
+    "t": 2.04,
     "n": 59,
-    "sharpeTest": 1.47
+    "sharpeTest": 1.44
    },
    "stage": "osservazione",
    "proof": {
     "n": 0,
     "avgR": null
    },
-   "key": "SOLUSDT-1d-macd-5-35-1.5-2",
-   "llm": {
-    "score": 0.23,
-    "risk": "low",
-    "note": "sentiment +0.23 su 1 titoli"
-   }
+   "key": "SOLUSDT-1d-macd-5-35-1.5-2"
   }
  ],
  "paper": {
