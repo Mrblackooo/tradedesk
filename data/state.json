@@ -1,23 +1,23 @@
 {
- "updated": 1793118348165,
+ "updated": 1793134465460,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-27T08:44:01.090Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.78).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.83).",
  "signals": [
   {
    "sym": "LINKUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1793116799999,
-   "price": 11.468,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1793120399999,
+   "price": 11.461,
+   "entry": 11.492,
+   "sl": 11.383962744129255,
+   "tp": 11.708074511741493,
+   "size": 53.2,
    "news": {
     "score": 0,
     "heads": []
@@ -42,19 +42,15 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792814399999,
-   "price": 80559.78,
+   "price": 80770,
    "entry": 80977.92,
    "sl": 82514.25890696287,
    "tp": 78673.41163955569,
    "size": 26.4,
    "news": {
-    "score": 1,
+    "score": 0,
     "heads": [
-     "Bitcoin miners' move into AI is creating a new market for trading computing power",
-     "Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP",
-     "Live updates: Bitcoin holds near $80,000 as AI buildout draws investor attention and capital",
-     "Bitcoin drops below $80,000 as crypto ignores Asian tech rally, Fed meeting begins",
-     "Investor who called for AI pivot in 2023 says bitcoin is going to $57,000"
+     "Quantum fears already limiting Bitcoin’s growth, Stacks founder says"
     ]
    },
    "bt": {
@@ -70,9 +66,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.78,
-    "risk": "medium",
-    "note": "sentiment +0.78 su 5 titoli"
+    "score": -0.83,
+    "risk": "low",
+    "note": "sentiment -0.83 su 1 titoli"
    }
   },
   {
@@ -82,7 +78,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07822,
+   "price": 0.07835,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -108,14 +104,14 @@
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1792796399999,
-   "price": 56.73,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1793131199999,
+   "price": 56.74,
+   "entry": 56.78,
+   "sl": 55.438024353449336,
+   "tp": 58.792963469826,
+   "size": 21.2,
    "news": {
     "score": 0,
     "heads": []
@@ -140,7 +136,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3279,
+   "price": 0.3315,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -169,7 +165,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792720799999,
-   "price": 0.2055,
+   "price": 0.205,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -199,6 +195,21 @@
   "sumPct": -8.8
  },
  "recent": [
+  {
+   "id": "LTCUSDT-1h-1793131199999",
+   "key": "LTCUSDT-1h-sma-8-80-3-4.5",
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "dir": "LONG",
+   "entry": 56.78,
+   "sl": 55.438024353449336,
+   "tp": 58.792963469826,
+   "slPct": 2.363,
+   "t0": 1793131199999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
   {
    "id": "LINKUSDT-1h-1793044799999",
    "key": "LINKUSDT-1h-sma-5-50-1-2",
