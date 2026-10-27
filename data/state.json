@@ -1,11 +1,40 @@
 {
- "updated": 1793079623929,
+ "updated": 1793099018255,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-10-26T08:37:28.103Z",
- "briefing": null,
+ "scannedAt": "2026-10-27T08:44:01.090Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.37).",
  "signals": [
+  {
+   "sym": "LINKUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1793044799999,
+   "price": 11.399,
+   "entry": 11.382,
+   "sl": 11.496291070609583,
+   "tp": 11.15341785878083,
+   "size": 49.8,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.484,
+    "t": 2.04,
+    "n": 62,
+    "sharpeTest": 4.49
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 1,
+    "avgR": -1.16
+   },
+   "key": "LINKUSDT-1h-sma-5-50-1-2"
+  },
   {
    "sym": "BTCUSDT",
    "tf": "4h",
@@ -13,27 +42,36 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792814399999,
-   "price": 79874.06,
+   "price": 80105.4,
    "entry": 80977.92,
    "sl": 82514.25890696287,
    "tp": 78673.41163955569,
    "size": 26.4,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "Investor who called for AI pivot in 2023 says bitcoin is going to $57,000",
+     "Now is the time to accumulate bitcoin, Galaxy says",
+     "Bitcoin ETFs claw back $110M after $774M exit"
+    ]
    },
    "bt": {
     "wrTest": 0.552,
-    "t": 1.64,
+    "t": 1.67,
     "n": 29,
-    "sharpeTest": 1.9
+    "sharpeTest": 1.93
    },
    "stage": "osservazione",
    "proof": {
     "n": 1,
     "avgR": -1.08
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.37,
+    "risk": "low",
+    "note": "sentiment +0.37 su 3 titoli"
+   }
   },
   {
    "sym": "DOGEUSDT",
@@ -42,7 +80,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07755,
+   "price": 0.07746,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -55,7 +93,7 @@
     "wrTest": 0.536,
     "t": 2.68,
     "n": 28,
-    "sharpeTest": 2.1
+    "sharpeTest": 2.09
    },
    "stage": "osservazione",
    "proof": {
@@ -65,42 +103,13 @@
    "key": "DOGEUSDT-1d-sma-10-30-1.5-3"
   },
   {
-   "sym": "LINKUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1793044799999,
-   "price": 11.36,
-   "entry": 11.382,
-   "sl": 11.496291070609583,
-   "tp": 11.15341785878083,
-   "size": 49.8,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.475,
-    "t": 2.05,
-    "n": 61,
-    "sharpeTest": 4.51
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 1,
-    "avgR": -1.16
-   },
-   "key": "LINKUSDT-1h-sma-5-50-1-2"
-  },
-  {
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792796399999,
-   "price": 56.43,
+   "price": 56.53,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -111,9 +120,9 @@
    },
    "bt": {
     "wrTest": 0.457,
-    "t": 1.47,
+    "t": 1.42,
     "n": 35,
-    "sharpeTest": 3.26
+    "sharpeTest": 3.16
    },
    "stage": "osservazione",
    "proof": {
@@ -129,7 +138,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3289,
+   "price": 0.328,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -152,13 +161,13 @@
    "key": "TRXUSDT-4h-brk-20-0-1-2"
   },
   {
-   "sym": "SOLUSDT",
-   "tf": "1d",
-   "strat": "MACD 5/35 SL1.5/TP2 ATR",
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 30/100 SL1.5/TP3 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
-   "since": 1791503999999,
-   "price": 100.08,
+   "since": 1792720799999,
+   "price": 0.2046,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -168,17 +177,17 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.508,
-    "t": 2.04,
-    "n": 59,
-    "sharpeTest": 1.44
+    "wrTest": 0.6,
+    "t": 2.06,
+    "n": 20,
+    "sharpeTest": 4.28
    },
    "stage": "osservazione",
    "proof": {
-    "n": 0,
-    "avgR": null
+    "n": 1,
+    "avgR": -1.11
    },
-   "key": "SOLUSDT-1d-macd-5-35-1.5-2"
+   "key": "ADAUSDT-1h-sma-30-100-1.5-3"
   }
  ],
  "paper": {
