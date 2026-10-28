@@ -1,106 +1,11 @@
 {
- "updated": 1793167905223,
+ "updated": 1793192679621,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-10-27T08:44:01.090Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.58).",
+ "scannedAt": "2026-10-28T09:24:02.044Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.91).",
  "signals": [
-  {
-   "sym": "LINKUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1793156399999,
-   "price": 11.742,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.484,
-    "t": 2.04,
-    "n": 62,
-    "sharpeTest": 4.49
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 2,
-    "avgR": -1.16
-   },
-   "key": "LINKUSDT-1h-sma-5-50-1-2"
-  },
-  {
-   "sym": "BTCUSDT",
-   "tf": "4h",
-   "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1792814399999,
-   "price": 80935.01,
-   "entry": 80977.92,
-   "sl": 82514.25890696287,
-   "tp": 78673.41163955569,
-   "size": 26.4,
-   "news": {
-    "score": -1,
-    "heads": [
-     "Bitcoin treasury Datavault AI plunges 50% after firm says it can’t access its BTC",
-     "Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8%"
-    ]
-   },
-   "bt": {
-    "wrTest": 0.552,
-    "t": 1.67,
-    "n": 29,
-    "sharpeTest": 1.93
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 1,
-    "avgR": -1.08
-   },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": -0.58,
-    "risk": "low",
-    "note": "sentiment -0.58 su 2 titoli"
-   }
-  },
-  {
-   "sym": "DOGEUSDT",
-   "tf": "1d",
-   "strat": "Incrocio SMA 10/30 SL1.5/TP3 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1791763199999,
-   "price": 0.07973,
-   "entry": 0.08679,
-   "sl": 0.09378852301469316,
-   "tp": 0.0727929539706137,
-   "size": 6.2,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.536,
-    "t": 2.68,
-    "n": 28,
-    "sharpeTest": 2.09
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 0,
-    "avgR": null
-   },
-   "key": "DOGEUSDT-1d-sma-10-30-1.5-3"
-  },
   {
    "sym": "LTCUSDT",
    "tf": "1h",
@@ -108,7 +13,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1793131199999,
-   "price": 57.43,
+   "price": 57.26,
    "entry": 56.78,
    "sl": 55.438024353449336,
    "tp": 58.792963469826,
@@ -119,9 +24,9 @@
    },
    "bt": {
     "wrTest": 0.457,
-    "t": 1.42,
+    "t": 1.47,
     "n": 35,
-    "sharpeTest": 3.16
+    "sharpeTest": 3.28
    },
    "stage": "osservazione",
    "proof": {
@@ -131,13 +36,82 @@
    "key": "LTCUSDT-1h-sma-8-80-3-4.5"
   },
   {
-   "sym": "TRXUSDT",
+   "sym": "BTCUSDT",
    "tf": "4h",
-   "strat": "Breakout 20 SL1/TP2 ATR",
+   "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
+   "dir": "SHORT",
+   "action": "IN ATTESA (news contrarie)",
+   "since": 1792814399999,
+   "price": 80764.68,
+   "entry": 80977.92,
+   "sl": 82514.25890696287,
+   "tp": 78673.41163955569,
+   "size": 26.4,
+   "news": {
+    "score": 3,
+    "heads": [
+     "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9%",
+     "Live updates: Bitcoin edges higher ahead of Fed decision Wednesday afternoon.",
+     "Here's how much bitcoin and the S&P 500 could rally after midterms",
+     "Bitcoin price eyes $82K as Morgan Stanley strategist says most of correction is over",
+     "Bitcoin ETF inflows climb to $176M as BTC rebounds above $80K"
+    ]
+   },
+   "bt": {
+    "wrTest": 0.517,
+    "t": 1.53,
+    "n": 29,
+    "sharpeTest": 1.78
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 1,
+    "avgR": -1.08
+   },
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 1.91,
+    "risk": "high",
+    "note": "sentiment +1.91 su 5 titoli"
+   }
+  },
+  {
+   "sym": "DOGEUSDT",
+   "tf": "1d",
+   "strat": "Incrocio SMA 10/30 SL1.5/TP3 ATR",
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1791763199999,
+   "price": 0.0794,
+   "entry": 0.08679,
+   "sl": 0.09378852301469316,
+   "tp": 0.0727929539706137,
+   "size": 6.2,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.536,
+    "t": 2.63,
+    "n": 28,
+    "sharpeTest": 2.05
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "DOGEUSDT-1d-sma-10-30-1.5-3"
+  },
+  {
+   "sym": "LINKUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
-   "since": 1792425599999,
-   "price": 0.3313,
+   "since": 1793156399999,
+   "price": 11.622,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -147,17 +121,17 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.552,
-    "t": 1.59,
-    "n": 29,
-    "sharpeTest": 1.91
+    "wrTest": 0.468,
+    "t": 1.94,
+    "n": 62,
+    "sharpeTest": 4.29
    },
    "stage": "osservazione",
    "proof": {
     "n": 2,
-    "avgR": -1.36
+    "avgR": -1.16
    },
-   "key": "TRXUSDT-4h-brk-20-0-1-2"
+   "key": "LINKUSDT-1h-sma-5-50-1-2"
   },
   {
    "sym": "ADAUSDT",
@@ -165,8 +139,8 @@
    "strat": "Incrocio SMA 30/100 SL1.5/TP3 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
-   "since": 1792720799999,
-   "price": 0.2065,
+   "since": 1793192399999,
+   "price": 0.2033,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -187,6 +161,35 @@
     "avgR": -1.11
    },
    "key": "ADAUSDT-1h-sma-30-100-1.5-3"
+  },
+  {
+   "sym": "TRXUSDT",
+   "tf": "4h",
+   "strat": "Breakout 20 SL1/TP2 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1792425599999,
+   "price": 0.3317,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.552,
+    "t": 1.59,
+    "n": 29,
+    "sharpeTest": 1.91
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 2,
+    "avgR": -1.36
+   },
+   "key": "TRXUSDT-4h-brk-20-0-1-2"
   }
  ],
  "paper": {
