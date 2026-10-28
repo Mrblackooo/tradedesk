@@ -1,13 +1,10 @@
 {
- "updated": 1793213233842,
+ "updated": 1793227997965,
  "riskPct": 0.5,
- "blackout": {
-  "title": "FOMC Press Conference",
-  "t": 1793212200000
- },
+ "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-28T09:24:02.044Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.24).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.28).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -16,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793206799999,
-   "price": 58.51,
+   "price": 59.43,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -43,9 +40,9 @@
    "tf": "4h",
    "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
    "dir": "SHORT",
-   "action": "IN ATTESA (evento macro)",
+   "action": "ATTIVO",
    "since": 1792814399999,
-   "price": 81066.15,
+   "price": 81287.42,
    "entry": 80977.92,
    "sl": 82514.25890696287,
    "tp": 78673.41163955569,
@@ -53,8 +50,8 @@
    "news": {
     "score": 0,
     "heads": [
-     "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings",
-     "Google Cloud outlines MPC service for institutional Bitcoin custody"
+     "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost",
+     "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings"
     ]
    },
    "bt": {
@@ -70,9 +67,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.24,
+    "score": 0.28,
     "risk": "low",
-    "note": "sentiment +0.24 su 2 titoli"
+    "note": "sentiment +0.28 su 2 titoli"
    }
   },
   {
@@ -80,9 +77,9 @@
    "tf": "1d",
    "strat": "Incrocio SMA 10/30 SL1.5/TP3 ATR",
    "dir": "SHORT",
-   "action": "IN ATTESA (evento macro)",
+   "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07953,
+   "price": 0.07991,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -111,7 +108,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793156399999,
-   "price": 11.681,
+   "price": 11.822,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -140,7 +137,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793192399999,
-   "price": 0.204,
+   "price": 0.206,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -169,7 +166,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.33,
+   "price": 0.3299,
    "entry": null,
    "sl": null,
    "tp": null,
