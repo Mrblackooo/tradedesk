@@ -1,23 +1,23 @@
 {
- "updated": 1793147076379,
+ "updated": 1793167905223,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-27T08:44:01.090Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.73).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.58).",
  "signals": [
   {
    "sym": "LINKUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
-   "dir": "LONG",
-   "action": "ATTIVO",
-   "since": 1793120399999,
-   "price": 11.566,
-   "entry": 11.492,
-   "sl": 11.383962744129255,
-   "tp": 11.708074511741493,
-   "size": 53.2,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1793156399999,
+   "price": 11.742,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
     "score": 0,
     "heads": []
@@ -42,16 +42,16 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792814399999,
-   "price": 80767.17,
+   "price": 80935.01,
    "entry": 80977.92,
    "sl": 82514.25890696287,
    "tp": 78673.41163955569,
    "size": 26.4,
    "news": {
-    "score": 0,
+    "score": -1,
     "heads": [
-     "VanEck launches diversified ETF combining stocks, bonds and Bitcoin exposure",
-     "Quantum fears already limiting Bitcoin’s growth, Stacks founder says"
+     "Bitcoin treasury Datavault AI plunges 50% after firm says it can’t access its BTC",
+     "Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8%"
     ]
    },
    "bt": {
@@ -67,9 +67,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.73,
+    "score": -0.58,
     "risk": "low",
-    "note": "sentiment -0.73 su 2 titoli"
+    "note": "sentiment -0.58 su 2 titoli"
    }
   },
   {
@@ -79,7 +79,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07886,
+   "price": 0.07973,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -108,7 +108,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1793131199999,
-   "price": 57.08,
+   "price": 57.43,
    "entry": 56.78,
    "sl": 55.438024353449336,
    "tp": 58.792963469826,
@@ -137,7 +137,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3322,
+   "price": 0.3313,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -166,7 +166,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792720799999,
-   "price": 0.2056,
+   "price": 0.2065,
    "entry": null,
    "sl": null,
    "tp": null,
