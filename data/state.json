@@ -1,23 +1,26 @@
 {
- "updated": 1793192679621,
+ "updated": 1793213233842,
  "riskPct": 0.5,
- "blackout": null,
+ "blackout": {
+  "title": "FOMC Press Conference",
+  "t": 1793212200000
+ },
  "minPaper": 10,
  "scannedAt": "2026-10-28T09:24:02.044Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.91).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.24).",
  "signals": [
   {
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
-   "dir": "LONG",
-   "action": "ATTIVO",
-   "since": 1793131199999,
-   "price": 57.26,
-   "entry": 56.78,
-   "sl": 55.438024353449336,
-   "tp": 58.792963469826,
-   "size": 21.2,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1793206799999,
+   "price": 58.51,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
     "score": 0,
     "heads": []
@@ -30,8 +33,8 @@
    },
    "stage": "osservazione",
    "proof": {
-    "n": 4,
-    "avgR": -0.33
+    "n": 5,
+    "avgR": 0.03
    },
    "key": "LTCUSDT-1h-sma-8-80-3-4.5"
   },
@@ -40,21 +43,18 @@
    "tf": "4h",
    "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
    "dir": "SHORT",
-   "action": "IN ATTESA (news contrarie)",
+   "action": "IN ATTESA (evento macro)",
    "since": 1792814399999,
-   "price": 80764.68,
+   "price": 81066.15,
    "entry": 80977.92,
    "sl": 82514.25890696287,
    "tp": 78673.41163955569,
    "size": 26.4,
    "news": {
-    "score": 3,
+    "score": 0,
     "heads": [
-     "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9%",
-     "Live updates: Bitcoin edges higher ahead of Fed decision Wednesday afternoon.",
-     "Here's how much bitcoin and the S&P 500 could rally after midterms",
-     "Bitcoin price eyes $82K as Morgan Stanley strategist says most of correction is over",
-     "Bitcoin ETF inflows climb to $176M as BTC rebounds above $80K"
+     "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings",
+     "Google Cloud outlines MPC service for institutional Bitcoin custody"
     ]
    },
    "bt": {
@@ -70,9 +70,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 1.91,
-    "risk": "high",
-    "note": "sentiment +1.91 su 5 titoli"
+    "score": 0.24,
+    "risk": "low",
+    "note": "sentiment +0.24 su 2 titoli"
    }
   },
   {
@@ -80,9 +80,9 @@
    "tf": "1d",
    "strat": "Incrocio SMA 10/30 SL1.5/TP3 ATR",
    "dir": "SHORT",
-   "action": "ATTIVO",
+   "action": "IN ATTESA (evento macro)",
    "since": 1791763199999,
-   "price": 0.0794,
+   "price": 0.07953,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.0727929539706137,
@@ -111,7 +111,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793156399999,
-   "price": 11.622,
+   "price": 11.681,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -140,7 +140,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793192399999,
-   "price": 0.2033,
+   "price": 0.204,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -169,7 +169,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3317,
+   "price": 0.33,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -193,10 +193,10 @@
   }
  ],
  "paper": {
-  "n": 12,
-  "wr": 0.167,
-  "avgR": -0.7,
-  "sumPct": -8.8
+  "n": 13,
+  "wr": 0.231,
+  "avgR": -0.54,
+  "sumPct": -5.41
  },
  "recent": [
   {
@@ -210,9 +210,13 @@
    "tp": 58.792963469826,
    "slPct": 2.363,
    "t0": 1793131199999,
-   "status": "open",
+   "status": "tp",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 58.792963469826,
+   "t1": 1793203200000,
+   "pct": 3.385,
+   "r": 1.43
   },
   {
    "id": "LINKUSDT-1h-1793044799999",
