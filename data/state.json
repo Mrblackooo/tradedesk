@@ -1,10 +1,10 @@
 {
- "updated": 1793240276947,
+ "updated": 1793263026722,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-28T09:24:02.044Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.01).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.29).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793206799999,
-   "price": 58.28,
+   "price": 57.1,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,16 +42,18 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792814399999,
-   "price": 79972.91,
+   "price": 80102,
    "entry": 80977.92,
    "sl": 82514.25890696287,
    "tp": 78673.41163955569,
    "size": 26.4,
    "news": {
-    "score": 0,
+    "score": -1,
     "heads": [
-     "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost",
-     "Fed’s hawkish rate hold keeps pressure on Bitcoin: Analysts"
+     "The chart bitcoin traders should be paying attention to",
+     "AI found a way to crash bitcoin nodes on Windows and Macs. It's now public",
+     "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto",
+     "Bitcoin ETFs add $137M, pushing October back into the green"
     ]
    },
    "bt": {
@@ -67,9 +69,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.01,
+    "score": 0.29,
     "risk": "low",
-    "note": "sentiment -0.01 su 2 titoli"
+    "note": "sentiment +0.29 su 4 titoli"
    }
   },
   {
@@ -79,7 +81,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07781,
+   "price": 0.078,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.07279295397061371,
@@ -107,8 +109,8 @@
    "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
-   "since": 1793156399999,
-   "price": 11.408,
+   "since": 1793253599999,
+   "price": 11.45,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -134,14 +136,14 @@
    "sym": "ADAUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 30/100 SL1.5/TP3 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1793192399999,
-   "price": 0.1974,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1793246399999,
+   "price": 0.1986,
+   "entry": 0.1975,
+   "sl": 0.20131978323856298,
+   "tp": 0.1898604335228741,
+   "size": 25.9,
    "news": {
     "score": 0,
     "heads": []
@@ -166,7 +168,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3296,
+   "price": 0.3315,
    "entry": null,
    "sl": null,
    "tp": null,
