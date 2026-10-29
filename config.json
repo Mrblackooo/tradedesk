@@ -26,25 +26,6 @@
  },
  "watch": [
   {
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "st": "sma",
-   "a": 8,
-   "b": 80,
-   "ks": 3,
-   "kt": 4.5,
-   "lo": false,
-   "active": true,
-   "adopted": "2026-10-12T10:24:01.303Z",
-   "bt": {
-    "wrTest": 0.457,
-    "t": 1.47,
-    "n": 35,
-    "sharpeTest": 3.28
-   },
-   "tested": "2026-10-28T09:24:02.042Z"
-  },
-  {
    "sym": "BTCUSDT",
    "tf": "4h",
    "st": "sma",
@@ -56,12 +37,12 @@
    "active": true,
    "adopted": "2026-10-12T10:24:01.305Z",
    "bt": {
-    "wrTest": 0.517,
-    "t": 1.53,
-    "n": 29,
-    "sharpeTest": 1.78
+    "wrTest": 0.571,
+    "t": 1.68,
+    "n": 28,
+    "sharpeTest": 1.9
    },
-   "tested": "2026-10-28T09:24:02.044Z"
+   "tested": "2026-10-29T09:31:43.761Z"
   },
   {
    "sym": "DOGEUSDT",
@@ -76,11 +57,11 @@
    "adopted": "2026-10-12T10:24:01.304Z",
    "bt": {
     "wrTest": 0.536,
-    "t": 2.63,
+    "t": 2.67,
     "n": 28,
-    "sharpeTest": 2.05
+    "sharpeTest": 2.08
    },
-   "tested": "2026-10-28T09:24:02.044Z"
+   "tested": "2026-10-29T09:31:43.762Z"
   },
   {
    "sym": "LINKUSDT",
@@ -94,12 +75,12 @@
    "active": true,
    "adopted": "2026-10-25T08:11:26.509Z",
    "bt": {
-    "wrTest": 0.468,
-    "t": 1.94,
-    "n": 62,
-    "sharpeTest": 4.29
+    "wrTest": 0.46,
+    "t": 1.82,
+    "n": 63,
+    "sharpeTest": 4.04
    },
-   "tested": "2026-10-28T09:24:02.044Z"
+   "tested": "2026-10-29T09:31:43.762Z"
   },
   {
    "sym": "ADAUSDT",
@@ -113,12 +94,31 @@
    "active": true,
    "adopted": "2026-10-27T08:44:01.090Z",
    "bt": {
-    "wrTest": 0.6,
-    "t": 2.06,
-    "n": 20,
-    "sharpeTest": 4.28
+    "wrTest": 0.545,
+    "t": 1.82,
+    "n": 22,
+    "sharpeTest": 3.88
    },
-   "tested": "2026-10-28T09:24:02.044Z"
+   "tested": "2026-10-29T09:31:43.762Z"
+  },
+  {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "st": "sma",
+   "a": 8,
+   "b": 80,
+   "ks": 3,
+   "kt": 4.5,
+   "lo": false,
+   "active": true,
+   "adopted": "2026-10-12T10:24:01.303Z",
+   "bt": {
+    "wrTest": 0.457,
+    "t": 1.56,
+    "n": 35,
+    "sharpeTest": 3.48
+   },
+   "tested": "2026-10-29T09:31:43.762Z"
   },
   {
    "sym": "TRXUSDT",
@@ -137,8 +137,8 @@
     "n": 29,
     "sharpeTest": 1.91
    },
-   "tested": "2026-10-28T09:24:02.044Z"
+   "tested": "2026-10-29T09:31:43.762Z"
   }
  ],
- "scannedAt": "2026-10-28T09:24:02.044Z"
+ "scannedAt": "2026-10-29T09:31:43.762Z"
 }
