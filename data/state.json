@@ -1,10 +1,10 @@
 {
- "updated": 1793227997965,
+ "updated": 1793240276947,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-28T09:24:02.044Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.28).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.01).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793206799999,
-   "price": 59.43,
+   "price": 58.28,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1792814399999,
-   "price": 81287.42,
+   "price": 79972.91,
    "entry": 80977.92,
    "sl": 82514.25890696287,
    "tp": 78673.41163955569,
@@ -51,7 +51,7 @@
     "score": 0,
     "heads": [
      "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost",
-     "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings"
+     "Fed’s hawkish rate hold keeps pressure on Bitcoin: Analysts"
     ]
    },
    "bt": {
@@ -67,9 +67,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.28,
+    "score": -0.01,
     "risk": "low",
-    "note": "sentiment +0.28 su 2 titoli"
+    "note": "sentiment -0.01 su 2 titoli"
    }
   },
   {
@@ -79,10 +79,10 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07991,
+   "price": 0.07781,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
-   "tp": 0.0727929539706137,
+   "tp": 0.07279295397061371,
    "size": 6.2,
    "news": {
     "score": 0,
@@ -108,7 +108,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793156399999,
-   "price": 11.822,
+   "price": 11.408,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -137,7 +137,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793192399999,
-   "price": 0.206,
+   "price": 0.1974,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -166,7 +166,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1792425599999,
-   "price": 0.3299,
+   "price": 0.3296,
    "entry": null,
    "sl": null,
    "tp": null,
