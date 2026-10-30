@@ -1,10 +1,10 @@
 {
- "updated": 1793384156250,
+ "updated": 1793399175581,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-30T09:42:55.205Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.61).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.33).",
  "signals": [
   {
    "sym": "LINKUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793311199999,
-   "price": 11.216,
+   "price": 11.317,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793271599999,
-   "price": 0.1926,
+   "price": 0.1938,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793332799999,
-   "price": 0.3323,
+   "price": 0.3283,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793311199999,
-   "price": 55.34,
+   "price": 55.36,
    "entry": 55.32,
    "sl": 58.08606548997355,
    "tp": 51.17090176503967,
@@ -129,17 +129,15 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 77118.01,
+   "price": 76831.27,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -1,
+    "score": 0,
     "heads": [
-     "Crypto Biz: Bitcoin’s quantum threat is becoming an economic problem",
-     "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold",
-     "Will gold’s ‘infinite mint bug’ make Bitcoin more valuable?"
+     "Crypto Biz: Bitcoin’s quantum threat is becoming an economic problem"
     ]
    },
    "bt": {
@@ -155,9 +153,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.61,
+    "score": -0.33,
     "risk": "low",
-    "note": "sentiment -0.61 su 3 titoli"
+    "note": "sentiment -0.33 su 1 titoli"
    }
   },
   {
@@ -167,7 +165,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07533,
+   "price": 0.07543,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.07279295397061371,
