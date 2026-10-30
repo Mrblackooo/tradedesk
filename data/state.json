@@ -1,10 +1,10 @@
 {
- "updated": 1793319117411,
+ "updated": 1793339778239,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-29T09:31:43.762Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.65).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.19).",
  "signals": [
   {
    "sym": "BTCUSDT",
@@ -13,15 +13,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 77960.92,
+   "price": 78582.19,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -1,
+    "score": -2,
     "heads": [
-     "Binance hack rattles crypto markets as BNB falls 7%, Bitcoin slides"
+     "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
+     "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain"
     ]
    },
    "bt": {
@@ -37,9 +38,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.65,
+    "score": 0.19,
     "risk": "low",
-    "note": "sentiment -0.65 su 1 titoli"
+    "note": "sentiment +0.19 su 2 titoli"
    }
   },
   {
@@ -49,7 +50,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07516,
+   "price": 0.0762,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.07279295397061371,
@@ -66,8 +67,8 @@
    },
    "stage": "osservazione",
    "proof": {
-    "n": 0,
-    "avgR": null
+    "n": 1,
+    "avgR": 1.98
    },
    "key": "DOGEUSDT-1d-sma-10-30-1.5-3"
   },
@@ -78,7 +79,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793311199999,
-   "price": 10.594,
+   "price": 11.097,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -107,7 +108,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793271599999,
-   "price": 0.1901,
+   "price": 0.1935,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -136,7 +137,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793311199999,
-   "price": 54.88,
+   "price": 56.25,
    "entry": 55.32,
    "sl": 58.08606548997355,
    "tp": 51.17090176503967,
@@ -162,14 +163,14 @@
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
-   "dir": "LONG",
-   "action": "ATTIVO",
-   "since": 1793318399999,
-   "price": 0.3607,
-   "entry": 0.3524,
-   "sl": 0.34874396814815645,
-   "tp": 0.35971206370368713,
-   "size": 48.2,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1793332799999,
+   "price": 0.3355,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
     "score": 0,
     "heads": []
@@ -182,17 +183,17 @@
    },
    "stage": "osservazione",
    "proof": {
-    "n": 2,
-    "avgR": -1.36
+    "n": 3,
+    "avgR": -1.29
    },
    "key": "TRXUSDT-4h-brk-20-0-1-2"
   }
  ],
  "paper": {
-  "n": 15,
-  "wr": 0.267,
-  "avgR": -0.45,
-  "sumPct": -3.99
+  "n": 17,
+  "wr": 0.294,
+  "avgR": -0.35,
+  "sumPct": 10.78
  },
  "recent": [
   {
@@ -206,9 +207,13 @@
    "tp": 0.35971206370368713,
    "slPct": 1.037,
    "t0": 1793318399999,
-   "status": "open",
+   "status": "sl",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 0.34874396814815645,
+   "t1": 1793318400000,
+   "pct": -1.197,
+   "r": -1.15
   },
   {
    "id": "LINKUSDT-1h-1793285999999",
@@ -449,9 +454,13 @@
    "tp": 0.0727929539706137,
    "slPct": 8.064,
    "t0": 1791763199999,
-   "status": "open",
+   "status": "tp",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 0.0727929539706137,
+   "t1": 1793318400000,
+   "pct": 15.967,
+   "r": 1.98
   },
   {
    "id": "LTCUSDT-1h-1791734399999",
