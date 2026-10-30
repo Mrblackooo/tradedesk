@@ -1,77 +1,11 @@
 {
- "updated": 1793339778239,
+ "updated": 1793364049055,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-10-29T09:31:43.762Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.19).",
+ "scannedAt": "2026-10-30T09:42:55.205Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.87).",
  "signals": [
-  {
-   "sym": "BTCUSDT",
-   "tf": "4h",
-   "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1793318399999,
-   "price": 78582.19,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": -2,
-    "heads": [
-     "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
-     "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain"
-    ]
-   },
-   "bt": {
-    "wrTest": 0.571,
-    "t": 1.68,
-    "n": 28,
-    "sharpeTest": 1.9
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 2,
-    "avgR": 0.17
-   },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": 0.19,
-    "risk": "low",
-    "note": "sentiment +0.19 su 2 titoli"
-   }
-  },
-  {
-   "sym": "DOGEUSDT",
-   "tf": "1d",
-   "strat": "Incrocio SMA 10/30 SL1.5/TP3 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1791763199999,
-   "price": 0.0762,
-   "entry": 0.08679,
-   "sl": 0.09378852301469316,
-   "tp": 0.07279295397061371,
-   "size": 6.2,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.536,
-    "t": 2.67,
-    "n": 28,
-    "sharpeTest": 2.08
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 1,
-    "avgR": 1.98
-   },
-   "key": "DOGEUSDT-1d-sma-10-30-1.5-3"
-  },
   {
    "sym": "LINKUSDT",
    "tf": "1h",
@@ -79,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793311199999,
-   "price": 11.097,
+   "price": 11.086,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -89,10 +23,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.46,
-    "t": 1.82,
-    "n": 63,
-    "sharpeTest": 4.04
+    "wrTest": 0.446,
+    "t": 1.55,
+    "n": 65,
+    "sharpeTest": 3.42
    },
    "stage": "osservazione",
    "proof": {
@@ -108,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793271599999,
-   "price": 0.1935,
+   "price": 0.1931,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -119,9 +53,9 @@
    },
    "bt": {
     "wrTest": 0.545,
-    "t": 1.82,
+    "t": 1.73,
     "n": 22,
-    "sharpeTest": 3.88
+    "sharpeTest": 3.72
    },
    "stage": "osservazione",
    "proof": {
@@ -131,42 +65,13 @@
    "key": "ADAUSDT-1h-sma-30-100-1.5-3"
   },
   {
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1793311199999,
-   "price": 56.25,
-   "entry": 55.32,
-   "sl": 58.08606548997355,
-   "tp": 51.17090176503967,
-   "size": 10,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.457,
-    "t": 1.56,
-    "n": 35,
-    "sharpeTest": 3.48
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 5,
-    "avgR": 0.03
-   },
-   "key": "LTCUSDT-1h-sma-8-80-3-4.5"
-  },
-  {
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793332799999,
-   "price": 0.3355,
+   "price": 0.3318,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -176,10 +81,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.552,
-    "t": 1.59,
-    "n": 29,
-    "sharpeTest": 1.91
+    "wrTest": 0.533,
+    "t": 1.28,
+    "n": 30,
+    "sharpeTest": 1.55
    },
    "stage": "osservazione",
    "proof": {
@@ -187,6 +92,103 @@
     "avgR": -1.29
    },
    "key": "TRXUSDT-4h-brk-20-0-1-2"
+  },
+  {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1793311199999,
+   "price": 55.46,
+   "entry": 55.32,
+   "sl": 58.08606548997355,
+   "tp": 51.17090176503967,
+   "size": 10,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.444,
+    "t": 1.52,
+    "n": 36,
+    "sharpeTest": 3.36
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 5,
+    "avgR": 0.03
+   },
+   "key": "LTCUSDT-1h-sma-8-80-3-4.5"
+  },
+  {
+   "sym": "BTCUSDT",
+   "tf": "4h",
+   "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1793318399999,
+   "price": 77416.54,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": -4,
+    "heads": [
+     "Here's how big bitcoin traders responded after the Binance hack hit",
+     "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
+     "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack",
+     "Binance hacker’s Bitcoin haul tops Coinbase’s corporate treasury"
+    ]
+   },
+   "bt": {
+    "wrTest": 0.556,
+    "t": 1.68,
+    "n": 27,
+    "sharpeTest": 1.88
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 2,
+    "avgR": 0.17
+   },
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.87,
+    "risk": "low",
+    "note": "sentiment +0.87 su 4 titoli"
+   }
+  },
+  {
+   "sym": "DOGEUSDT",
+   "tf": "1d",
+   "strat": "Incrocio SMA 10/30 SL1.5/TP3 ATR",
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1791763199999,
+   "price": 0.07581,
+   "entry": 0.08679,
+   "sl": 0.09378852301469316,
+   "tp": 0.07279295397061371,
+   "size": 6.2,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.536,
+    "t": 2.74,
+    "n": 28,
+    "sharpeTest": 2.14
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 1,
+    "avgR": 1.98
+   },
+   "key": "DOGEUSDT-1d-sma-10-30-1.5-3"
   }
  ],
  "paper": {
