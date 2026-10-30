@@ -1,27 +1,27 @@
 {
- "updated": 1793305795050,
+ "updated": 1793319117411,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-29T09:31:43.762Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.17).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.65).",
  "signals": [
   {
    "sym": "BTCUSDT",
    "tf": "4h",
    "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1792814399999,
-   "price": 80395.81,
-   "entry": 80977.92,
-   "sl": 82514.25890696287,
-   "tp": 78673.41163955569,
-   "size": 26.4,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1793318399999,
+   "price": 77960.92,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
-    "score": 0,
+    "score": -1,
     "heads": [
-     "Bitcoin price jumps to $81.5K as US GDP data beats expectations"
+     "Binance hack rattles crypto markets as BNB falls 7%, Bitcoin slides"
     ]
    },
    "bt": {
@@ -32,14 +32,14 @@
    },
    "stage": "osservazione",
    "proof": {
-    "n": 1,
-    "avgR": -1.08
+    "n": 2,
+    "avgR": 0.17
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.17,
+    "score": -0.65,
     "risk": "low",
-    "note": "sentiment +0.17 su 1 titoli"
+    "note": "sentiment -0.65 su 1 titoli"
    }
   },
   {
@@ -49,7 +49,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07844,
+   "price": 0.07516,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.07279295397061371,
@@ -77,8 +77,8 @@
    "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
-   "since": 1793300399999,
-   "price": 11.525,
+   "since": 1793311199999,
+   "price": 10.594,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -107,7 +107,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793271599999,
-   "price": 0.1995,
+   "price": 0.1901,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -133,14 +133,14 @@
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1793206799999,
-   "price": 57.22,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1793311199999,
+   "price": 54.88,
+   "entry": 55.32,
+   "sl": 58.08606548997355,
+   "tp": 51.17090176503967,
+   "size": 10,
    "news": {
     "score": 0,
     "heads": []
@@ -162,14 +162,14 @@
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1792425599999,
-   "price": 0.3314,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1793318399999,
+   "price": 0.3607,
+   "entry": 0.3524,
+   "sl": 0.34874396814815645,
+   "tp": 0.35971206370368713,
+   "size": 48.2,
    "news": {
     "score": 0,
     "heads": []
@@ -189,12 +189,27 @@
   }
  ],
  "paper": {
-  "n": 14,
-  "wr": 0.214,
-  "avgR": -0.58,
-  "sumPct": -6.67
+  "n": 15,
+  "wr": 0.267,
+  "avgR": -0.45,
+  "sumPct": -3.99
  },
  "recent": [
+  {
+   "id": "TRXUSDT-4h-1793318399999",
+   "key": "TRXUSDT-4h-brk-20-0-1-2",
+   "sym": "TRXUSDT",
+   "tf": "4h",
+   "dir": "LONG",
+   "entry": 0.3524,
+   "sl": 0.34874396814815645,
+   "tp": 0.35971206370368713,
+   "slPct": 1.037,
+   "t0": 1793318399999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
   {
    "id": "LINKUSDT-1h-1793285999999",
    "key": "LINKUSDT-1h-sma-5-50-1-2",
@@ -282,9 +297,13 @@
    "tp": 78673.41163955569,
    "slPct": 1.897,
    "t0": 1792814399999,
-   "status": "open",
+   "status": "tp",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 78673.41163955569,
+   "t1": 1793304000000,
+   "pct": 2.686,
+   "r": 1.42
   },
   {
    "id": "ADAUSDT-1h-1792702799999",
@@ -452,25 +471,6 @@
    "t1": 1791813600000,
    "pct": -1.856,
    "r": -1.09
-  },
-  {
-   "id": "ADAUSDT-1h-1791669599999",
-   "key": "ADAUSDT-1h-sma-30-100-1.5-3",
-   "sym": "ADAUSDT",
-   "tf": "1h",
-   "dir": "LONG",
-   "entry": 0.253,
-   "sl": 0.2492340091656545,
-   "tp": 0.260531981668691,
-   "slPct": 1.489,
-   "t0": 1791669599999,
-   "status": "sl",
-   "news": 0,
-   "blackout": false,
-   "exit": 0.2492340091656545,
-   "t1": 1791673200000,
-   "pct": -1.649,
-   "r": -1.11
   }
  ]
 }
