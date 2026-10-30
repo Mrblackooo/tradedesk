@@ -1,10 +1,10 @@
 {
- "updated": 1793364049055,
+ "updated": 1793384156250,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-30T09:42:55.205Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.87).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.61).",
  "signals": [
   {
    "sym": "LINKUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793311199999,
-   "price": 11.086,
+   "price": 11.216,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793271599999,
-   "price": 0.1931,
+   "price": 0.1926,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793332799999,
-   "price": 0.3318,
+   "price": 0.3323,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793311199999,
-   "price": 55.46,
+   "price": 55.34,
    "entry": 55.32,
    "sl": 58.08606548997355,
    "tp": 51.17090176503967,
@@ -129,18 +129,17 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 77416.54,
+   "price": 77118.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -4,
+    "score": -1,
     "heads": [
-     "Here's how big bitcoin traders responded after the Binance hack hit",
-     "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
-     "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack",
-     "Binance hacker’s Bitcoin haul tops Coinbase’s corporate treasury"
+     "Crypto Biz: Bitcoin’s quantum threat is becoming an economic problem",
+     "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold",
+     "Will gold’s ‘infinite mint bug’ make Bitcoin more valuable?"
     ]
    },
    "bt": {
@@ -156,9 +155,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.87,
+    "score": -0.61,
     "risk": "low",
-    "note": "sentiment +0.87 su 4 titoli"
+    "note": "sentiment -0.61 su 3 titoli"
    }
   },
   {
@@ -168,7 +167,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1791763199999,
-   "price": 0.07581,
+   "price": 0.07533,
    "entry": 0.08679,
    "sl": 0.09378852301469316,
    "tp": 0.07279295397061371,
