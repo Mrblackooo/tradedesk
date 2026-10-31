@@ -1,11 +1,40 @@
 {
- "updated": 1793431984040,
+ "updated": 1793454596048,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-10-30T09:42:55.205Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.59).",
+ "scannedAt": "2026-10-31T09:22:53.015Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.04).",
  "signals": [
+  {
+   "sym": "TRXUSDT",
+   "tf": "4h",
+   "strat": "Breakout 20 SL1/TP2 ATR",
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1793404799999,
+   "price": 0.3176,
+   "entry": 0.3272,
+   "sl": 0.3335453285629772,
+   "tp": 0.3145093428740456,
+   "size": 25.8,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.548,
+    "t": 1.64,
+    "n": 31,
+    "sharpeTest": 2.08
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 3,
+    "avgR": -1.29
+   },
+   "key": "TRXUSDT-4h-brk-20-0-1-2"
+  },
   {
    "sym": "LINKUSDT",
    "tf": "1h",
@@ -13,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793419199999,
-   "price": 11.416,
+   "price": 11.588,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -23,10 +52,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.446,
-    "t": 1.55,
-    "n": 65,
-    "sharpeTest": 3.42
+    "wrTest": 0.453,
+    "t": 1.59,
+    "n": 64,
+    "sharpeTest": 3.52
    },
    "stage": "osservazione",
    "proof": {
@@ -42,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793271599999,
-   "price": 0.1934,
+   "price": 0.193,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -65,42 +94,13 @@
    "key": "ADAUSDT-1h-sma-30-100-1.5-3"
   },
   {
-   "sym": "TRXUSDT",
-   "tf": "4h",
-   "strat": "Breakout 20 SL1/TP2 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1793404799999,
-   "price": 0.3221,
-   "entry": 0.3272,
-   "sl": 0.3335453285629772,
-   "tp": 0.3145093428740456,
-   "size": 25.8,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.533,
-    "t": 1.28,
-    "n": 30,
-    "sharpeTest": 1.55
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 3,
-    "avgR": -1.29
-   },
-   "key": "TRXUSDT-4h-brk-20-0-1-2"
-  },
-  {
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793311199999,
-   "price": 55.06,
+   "price": 55.1,
    "entry": 55.32,
    "sl": 58.08606548997355,
    "tp": 51.17090176503967,
@@ -110,10 +110,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.444,
-    "t": 1.52,
-    "n": 36,
-    "sharpeTest": 3.36
+    "wrTest": 0.515,
+    "t": 1.72,
+    "n": 33,
+    "sharpeTest": 3.72
    },
    "stage": "osservazione",
    "proof": {
@@ -129,15 +129,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 77386,
+   "price": 77610.7,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
+    "score": -1,
     "heads": [
-     "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve"
+     "18 years in, what has Bitcoin truly done?",
+     "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears"
     ]
    },
    "bt": {
@@ -153,9 +154,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.59,
+    "score": 0.04,
     "risk": "low",
-    "note": "sentiment +0.59 su 1 titoli"
+    "note": "sentiment +0.04 su 2 titoli"
    }
   },
   {
@@ -165,7 +166,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.07529,
+   "price": 0.07552,
    "entry": null,
    "sl": null,
    "tp": null,
