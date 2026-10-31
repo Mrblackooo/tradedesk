@@ -1,23 +1,23 @@
 {
- "updated": 1793454596048,
+ "updated": 1793469533374,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-31T09:22:53.015Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.04).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.07).",
  "signals": [
   {
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1793404799999,
-   "price": 0.3176,
-   "entry": 0.3272,
-   "sl": 0.3335453285629772,
-   "tp": 0.3145093428740456,
-   "size": 25.8,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1793462399999,
+   "price": 0.3074,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
     "score": 0,
     "heads": []
@@ -30,8 +30,8 @@
    },
    "stage": "osservazione",
    "proof": {
-    "n": 3,
-    "avgR": -1.29
+    "n": 4,
+    "avgR": -0.49
    },
    "key": "TRXUSDT-4h-brk-20-0-1-2"
   },
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793419199999,
-   "price": 11.588,
+   "price": 11.716,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793271599999,
-   "price": 0.193,
+   "price": 0.1938,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793311199999,
-   "price": 55.1,
+   "price": 55.63,
    "entry": 55.32,
    "sl": 58.08606548997355,
    "tp": 51.17090176503967,
@@ -129,16 +129,19 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 77610.7,
+   "price": 77718.9,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -1,
+    "score": -2,
     "heads": [
+     "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
      "18 years in, what has Bitcoin truly done?",
-     "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears"
+     "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears",
+     "Bitcoin held up better than expected after Binance hack, Strive CEO says",
+     "Bitcoin turns 18: Has the original rebel grown up?"
     ]
    },
    "bt": {
@@ -154,9 +157,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.04,
+    "score": 1.07,
     "risk": "low",
-    "note": "sentiment +0.04 su 2 titoli"
+    "note": "sentiment +1.07 su 5 titoli"
    }
   },
   {
@@ -166,7 +169,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.07552,
+   "price": 0.07588,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -190,10 +193,10 @@
   }
  ],
  "paper": {
-  "n": 18,
-  "wr": 0.278,
-  "avgR": -0.39,
-  "sumPct": 9.11
+  "n": 19,
+  "wr": 0.316,
+  "avgR": -0.27,
+  "sumPct": 12.83
  },
  "recent": [
   {
@@ -207,9 +210,13 @@
    "tp": 0.3145093428740456,
    "slPct": 1.939,
    "t0": 1793404799999,
-   "status": "open",
+   "status": "tp",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 0.3145093428740456,
+   "t1": 1793448000000,
+   "pct": 3.719,
+   "r": 1.92
   },
   {
    "id": "LINKUSDT-1h-1793408399999",
