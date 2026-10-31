@@ -1,10 +1,10 @@
 {
- "updated": 1793469533374,
+ "updated": 1793481811433,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-31T09:22:53.015Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.07).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+1.02).",
  "signals": [
   {
    "sym": "TRXUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793462399999,
-   "price": 0.3074,
+   "price": 0.3039,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793419199999,
-   "price": 11.716,
+   "price": 11.825,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793271599999,
-   "price": 0.1938,
+   "price": 0.193,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793311199999,
-   "price": 55.63,
+   "price": 55.93,
    "entry": 55.32,
    "sl": 58.08606548997355,
    "tp": 51.17090176503967,
@@ -129,19 +129,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 77718.9,
+   "price": 77512.35,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -2,
+    "score": -1,
     "heads": [
-     "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
-     "18 years in, what has Bitcoin truly done?",
-     "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears",
-     "Bitcoin held up better than expected after Binance hack, Strive CEO says",
-     "Bitcoin turns 18: Has the original rebel grown up?"
+     "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
+     "Bitcoin held up better than expected after Binance hack, Strive CEO says"
     ]
    },
    "bt": {
@@ -157,9 +154,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 1.07,
+    "score": 1.02,
     "risk": "low",
-    "note": "sentiment +1.07 su 5 titoli"
+    "note": "sentiment +1.02 su 2 titoli"
    }
   },
   {
@@ -169,7 +166,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.07588,
+   "price": 0.07581,
    "entry": null,
    "sl": null,
    "tp": null,
