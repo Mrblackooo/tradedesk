@@ -1,23 +1,23 @@
 {
- "updated": 1793411131262,
+ "updated": 1793431984040,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-30T09:42:55.205Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.59).",
  "signals": [
   {
    "sym": "LINKUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
-   "dir": "LONG",
-   "action": "ATTIVO",
-   "since": 1793408399999,
-   "price": 11.669,
-   "entry": 11.664,
-   "sl": 11.48737764476096,
-   "tp": 12.017244710478082,
-   "size": 33,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1793419199999,
+   "price": 11.416,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
     "score": 0,
     "heads": []
@@ -30,8 +30,8 @@
    },
    "stage": "osservazione",
    "proof": {
-    "n": 3,
-    "avgR": -1.16
+    "n": 4,
+    "avgR": -1.15
    },
    "key": "LINKUSDT-1h-sma-5-50-1-2"
   },
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793271599999,
-   "price": 0.1956,
+   "price": 0.1934,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793404799999,
-   "price": 0.3222,
+   "price": 0.3221,
    "entry": 0.3272,
    "sl": 0.3335453285629772,
    "tp": 0.3145093428740456,
@@ -100,7 +100,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793311199999,
-   "price": 55.6,
+   "price": 55.06,
    "entry": 55.32,
    "sl": 58.08606548997355,
    "tp": 51.17090176503967,
@@ -129,14 +129,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 77474,
+   "price": 77386,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve"
+    ]
    },
    "bt": {
     "wrTest": 0.556,
@@ -149,7 +151,12 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.59,
+    "risk": "low",
+    "note": "sentiment +0.59 su 1 titoli"
+   }
   },
   {
    "sym": "DOGEUSDT",
@@ -158,7 +165,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.07615,
+   "price": 0.07529,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -182,10 +189,10 @@
   }
  ],
  "paper": {
-  "n": 17,
-  "wr": 0.294,
-  "avgR": -0.35,
-  "sumPct": 10.78
+  "n": 18,
+  "wr": 0.278,
+  "avgR": -0.39,
+  "sumPct": 9.11
  },
  "recent": [
   {
@@ -214,9 +221,13 @@
    "tp": 12.017244710478082,
    "slPct": 1.514,
    "t0": 1793408399999,
-   "status": "open",
+   "status": "sl",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 11.48737764476096,
+   "t1": 1793415600000,
+   "pct": -1.674,
+   "r": -1.11
   },
   {
    "id": "TRXUSDT-4h-1793318399999",
