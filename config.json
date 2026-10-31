@@ -26,6 +26,25 @@
  },
  "watch": [
   {
+   "sym": "TRXUSDT",
+   "tf": "4h",
+   "st": "brk",
+   "a": 20,
+   "b": 0,
+   "ks": 1,
+   "kt": 2,
+   "lo": false,
+   "active": true,
+   "adopted": "2026-10-12T10:24:01.305Z",
+   "bt": {
+    "wrTest": 0.548,
+    "t": 1.64,
+    "n": 31,
+    "sharpeTest": 2.08
+   },
+   "tested": "2026-10-31T09:22:53.013Z"
+  },
+  {
    "sym": "LINKUSDT",
    "tf": "1h",
    "st": "sma",
@@ -37,12 +56,12 @@
    "active": true,
    "adopted": "2026-10-25T08:11:26.509Z",
    "bt": {
-    "wrTest": 0.446,
-    "t": 1.55,
-    "n": 65,
-    "sharpeTest": 3.42
+    "wrTest": 0.453,
+    "t": 1.59,
+    "n": 64,
+    "sharpeTest": 3.52
    },
-   "tested": "2026-10-30T09:42:55.203Z"
+   "tested": "2026-10-31T09:22:53.014Z"
   },
   {
    "sym": "ADAUSDT",
@@ -61,26 +80,7 @@
     "n": 22,
     "sharpeTest": 3.72
    },
-   "tested": "2026-10-30T09:42:55.204Z"
-  },
-  {
-   "sym": "TRXUSDT",
-   "tf": "4h",
-   "st": "brk",
-   "a": 20,
-   "b": 0,
-   "ks": 1,
-   "kt": 2,
-   "lo": false,
-   "active": true,
-   "adopted": "2026-10-12T10:24:01.305Z",
-   "bt": {
-    "wrTest": 0.533,
-    "t": 1.28,
-    "n": 30,
-    "sharpeTest": 1.55
-   },
-   "tested": "2026-10-30T09:42:55.204Z"
+   "tested": "2026-10-31T09:22:53.015Z"
   },
   {
    "sym": "LTCUSDT",
@@ -94,12 +94,12 @@
    "active": true,
    "adopted": "2026-10-12T10:24:01.303Z",
    "bt": {
-    "wrTest": 0.444,
-    "t": 1.52,
-    "n": 36,
-    "sharpeTest": 3.36
+    "wrTest": 0.515,
+    "t": 1.72,
+    "n": 33,
+    "sharpeTest": 3.72
    },
-   "tested": "2026-10-30T09:42:55.204Z"
+   "tested": "2026-10-31T09:22:53.015Z"
   },
   {
    "sym": "BTCUSDT",
@@ -118,7 +118,7 @@
     "n": 27,
     "sharpeTest": 1.88
    },
-   "tested": "2026-10-30T09:42:55.205Z"
+   "tested": "2026-10-31T09:22:53.015Z"
   },
   {
    "sym": "DOGEUSDT",
@@ -137,8 +137,8 @@
     "n": 28,
     "sharpeTest": 2.14
    },
-   "tested": "2026-10-30T09:42:55.205Z"
+   "tested": "2026-10-31T09:22:53.015Z"
   }
  ],
- "scannedAt": "2026-10-30T09:42:55.205Z"
+ "scannedAt": "2026-10-31T09:22:53.015Z"
 }
