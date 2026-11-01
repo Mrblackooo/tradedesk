@@ -1,10 +1,10 @@
 {
- "updated": 1793540987136,
+ "updated": 1793558241204,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-01T10:11:25.307Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.08).",
+ "briefing": null,
  "signals": [
   {
    "sym": "LINKUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793419199999,
-   "price": 11.594,
+   "price": 11.518,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793271599999,
-   "price": 0.1935,
+   "price": 0.1925,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -68,14 +68,14 @@
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
-   "dir": "LONG",
+   "dir": "SHORT",
    "action": "ATTIVO",
-   "since": 1793523599999,
-   "price": 55.85,
-   "entry": 56.29,
-   "sl": 55.30655826036861,
-   "tp": 57.765162609447074,
-   "size": 28.6,
+   "since": 1793552399999,
+   "price": 55.47,
+   "entry": 55.64,
+   "sl": 56.55837882259713,
+   "tp": 54.262431766104314,
+   "size": 30.3,
    "news": {
     "score": 0,
     "heads": []
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793462399999,
-   "price": 0.3108,
+   "price": 0.3136,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,16 +129,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 77949.3,
+   "price": 77974,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -1,
-    "heads": [
-     "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack"
-    ]
+    "score": 0,
+    "heads": []
    },
    "bt": {
     "wrTest": 0.556,
@@ -151,12 +149,7 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": 0.08,
-    "risk": "low",
-    "note": "sentiment +0.08 su 1 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   },
   {
    "sym": "DOGEUSDT",
@@ -165,7 +158,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.07576,
+   "price": 0.07556,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -195,6 +188,21 @@
   "sumPct": 12.83
  },
  "recent": [
+  {
+   "id": "LTCUSDT-1h-1793552399999",
+   "key": "LTCUSDT-1h-sma-8-80-3-4.5",
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "dir": "SHORT",
+   "entry": 55.64,
+   "sl": 56.55837882259713,
+   "tp": 54.262431766104314,
+   "slPct": 1.651,
+   "t0": 1793552399999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
   {
    "id": "TRXUSDT-4h-1793404799999",
    "key": "TRXUSDT-4h-brk-20-0-1-2",
@@ -460,25 +468,6 @@
    "t1": 1792411200000,
    "pct": -0.582,
    "r": -1.38
-  },
-  {
-   "id": "TRXUSDT-4h-1791979199999",
-   "key": "TRXUSDT-4h-brk-20-0-1-2",
-   "sym": "TRXUSDT",
-   "tf": "4h",
-   "dir": "LONG",
-   "entry": 0.3335,
-   "sl": 0.3319478707062672,
-   "tp": 0.3366042585874656,
-   "slPct": 0.465,
-   "t0": 1791979199999,
-   "status": "sl",
-   "news": 0,
-   "blackout": false,
-   "exit": 0.3319478707062672,
-   "t1": 1792022400000,
-   "pct": -0.625,
-   "r": -1.34
   }
  ]
 }
