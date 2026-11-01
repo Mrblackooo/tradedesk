@@ -1,10 +1,10 @@
 {
- "updated": 1793492561312,
+ "updated": 1793515423315,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-10-31T09:22:53.015Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.09).",
  "signals": [
   {
    "sym": "TRXUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793462399999,
-   "price": 0.307,
+   "price": 0.3106,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793419199999,
-   "price": 11.668,
+   "price": 11.672,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793271599999,
-   "price": 0.193,
+   "price": 0.1931,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793311199999,
-   "price": 55.67,
+   "price": 56.27,
    "entry": 55.32,
    "sl": 58.08606548997355,
    "tp": 51.17090176503967,
@@ -129,14 +129,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 77570.01,
+   "price": 77942.02,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
-    "heads": []
+    "score": -1,
+    "heads": [
+     "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses"
+    ]
    },
    "bt": {
     "wrTest": 0.556,
@@ -149,7 +151,12 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.09,
+    "risk": "low",
+    "note": "sentiment +0.09 su 1 titoli"
+   }
   },
   {
    "sym": "DOGEUSDT",
@@ -158,7 +165,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.07555,
+   "price": 0.07583,
    "entry": null,
    "sl": null,
    "tp": null,
