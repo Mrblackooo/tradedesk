@@ -26,25 +26,6 @@
  },
  "watch": [
   {
-   "sym": "TRXUSDT",
-   "tf": "4h",
-   "st": "brk",
-   "a": 20,
-   "b": 0,
-   "ks": 1,
-   "kt": 2,
-   "lo": false,
-   "active": true,
-   "adopted": "2026-10-12T10:24:01.305Z",
-   "bt": {
-    "wrTest": 0.548,
-    "t": 1.64,
-    "n": 31,
-    "sharpeTest": 2.08
-   },
-   "tested": "2026-10-31T09:22:53.013Z"
-  },
-  {
    "sym": "LINKUSDT",
    "tf": "1h",
    "st": "sma",
@@ -56,12 +37,12 @@
    "active": true,
    "adopted": "2026-10-25T08:11:26.509Z",
    "bt": {
-    "wrTest": 0.453,
-    "t": 1.59,
-    "n": 64,
-    "sharpeTest": 3.52
+    "wrTest": 0.475,
+    "t": 1.79,
+    "n": 61,
+    "sharpeTest": 3.97
    },
-   "tested": "2026-10-31T09:22:53.014Z"
+   "tested": "2026-11-01T10:11:25.305Z"
   },
   {
    "sym": "ADAUSDT",
@@ -80,7 +61,7 @@
     "n": 22,
     "sharpeTest": 3.72
    },
-   "tested": "2026-10-31T09:22:53.015Z"
+   "tested": "2026-11-01T10:11:25.306Z"
   },
   {
    "sym": "LTCUSDT",
@@ -94,12 +75,31 @@
    "active": true,
    "adopted": "2026-10-12T10:24:01.303Z",
    "bt": {
-    "wrTest": 0.515,
-    "t": 1.72,
+    "wrTest": 0.485,
+    "t": 1.54,
     "n": 33,
-    "sharpeTest": 3.72
+    "sharpeTest": 3.36
    },
-   "tested": "2026-10-31T09:22:53.015Z"
+   "tested": "2026-11-01T10:11:25.306Z"
+  },
+  {
+   "sym": "TRXUSDT",
+   "tf": "4h",
+   "st": "brk",
+   "a": 20,
+   "b": 0,
+   "ks": 1,
+   "kt": 2,
+   "lo": false,
+   "active": true,
+   "adopted": "2026-10-12T10:24:01.305Z",
+   "bt": {
+    "wrTest": 0.548,
+    "t": 1.66,
+    "n": 31,
+    "sharpeTest": 2.23
+   },
+   "tested": "2026-11-01T10:11:25.306Z"
   },
   {
    "sym": "BTCUSDT",
@@ -118,7 +118,7 @@
     "n": 27,
     "sharpeTest": 1.88
    },
-   "tested": "2026-10-31T09:22:53.015Z"
+   "tested": "2026-11-01T10:11:25.306Z"
   },
   {
    "sym": "DOGEUSDT",
@@ -137,8 +137,8 @@
     "n": 28,
     "sharpeTest": 2.14
    },
-   "tested": "2026-10-31T09:22:53.015Z"
+   "tested": "2026-11-01T10:11:25.307Z"
   }
  ],
- "scannedAt": "2026-10-31T09:22:53.015Z"
+ "scannedAt": "2026-11-01T10:11:25.307Z"
 }
