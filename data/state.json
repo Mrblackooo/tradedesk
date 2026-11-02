@@ -1,10 +1,10 @@
 {
- "updated": 1793583917744,
+ "updated": 1793607751492,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-01T10:11:25.307Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-1.73).",
  "signals": [
   {
    "sym": "LINKUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793573999999,
-   "price": 11.395,
+   "price": 11.336,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793271599999,
-   "price": 0.194,
+   "price": 0.1906,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -68,14 +68,14 @@
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1793552399999,
-   "price": 55.83,
-   "entry": 55.64,
-   "sl": 56.55837882259713,
-   "tp": 54.262431766104314,
-   "size": 30.3,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1793606399999,
+   "price": 54.99,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
     "score": 0,
     "heads": []
@@ -88,8 +88,8 @@
    },
    "stage": "osservazione",
    "proof": {
-    "n": 5,
-    "avgR": 0.03
+    "n": 6,
+    "avgR": 0.12
    },
    "key": "LTCUSDT-1h-sma-8-80-3-4.5"
   },
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793462399999,
-   "price": 0.3136,
+   "price": 0.3157,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,14 +129,20 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 78567.95,
+   "price": 78138.02,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
-    "heads": []
+    "score": -4,
+    "heads": [
+     "Bitcoin ETFs lost $643 million in outflows Friday, and 2026 is barely green now",
+     "Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time",
+     "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
+     "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets",
+     "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack"
+    ]
    },
    "bt": {
     "wrTest": 0.556,
@@ -149,7 +155,12 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": -1.73,
+    "risk": "low",
+    "note": "sentiment -1.73 su 5 titoli"
+   }
   },
   {
    "sym": "DOGEUSDT",
@@ -158,7 +169,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.07596,
+   "price": 0.07526,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -182,10 +193,10 @@
   }
  ],
  "paper": {
-  "n": 19,
-  "wr": 0.316,
-  "avgR": -0.27,
-  "sumPct": 12.83
+  "n": 20,
+  "wr": 0.35,
+  "avgR": -0.22,
+  "sumPct": 13.84
  },
  "recent": [
   {
@@ -199,9 +210,13 @@
    "tp": 54.262431766104314,
    "slPct": 1.651,
    "t0": 1793552399999,
-   "status": "open",
+   "status": "signal",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 54.99,
+   "t1": 1793607750419,
+   "pct": 1.008,
+   "r": 0.61
   },
   {
    "id": "TRXUSDT-4h-1793404799999",
