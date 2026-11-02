@@ -1,10 +1,10 @@
 {
- "updated": 1793607751492,
+ "updated": 1793645162303,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-11-01T10:11:25.307Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-1.73).",
+ "scannedAt": "2026-11-02T10:39:55.914Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.15).",
  "signals": [
   {
    "sym": "LINKUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793573999999,
-   "price": 11.336,
+   "price": 11.122,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -23,10 +23,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.475,
-    "t": 1.79,
-    "n": 61,
-    "sharpeTest": 3.97
+    "wrTest": 0.492,
+    "t": 1.93,
+    "n": 59,
+    "sharpeTest": 4.28
    },
    "stage": "osservazione",
    "proof": {
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793271599999,
-   "price": 0.1906,
+   "price": 0.1878,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -65,42 +65,13 @@
    "key": "ADAUSDT-1h-sma-30-100-1.5-3"
   },
   {
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1793606399999,
-   "price": 54.99,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.485,
-    "t": 1.54,
-    "n": 33,
-    "sharpeTest": 3.36
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 6,
-    "avgR": 0.12
-   },
-   "key": "LTCUSDT-1h-sma-8-80-3-4.5"
-  },
-  {
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793462399999,
-   "price": 0.3157,
+   "price": 0.3176,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,19 +100,18 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 78138.02,
+   "price": 76990.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -4,
+    "score": 0,
     "heads": [
-     "Bitcoin ETFs lost $643 million in outflows Friday, and 2026 is barely green now",
-     "Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time",
-     "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
-     "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets",
-     "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack"
+     "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze",
+     "Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains",
+     "Strategy spends triple its weekly Bitcoin outlay on STRC buybacks",
+     "Binance taps half its SAFU Bitcoin holdings, releases reserve proof"
     ]
    },
    "bt": {
@@ -157,9 +127,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -1.73,
+    "score": -0.15,
     "risk": "low",
-    "note": "sentiment -1.73 su 5 titoli"
+    "note": "sentiment -0.15 su 4 titoli"
    }
   },
   {
@@ -169,7 +139,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.07526,
+   "price": 0.0738,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -190,6 +160,35 @@
     "avgR": 1.98
    },
    "key": "DOGEUSDT-1d-sma-10-30-1.5-3"
+  },
+  {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 8/80 SL3/TP4.5 ATR",
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1793609999999,
+   "price": 53.88,
+   "entry": 55.16,
+   "sl": 56.21344664376506,
+   "tp": 53.5798300343524,
+   "size": 26.2,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.472,
+    "t": 1.26,
+    "n": 36,
+    "sharpeTest": 2.82
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 6,
+    "avgR": 0.12
+   },
+   "key": "LTCUSDT-1h-sma-8-80-3-4.5"
   }
  ],
  "paper": {
