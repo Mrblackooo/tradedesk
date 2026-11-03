@@ -1,10 +1,10 @@
 {
- "updated": 1793721917290,
+ "updated": 1793742109211,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-03T10:31:37.239Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.21).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.64).",
  "signals": [
   {
    "sym": "ADAUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793271599999,
-   "price": 0.1905,
+   "price": 0.1913,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793573999999,
-   "price": 11.14,
+   "price": 11.145,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -68,14 +68,14 @@
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1793462399999,
-   "price": 0.3228,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1793735999999,
+   "price": 0.3232,
+   "entry": 0.3241,
+   "sl": 0.32040667056575606,
+   "tp": 0.3314866588684878,
+   "size": 43.9,
    "news": {
     "score": 0,
     "heads": []
@@ -100,18 +100,15 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 77574.28,
+   "price": 77931.63,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -2,
+    "score": 0,
     "heads": [
-     "Bitcoin is breaking a midterm election pattern going back to 2014",
-     "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto",
-     "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit",
-     "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says",
+     "Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen",
      "Bitcoin price defends $76K lows as analysts see stocks pricing in ‘political gridlock’"
     ]
    },
@@ -128,9 +125,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.21,
+    "score": -0.64,
     "risk": "low",
-    "note": "sentiment -0.21 su 5 titoli"
+    "note": "sentiment -0.64 su 2 titoli"
    }
   },
   {
@@ -140,7 +137,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.07532,
+   "price": 0.0756,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -169,7 +166,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793678399999,
-   "price": 54.24,
+   "price": 54.75,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -199,6 +196,21 @@
   "sumPct": 13.84
  },
  "recent": [
+  {
+   "id": "TRXUSDT-4h-1793735999999",
+   "key": "TRXUSDT-4h-brk-20-0-1-2",
+   "sym": "TRXUSDT",
+   "tf": "4h",
+   "dir": "LONG",
+   "entry": 0.3241,
+   "sl": 0.32040667056575606,
+   "tp": 0.3314866588684878,
+   "slPct": 1.14,
+   "t0": 1793735999999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
   {
    "id": "LTCUSDT-1h-1793552399999",
    "key": "LTCUSDT-1h-sma-8-80-3-4.5",
@@ -464,25 +476,6 @@
    "t1": 1792504800000,
    "pct": -2.674,
    "r": -1.06
-  },
-  {
-   "id": "TRXUSDT-4h-1792396799999",
-   "key": "TRXUSDT-4h-brk-20-0-1-2",
-   "sym": "TRXUSDT",
-   "tf": "4h",
-   "dir": "SHORT",
-   "entry": 0.3306,
-   "sl": 0.3319938438800375,
-   "tp": 0.32781231223992496,
-   "slPct": 0.422,
-   "t0": 1792396799999,
-   "status": "sl",
-   "news": 0,
-   "blackout": false,
-   "exit": 0.3319938438800375,
-   "t1": 1792411200000,
-   "pct": -0.582,
-   "r": -1.38
   }
  ]
 }
