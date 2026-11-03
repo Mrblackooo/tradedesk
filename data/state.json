@@ -1,10 +1,10 @@
 {
- "updated": 1793645162303,
+ "updated": 1793668746530,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-02T10:39:55.914Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.15).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.05).",
  "signals": [
   {
    "sym": "LINKUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793573999999,
-   "price": 11.122,
+   "price": 11.139,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793271599999,
-   "price": 0.1878,
+   "price": 0.1898,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793462399999,
-   "price": 0.3176,
+   "price": 0.3204,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,18 +100,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 76990.01,
+   "price": 77268.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
+    "score": 1,
     "heads": [
-     "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze",
-     "Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains",
-     "Strategy spends triple its weekly Bitcoin outlay on STRC buybacks",
-     "Binance taps half its SAFU Bitcoin holdings, releases reserve proof"
+     "AI poses greater threat to Bitcoin than quantum computing, Swan founder says",
+     "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally"
     ]
    },
    "bt": {
@@ -127,9 +125,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.15,
+    "score": -0.05,
     "risk": "low",
-    "note": "sentiment -0.15 su 4 titoli"
+    "note": "sentiment -0.05 su 2 titoli"
    }
   },
   {
@@ -139,7 +137,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.0738,
+   "price": 0.07452,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -168,7 +166,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793609999999,
-   "price": 53.88,
+   "price": 54.01,
    "entry": 55.16,
    "sl": 56.21344664376506,
    "tp": 53.5798300343524,
