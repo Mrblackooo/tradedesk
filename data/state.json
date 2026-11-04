@@ -1,10 +1,10 @@
 {
- "updated": 1793756518144,
+ "updated": 1793779550021,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-03T10:31:37.239Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.35).",
  "signals": [
   {
    "sym": "ADAUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793271599999,
-   "price": 0.1867,
+   "price": 0.1915,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793573999999,
-   "price": 10.841,
+   "price": 11.172,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1793735999999,
-   "price": 0.3227,
+   "price": 0.3223,
    "entry": 0.3241,
    "sl": 0.32040667056575606,
    "tp": 0.3314866588684878,
@@ -100,14 +100,20 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 76958.76,
+   "price": 78380.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
-    "heads": []
+    "score": -1,
+    "heads": [
+     "Bitcoin knocks on $78,000 in V-shaped comeback as midterm election uncertainty fades",
+     "Jack Dorsey's Block faces $764 million DOJ settlement as bitcoin profit plunges 50%",
+     "U.S.-sanctioned Moscow Exchange to list bitcoin and Tether’s USDT in December",
+     "Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets",
+     "Bitcoin bounces from 7-week low under $76K as Democrats sweep Congress"
+    ]
    },
    "bt": {
     "wrTest": 0.556,
@@ -120,7 +126,12 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": -0.35,
+    "risk": "low",
+    "note": "sentiment -0.35 su 5 titoli"
+   }
   },
   {
    "sym": "DOGEUSDT",
@@ -129,7 +140,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.07391,
+   "price": 0.07514,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,7 +169,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793678399999,
-   "price": 53.23,
+   "price": 54.72,
    "entry": null,
    "sl": null,
    "tp": null,
