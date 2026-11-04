@@ -1,23 +1,23 @@
 {
- "updated": 1793808727039,
+ "updated": 1793829353310,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-03T10:31:37.239Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.64).",
+ "briefing": null,
  "signals": [
   {
    "sym": "ADAUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 30/100 SL1.5/TP3 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1793271599999,
-   "price": 0.1996,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1793825999999,
+   "price": 0.197,
+   "entry": 0.1963,
+   "sl": 0.192589793125232,
+   "tp": 0.20372041374953598,
+   "size": 26.5,
    "news": {
     "score": 0,
     "heads": []
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793797199999,
-   "price": 11.711,
+   "price": 11.417,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793793599999,
-   "price": 0.3204,
+   "price": 0.32,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,19 +100,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 80650,
+   "price": 80244.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 2,
-    "heads": [
-     "Wall Street cuts Bitcoin miner price targets as newly blue Texas threatens data center boom",
-     "Live updates: Bitcoin and stocks post big gains, reversing overnight plunge following Blue Wave landslide",
-     "Bitcoin rebounds from midterm dip as DeFi leads gains",
-     "Bitcoin hits $80.5K as US stocks rally on midterm election results"
-    ]
+    "score": 0,
+    "heads": []
    },
    "bt": {
     "wrTest": 0.556,
@@ -125,12 +120,7 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": 0.64,
-    "risk": "low",
-    "note": "sentiment +0.64 su 4 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   },
   {
    "sym": "DOGEUSDT",
@@ -139,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.07778,
+   "price": 0.07687,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -165,14 +155,14 @@
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 20/80 SL3/TP4.5 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1793678399999,
-   "price": 56.63,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1793825999999,
+   "price": 56.17,
+   "entry": 56.02,
+   "sl": 54.23003513693607,
+   "tp": 58.70494729459591,
+   "size": 15.6,
    "news": {
     "score": 0,
     "heads": []
@@ -198,6 +188,36 @@
   "sumPct": 12.54
  },
  "recent": [
+  {
+   "id": "LTCUSDT-1h-1793825999999",
+   "key": "LTCUSDT-1h-sma-20-80-3-4.5",
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "dir": "LONG",
+   "entry": 56.02,
+   "sl": 54.23003513693607,
+   "tp": 58.70494729459591,
+   "slPct": 3.195,
+   "t0": 1793825999999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
+  {
+   "id": "ADAUSDT-1h-1793825999999",
+   "key": "ADAUSDT-1h-sma-30-100-1.5-3",
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "dir": "LONG",
+   "entry": 0.1963,
+   "sl": 0.192589793125232,
+   "tp": 0.20372041374953598,
+   "slPct": 1.89,
+   "t0": 1793825999999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
   {
    "id": "TRXUSDT-4h-1793735999999",
    "key": "TRXUSDT-4h-brk-20-0-1-2",
@@ -444,44 +464,6 @@
    "t1": 1792641600000,
    "pct": -2.088,
    "r": -1.08
-  },
-  {
-   "id": "ADAUSDT-1h-1792555199999",
-   "key": "ADAUSDT-1h-sma-30-100-1.5-2",
-   "sym": "ADAUSDT",
-   "tf": "1h",
-   "dir": "LONG",
-   "entry": 0.2231,
-   "sl": 0.21987263062628531,
-   "tp": 0.2274031591649529,
-   "slPct": 1.447,
-   "t0": 1792555199999,
-   "status": "tp",
-   "news": 0,
-   "blackout": false,
-   "exit": 0.2274031591649529,
-   "t1": 1792587600000,
-   "pct": 1.769,
-   "r": 1.22
-  },
-  {
-   "id": "LTCUSDT-1h-1792497599999",
-   "key": "LTCUSDT-1h-sma-8-80-3-4.5",
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "dir": "SHORT",
-   "entry": 58.56,
-   "sl": 60.03241762292216,
-   "tp": 56.35137356561676,
-   "slPct": 2.514,
-   "t0": 1792497599999,
-   "status": "sl",
-   "news": 0,
-   "blackout": false,
-   "exit": 60.03241762292216,
-   "t1": 1792504800000,
-   "pct": -2.674,
-   "r": -1.06
   }
  ]
 }
