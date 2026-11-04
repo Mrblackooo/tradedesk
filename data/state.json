@@ -1,10 +1,10 @@
 {
- "updated": 1793779550021,
+ "updated": 1793808727039,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-03T10:31:37.239Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.35).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.64).",
  "signals": [
   {
    "sym": "ADAUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793271599999,
-   "price": 0.1915,
+   "price": 0.1996,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -41,8 +41,8 @@
    "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
-   "since": 1793573999999,
-   "price": 11.172,
+   "since": 1793797199999,
+   "price": 11.711,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -68,14 +68,14 @@
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
-   "dir": "LONG",
-   "action": "ATTIVO",
-   "since": 1793735999999,
-   "price": 0.3223,
-   "entry": 0.3241,
-   "sl": 0.32040667056575606,
-   "tp": 0.3314866588684878,
-   "size": 43.9,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1793793599999,
+   "price": 0.3204,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
     "score": 0,
     "heads": []
@@ -88,8 +88,8 @@
    },
    "stage": "osservazione",
    "proof": {
-    "n": 4,
-    "avgR": -0.49
+    "n": 5,
+    "avgR": -0.62
    },
    "key": "TRXUSDT-4h-brk-20-0-1-2"
   },
@@ -100,19 +100,18 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 78380.01,
+   "price": 80650,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -1,
+    "score": 2,
     "heads": [
-     "Bitcoin knocks on $78,000 in V-shaped comeback as midterm election uncertainty fades",
-     "Jack Dorsey's Block faces $764 million DOJ settlement as bitcoin profit plunges 50%",
-     "U.S.-sanctioned Moscow Exchange to list bitcoin and Tether’s USDT in December",
-     "Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets",
-     "Bitcoin bounces from 7-week low under $76K as Democrats sweep Congress"
+     "Wall Street cuts Bitcoin miner price targets as newly blue Texas threatens data center boom",
+     "Live updates: Bitcoin and stocks post big gains, reversing overnight plunge following Blue Wave landslide",
+     "Bitcoin rebounds from midterm dip as DeFi leads gains",
+     "Bitcoin hits $80.5K as US stocks rally on midterm election results"
     ]
    },
    "bt": {
@@ -128,9 +127,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.35,
+    "score": 0.64,
     "risk": "low",
-    "note": "sentiment -0.35 su 5 titoli"
+    "note": "sentiment +0.64 su 4 titoli"
    }
   },
   {
@@ -140,7 +139,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.07514,
+   "price": 0.07778,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -169,7 +168,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793678399999,
-   "price": 54.72,
+   "price": 56.63,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -193,10 +192,10 @@
   }
  ],
  "paper": {
-  "n": 20,
-  "wr": 0.35,
-  "avgR": -0.22,
-  "sumPct": 13.84
+  "n": 21,
+  "wr": 0.333,
+  "avgR": -0.27,
+  "sumPct": 12.54
  },
  "recent": [
   {
@@ -210,9 +209,13 @@
    "tp": 0.3314866588684878,
    "slPct": 1.14,
    "t0": 1793735999999,
-   "status": "open",
+   "status": "sl",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 0.32040667056575606,
+   "t1": 1793779200000,
+   "pct": -1.3,
+   "r": -1.14
   },
   {
    "id": "LTCUSDT-1h-1793552399999",
