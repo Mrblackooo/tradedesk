@@ -1,48 +1,19 @@
 {
- "updated": 1793871273931,
+ "updated": 1793900218652,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-11-03T10:31:37.239Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.97).",
+ "scannedAt": "2026-11-05T10:28:14.040Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-2.56).",
  "signals": [
   {
-   "sym": "ADAUSDT",
+   "sym": "LTCUSDT",
    "tf": "1h",
-   "strat": "Incrocio SMA 30/100 SL1.5/TP3 ATR",
-   "dir": "LONG",
-   "action": "ATTIVO",
-   "since": 1793825999999,
-   "price": 0.199,
-   "entry": 0.1963,
-   "sl": 0.192589793125232,
-   "tp": 0.20372041374953598,
-   "size": 26.5,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.524,
-    "t": 1.51,
-    "n": 21,
-    "sharpeTest": 3.3
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 1,
-    "avgR": -1.11
-   },
-   "key": "ADAUSDT-1h-sma-30-100-1.5-3"
-  },
-  {
-   "sym": "LINKUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
+   "strat": "Incrocio SMA 20/80 SL3/TP4.5 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
-   "since": 1793797199999,
-   "price": 11.561,
+   "since": 1793890799999,
+   "price": 51.73,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -52,10 +23,68 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.492,
-    "t": 1.93,
-    "n": 59,
-    "sharpeTest": 4.28
+    "wrTest": 0.625,
+    "t": 2.64,
+    "n": 24,
+    "sharpeTest": 5.35
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 1,
+    "avgR": -1.05
+   },
+   "key": "LTCUSDT-1h-sma-20-80-3-4.5"
+  },
+  {
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 30/100 SL1.5/TP3 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1793890799999,
+   "price": 0.1827,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.545,
+    "t": 1.59,
+    "n": 22,
+    "sharpeTest": 3.41
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 2,
+    "avgR": -1.1
+   },
+   "key": "ADAUSDT-1h-sma-30-100-1.5-3"
+  },
+  {
+   "sym": "LINKUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1793897999999,
+   "price": 10.684,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.483,
+    "t": 1.81,
+    "n": 60,
+    "sharpeTest": 4.04
    },
    "stage": "osservazione",
    "proof": {
@@ -71,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793793599999,
-   "price": 0.3183,
+   "price": 0.3167,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -81,10 +110,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.548,
-    "t": 1.66,
-    "n": 31,
-    "sharpeTest": 2.23
+    "wrTest": 0.531,
+    "t": 1.4,
+    "n": 32,
+    "sharpeTest": 1.89
    },
    "stage": "osservazione",
    "proof": {
@@ -100,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 80309.04,
+   "price": 76097.56,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -108,9 +137,11 @@
    "news": {
     "score": 0,
     "heads": [
-     "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
-     "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
-     "Bitcoin, Ether ETFs draw $128M as crypto rebounds after midterms"
+     "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
+     "Bitcoin is resilient, but leverage is missing and demand still tepid",
+     "Bitcoin miners are oversold following 35% October rout, VanEck says",
+     "Trump-linked American Bitcoin swings to $126 million profit but misses revenue estimates",
+     "Bitcoin crashes 6% to 7-week low as US stocks erase election gains"
     ]
    },
    "bt": {
@@ -126,9 +157,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.97,
+    "score": -2.56,
     "risk": "low",
-    "note": "sentiment +0.97 su 3 titoli"
+    "note": "sentiment -2.56 su 5 titoli"
    }
   },
   {
@@ -138,7 +169,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.07697,
+   "price": 0.07167,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -159,42 +190,13 @@
     "avgR": 1.98
    },
    "key": "DOGEUSDT-1d-sma-10-30-1.5-3"
-  },
-  {
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 20/80 SL3/TP4.5 ATR",
-   "dir": "LONG",
-   "action": "ATTIVO",
-   "since": 1793825999999,
-   "price": 56.11,
-   "entry": 56.02,
-   "sl": 54.23003513693607,
-   "tp": 58.70494729459591,
-   "size": 15.6,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.652,
-    "t": 2.66,
-    "n": 23,
-    "sharpeTest": 5.39
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 0,
-    "avgR": null
-   },
-   "key": "LTCUSDT-1h-sma-20-80-3-4.5"
   }
  ],
  "paper": {
-  "n": 21,
-  "wr": 0.333,
-  "avgR": -0.27,
-  "sumPct": 12.54
+  "n": 23,
+  "wr": 0.304,
+  "avgR": -0.34,
+  "sumPct": 7.13
  },
  "recent": [
   {
@@ -208,9 +210,13 @@
    "tp": 58.70494729459591,
    "slPct": 3.195,
    "t0": 1793825999999,
-   "status": "open",
+   "status": "sl",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 54.23003513693607,
+   "t1": 1793887200000,
+   "pct": -3.355,
+   "r": -1.05
   },
   {
    "id": "ADAUSDT-1h-1793825999999",
@@ -223,9 +229,13 @@
    "tp": 0.20372041374953598,
    "slPct": 1.89,
    "t0": 1793825999999,
-   "status": "open",
+   "status": "sl",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 0.192589793125232,
+   "t1": 1793887200000,
+   "pct": -2.05,
+   "r": -1.08
   },
   {
    "id": "TRXUSDT-4h-1793735999999",
