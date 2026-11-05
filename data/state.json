@@ -1,10 +1,10 @@
 {
- "updated": 1793844778613,
+ "updated": 1793871273931,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-03T10:31:37.239Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.08).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.97).",
  "signals": [
   {
    "sym": "ADAUSDT",
@@ -13,7 +13,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1793825999999,
-   "price": 0.1977,
+   "price": 0.199,
    "entry": 0.1963,
    "sl": 0.192589793125232,
    "tp": 0.20372041374953598,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793797199999,
-   "price": 11.494,
+   "price": 11.561,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793793599999,
-   "price": 0.3198,
+   "price": 0.3183,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 80806,
+   "price": 80309.04,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -108,7 +108,9 @@
    "news": {
     "score": 0,
     "heads": [
-     "Mercado Bitcoin says phased reopening to begin Monday, will cover losses"
+     "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
+     "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
+     "Bitcoin, Ether ETFs draw $128M as crypto rebounds after midterms"
     ]
    },
    "bt": {
@@ -124,9 +126,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.08,
+    "score": 0.97,
     "risk": "low",
-    "note": "sentiment +0.08 su 1 titoli"
+    "note": "sentiment +0.97 su 3 titoli"
    }
   },
   {
@@ -136,7 +138,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.07726,
+   "price": 0.07697,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -165,7 +167,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1793825999999,
-   "price": 56.34,
+   "price": 56.11,
    "entry": 56.02,
    "sl": 54.23003513693607,
    "tp": 58.70494729459591,
