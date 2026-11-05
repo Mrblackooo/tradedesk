@@ -1,23 +1,23 @@
 {
- "updated": 1793900218652,
+ "updated": 1793918992074,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-05T10:28:14.040Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-2.56).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.01).",
  "signals": [
   {
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 20/80 SL3/TP4.5 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1793890799999,
-   "price": 51.73,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1793915999999,
+   "price": 51.84,
+   "entry": 52.02,
+   "sl": 54.02596727803609,
+   "tp": 49.01104908294587,
+   "size": 13,
    "news": {
     "score": 0,
     "heads": []
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793890799999,
-   "price": 0.1827,
+   "price": 0.1806,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793897999999,
-   "price": 10.684,
+   "price": 10.679,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793793599999,
-   "price": 0.3167,
+   "price": 0.3185,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 76097.56,
+   "price": 75703.14,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -137,11 +137,7 @@
    "news": {
     "score": 0,
     "heads": [
-     "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
-     "Bitcoin is resilient, but leverage is missing and demand still tepid",
-     "Bitcoin miners are oversold following 35% October rout, VanEck says",
-     "Trump-linked American Bitcoin swings to $126 million profit but misses revenue estimates",
-     "Bitcoin crashes 6% to 7-week low as US stocks erase election gains"
+     "American Bitcoin’s $126M profit masks mining pressure as rivals turn to AI"
     ]
    },
    "bt": {
@@ -157,9 +153,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -2.56,
+    "score": -0.01,
     "risk": "low",
-    "note": "sentiment -2.56 su 5 titoli"
+    "note": "sentiment -0.01 su 1 titoli"
    }
   },
   {
@@ -169,7 +165,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.07167,
+   "price": 0.07154,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -199,6 +195,21 @@
   "sumPct": 7.13
  },
  "recent": [
+  {
+   "id": "LTCUSDT-1h-1793915999999",
+   "key": "LTCUSDT-1h-sma-20-80-3-4.5",
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "dir": "SHORT",
+   "entry": 52.02,
+   "sl": 54.02596727803609,
+   "tp": 49.01104908294587,
+   "slPct": 3.856,
+   "t0": 1793915999999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
   {
    "id": "LTCUSDT-1h-1793825999999",
    "key": "LTCUSDT-1h-sma-20-80-3-4.5",
@@ -464,25 +475,6 @@
    "t1": 1792792800000,
    "pct": 3.876,
    "r": 1.44
-  },
-  {
-   "id": "BTCUSDT-4h-1792627199999",
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "sym": "BTCUSDT",
-   "tf": "4h",
-   "dir": "LONG",
-   "entry": 84093.42,
-   "sl": 82471.81234695051,
-   "tp": 86525.83147957422,
-   "slPct": 1.928,
-   "t0": 1792627199999,
-   "status": "sl",
-   "news": 0,
-   "blackout": false,
-   "exit": 82471.81234695051,
-   "t1": 1792641600000,
-   "pct": -2.088,
-   "r": -1.08
   }
  ]
 }
