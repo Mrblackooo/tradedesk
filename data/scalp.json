@@ -1,5 +1,5 @@
 {
- "updated": 1793794603246,
+ "updated": 1793881799761,
  "feePct": 0.05,
  "strategies": [],
  "report": [
@@ -14,9 +14,9 @@
     "b": 70,
     "ks": 1.5,
     "kt": 3,
-    "wr": 0.231,
-    "n": 13,
-    "t": -2.16,
+    "wr": 0.167,
+    "n": 12,
+    "t": -3.03,
     "costR": 0.569
    },
    "ok": false,
@@ -24,6 +24,7 @@
     "costi",
     "test",
     "trade",
+    "stab",
     "signif"
    ]
   },
@@ -54,22 +55,22 @@
    "sym": "BTCUSDT",
    "tf": "30m",
    "candles": 60000,
-   "atrPct": 0.402,
+   "atrPct": 0.403,
    "best": {
     "st": "rsi",
-    "a": 15,
+    "a": 30,
     "b": 80,
-    "ks": 1,
-    "kt": 2,
-    "wr": 0.083,
-    "n": 12,
-    "t": -4.69,
-    "costR": 0.249
+    "ks": 1.5,
+    "kt": 3,
+    "wr": 0.3,
+    "n": 50,
+    "t": -1.56,
+    "costR": 0.166
    },
    "ok": false,
    "why": [
     "test",
-    "trade",
+    "stab",
     "signif"
    ]
   },
@@ -155,8 +156,8 @@
     "kt": 2,
     "wr": 0.364,
     "n": 22,
-    "t": 0.32,
-    "costR": 0.5
+    "t": 0.37,
+    "costR": 0.499
    },
    "ok": false,
    "why": [
@@ -169,7 +170,7 @@
    "sym": "SOLUSDT",
    "tf": "15m",
    "candles": 60000,
-   "atrPct": 0.476,
+   "atrPct": 0.475,
    "best": {
     "st": "rsitrend",
     "a": 35,
@@ -191,7 +192,7 @@
    "sym": "SOLUSDT",
    "tf": "30m",
    "candles": 60000,
-   "atrPct": 0.788,
+   "atrPct": 0.789,
    "best": {
     "st": "rsi",
     "a": 20,
@@ -213,24 +214,23 @@
    "sym": "XRPUSDT",
    "tf": "5m",
    "candles": 60000,
-   "atrPct": 0.183,
+   "atrPct": 0.184,
    "best": {
     "st": "rsi",
-    "a": 20,
+    "a": 15,
     "b": 85,
-    "ks": 0.8,
-    "kt": 1.2,
-    "wr": 0.5,
-    "n": 12,
-    "t": 0.58,
-    "costR": 0.682
+    "ks": 1,
+    "kt": 1.5,
+    "wr": 0.875,
+    "n": 8,
+    "t": 2.5,
+    "costR": 0.544
    },
    "ok": false,
    "why": [
     "costi",
     "train",
-    "trade",
-    "signif"
+    "trade"
    ]
   },
   {
@@ -262,13 +262,13 @@
    "atrPct": 0.616,
    "best": {
     "st": "rsi",
-    "a": 15,
+    "a": 20,
     "b": 80,
     "ks": 1,
     "kt": 2,
-    "wr": 0.5,
-    "n": 8,
-    "t": 1.18,
+    "wr": 0.471,
+    "n": 34,
+    "t": 1.43,
     "costR": 0.162
    },
    "ok": false,
