@@ -1,10 +1,10 @@
 {
- "updated": 1793959053795,
+ "updated": 1793985771623,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-11-05T10:28:14.040Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.19).",
+ "scannedAt": "2026-11-06T10:29:35.980Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.58).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 52.93,
+   "price": 53.1,
    "entry": 52.02,
    "sl": 54.02596727803609,
    "tp": 49.01104908294587,
@@ -23,10 +23,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.625,
-    "t": 2.64,
-    "n": 24,
-    "sharpeTest": 5.35
+    "wrTest": 0.6,
+    "t": 2.11,
+    "n": 25,
+    "sharpeTest": 4.51
    },
    "stage": "osservazione",
    "proof": {
@@ -36,42 +36,13 @@
    "key": "LTCUSDT-1h-sma-20-80-3-4.5"
   },
   {
-   "sym": "ADAUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 30/100 SL1.5/TP3 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1793941199999,
-   "price": 0.1852,
-   "entry": 0.1839,
-   "sl": 0.18779729721799676,
-   "tp": 0.1761054055640065,
-   "size": 23.6,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.545,
-    "t": 1.59,
-    "n": 22,
-    "sharpeTest": 3.41
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 2,
-    "avgR": -1.1
-   },
-   "key": "ADAUSDT-1h-sma-30-100-1.5-3"
-  },
-  {
    "sym": "LINKUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793897999999,
-   "price": 10.806,
+   "price": 10.961,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -81,10 +52,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.483,
-    "t": 1.81,
+    "wrTest": 0.467,
+    "t": 1.43,
     "n": 60,
-    "sharpeTest": 4.04
+    "sharpeTest": 3.16
    },
    "stage": "osservazione",
    "proof": {
@@ -94,13 +65,42 @@
    "key": "LINKUSDT-1h-sma-5-50-1-2"
   },
   {
+   "sym": "ADAUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 30/100 SL1.5/TP3 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1793969999999,
+   "price": 0.1882,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.478,
+    "t": 1.26,
+    "n": 23,
+    "sharpeTest": 2.76
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 2,
+    "avgR": -1.1
+   },
+   "key": "ADAUSDT-1h-sma-30-100-1.5-3"
+  },
+  {
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793793599999,
-   "price": 0.3185,
+   "price": 0.319,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,16 +129,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 76162,
+   "price": 75990.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
+    "score": -1,
     "heads": [
-     "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
-     "Bitcoin, Ether ETFs post $530M outflows as election gains evaporate"
+     "Live updates: Bitcoin holds in narrow range, stocks bounce after strong October jobs report",
+     "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures"
     ]
    },
    "bt": {
@@ -154,19 +154,19 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.19,
+    "score": 0.58,
     "risk": "low",
-    "note": "sentiment -0.19 su 2 titoli"
+    "note": "sentiment +0.58 su 2 titoli"
    }
   },
   {
-   "sym": "DOGEUSDT",
-   "tf": "1d",
-   "strat": "Incrocio SMA 10/30 SL1.5/TP3 ATR",
+   "sym": "BNBUSDT",
+   "tf": "1h",
+   "strat": "RSI 35/70 SL1.5/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
-   "since": 1793404799999,
-   "price": 0.07241,
+   "since": 1793977199999,
+   "price": 697.04,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -176,17 +176,17 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.536,
-    "t": 2.74,
-    "n": 28,
-    "sharpeTest": 2.14
+    "wrTest": 0.652,
+    "t": 2.03,
+    "n": 23,
+    "sharpeTest": 4.2
    },
    "stage": "osservazione",
    "proof": {
-    "n": 1,
-    "avgR": 1.98
+    "n": 0,
+    "avgR": null
    },
-   "key": "DOGEUSDT-1d-sma-10-30-1.5-3"
+   "key": "BNBUSDT-1h-rsi-35-70-1.5-2"
   }
  ],
  "paper": {
