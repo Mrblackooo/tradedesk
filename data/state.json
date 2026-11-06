@@ -1,10 +1,10 @@
 {
- "updated": 1793918992074,
+ "updated": 1793933518872,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-05T10:28:14.040Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.01).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.02).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 51.84,
+   "price": 52.62,
    "entry": 52.02,
    "sl": 54.02596727803609,
    "tp": 49.01104908294587,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793890799999,
-   "price": 0.1806,
+   "price": 0.1857,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793897999999,
-   "price": 10.679,
+   "price": 10.919,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793793599999,
-   "price": 0.3185,
+   "price": 0.3188,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,14 +129,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 75703.14,
+   "price": 76275.32,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
+    "score": 1,
     "heads": [
+     "Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC",
+     "Core Scientific to quit Bitcoin mining by year-end as AI business surges",
      "American Bitcoin’s $126M profit masks mining pressure as rivals turn to AI"
     ]
    },
@@ -153,9 +155,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.01,
+    "score": -0.02,
     "risk": "low",
-    "note": "sentiment -0.01 su 1 titoli"
+    "note": "sentiment -0.02 su 3 titoli"
    }
   },
   {
@@ -165,7 +167,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.07154,
+   "price": 0.07238,
    "entry": null,
    "sl": null,
    "tp": null,
