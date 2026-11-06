@@ -1,10 +1,10 @@
 {
- "updated": 1793933518872,
+ "updated": 1793959053795,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-05T10:28:14.040Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.02).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.19).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 52.62,
+   "price": 52.93,
    "entry": 52.02,
    "sl": 54.02596727803609,
    "tp": 49.01104908294587,
@@ -39,14 +39,14 @@
    "sym": "ADAUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 30/100 SL1.5/TP3 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1793890799999,
-   "price": 0.1857,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1793941199999,
+   "price": 0.1852,
+   "entry": 0.1839,
+   "sl": 0.18779729721799676,
+   "tp": 0.1761054055640065,
+   "size": 23.6,
    "news": {
     "score": 0,
     "heads": []
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793897999999,
-   "price": 10.919,
+   "price": 10.806,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793793599999,
-   "price": 0.3188,
+   "price": 0.3185,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,17 +129,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 76275.32,
+   "price": 76162,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 1,
+    "score": 0,
     "heads": [
-     "Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC",
-     "Core Scientific to quit Bitcoin mining by year-end as AI business surges",
-     "American Bitcoin’s $126M profit masks mining pressure as rivals turn to AI"
+     "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
+     "Bitcoin, Ether ETFs post $530M outflows as election gains evaporate"
     ]
    },
    "bt": {
@@ -155,9 +154,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.02,
+    "score": -0.19,
     "risk": "low",
-    "note": "sentiment -0.02 su 3 titoli"
+    "note": "sentiment -0.19 su 2 titoli"
    }
   },
   {
@@ -167,7 +166,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793404799999,
-   "price": 0.07238,
+   "price": 0.07241,
    "entry": null,
    "sl": null,
    "tp": null,
