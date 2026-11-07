@@ -1,10 +1,10 @@
 {
- "updated": 1794040747199,
+ "updated": 1794064360623,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-11-06T10:29:35.980Z",
- "briefing": null,
+ "scannedAt": "2026-11-07T09:42:52.476Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.02).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 52.42,
+   "price": 51.84,
    "entry": 52.02,
    "sl": 54.02596727803609,
    "tp": 49.01104908294587,
@@ -24,9 +24,9 @@
    },
    "bt": {
     "wrTest": 0.6,
-    "t": 2.11,
+    "t": 2.23,
     "n": 25,
-    "sharpeTest": 4.51
+    "sharpeTest": 4.68
    },
    "stage": "osservazione",
    "proof": {
@@ -39,14 +39,14 @@
    "sym": "LINKUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1793897999999,
-   "price": 10.861,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1794063599999,
+   "price": 10.883,
+   "entry": 10.91,
+   "sl": 10.825154089316408,
+   "tp": 11.079691821367183,
+   "size": 64.3,
    "news": {
     "score": 0,
     "heads": []
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793969999999,
-   "price": 0.1845,
+   "price": 0.1821,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -82,9 +82,9 @@
    },
    "bt": {
     "wrTest": 0.478,
-    "t": 1.26,
+    "t": 1.15,
     "n": 23,
-    "sharpeTest": 2.76
+    "sharpeTest": 2.55
    },
    "stage": "osservazione",
    "proof": {
@@ -94,13 +94,42 @@
    "key": "ADAUSDT-1h-sma-30-100-1.5-3"
   },
   {
+   "sym": "BNBUSDT",
+   "tf": "1h",
+   "strat": "RSI 35/70 SL1.5/TP2 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1793977199999,
+   "price": 694.48,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.652,
+    "t": 2.14,
+    "n": 23,
+    "sharpeTest": 4.46
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "BNBUSDT-1h-rsi-35-70-1.5-2"
+  },
+  {
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793793599999,
-   "price": 0.3187,
+   "price": 0.3196,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,14 +158,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 76120.58,
+   "price": 75873.47,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "Bitcoin holders have received eCash — What can you do with it?"
+    ]
    },
    "bt": {
     "wrTest": 0.556,
@@ -149,36 +180,12 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
-  },
-  {
-   "sym": "BNBUSDT",
-   "tf": "1h",
-   "strat": "RSI 35/70 SL1.5/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1793977199999,
-   "price": 695.49,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.652,
-    "t": 2.03,
-    "n": 23,
-    "sharpeTest": 4.2
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 0,
-    "avgR": null
-   },
-   "key": "BNBUSDT-1h-rsi-35-70-1.5-2"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.02,
+    "risk": "low",
+    "note": "sentiment +0.02 su 1 titoli"
+   }
   }
  ],
  "paper": {
@@ -188,6 +195,21 @@
   "sumPct": 7.13
  },
  "recent": [
+  {
+   "id": "LINKUSDT-1h-1794063599999",
+   "key": "LINKUSDT-1h-sma-5-50-1-2",
+   "sym": "LINKUSDT",
+   "tf": "1h",
+   "dir": "LONG",
+   "entry": 10.91,
+   "sl": 10.825154089316408,
+   "tp": 11.079691821367183,
+   "slPct": 0.778,
+   "t0": 1794063599999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
   {
    "id": "LTCUSDT-1h-1793915999999",
    "key": "LTCUSDT-1h-sma-20-80-3-4.5",
@@ -449,25 +471,6 @@
    "t1": 1792717200000,
    "pct": -1.803,
    "r": -1.1
-  },
-  {
-   "id": "LTCUSDT-1h-1792659599999",
-   "key": "LTCUSDT-1h-sma-8-80-3-4.5",
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "dir": "SHORT",
-   "entry": 59.35,
-   "sl": 60.9470147109452,
-   "tp": 56.95447793358221,
-   "slPct": 2.691,
-   "t0": 1792659599999,
-   "status": "tp",
-   "news": 0,
-   "blackout": false,
-   "exit": 56.95447793358221,
-   "t1": 1792792800000,
-   "pct": 3.876,
-   "r": 1.44
   }
  ]
 }
