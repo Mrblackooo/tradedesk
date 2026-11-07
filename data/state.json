@@ -1,10 +1,10 @@
 {
- "updated": 1794079705829,
+ "updated": 1794092173513,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-07T09:42:52.476Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.02).",
+ "briefing": null,
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 52.24,
+   "price": 52.04,
    "entry": 52.02,
    "sl": 54.02596727803609,
    "tp": 49.01104908294587,
@@ -39,14 +39,14 @@
    "sym": "LINKUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1794067199999,
-   "price": 10.857,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1794088799999,
+   "price": 10.796,
+   "entry": 10.783,
+   "sl": 10.865086635075803,
+   "tp": 10.618826729848392,
+   "size": 65.7,
    "news": {
     "score": 0,
     "heads": []
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793969999999,
-   "price": 0.1817,
+   "price": 0.1811,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 697.08,
+   "price": 695.37,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793793599999,
-   "price": 0.3199,
+   "price": 0.3203,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,16 +158,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 75779.52,
+   "price": 75781.45,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "Bitcoin holders have received eCash — What can you do with it?"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.556,
@@ -180,12 +178,7 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": 0.02,
-    "risk": "low",
-    "note": "sentiment +0.02 su 1 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   }
  ],
  "paper": {
@@ -195,6 +188,21 @@
   "sumPct": 6.19
  },
  "recent": [
+  {
+   "id": "LINKUSDT-1h-1794088799999",
+   "key": "LINKUSDT-1h-sma-5-50-1-2",
+   "sym": "LINKUSDT",
+   "tf": "1h",
+   "dir": "SHORT",
+   "entry": 10.783,
+   "sl": 10.865086635075803,
+   "tp": 10.618826729848392,
+   "slPct": 0.761,
+   "t0": 1794088799999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
   {
    "id": "LINKUSDT-1h-1794063599999",
    "key": "LINKUSDT-1h-sma-5-50-1-2",
@@ -456,25 +464,6 @@
    "t1": 1793304000000,
    "pct": 2.686,
    "r": 1.42
-  },
-  {
-   "id": "ADAUSDT-1h-1792702799999",
-   "key": "ADAUSDT-1h-sma-30-100-1.5-2",
-   "sym": "ADAUSDT",
-   "tf": "1h",
-   "dir": "SHORT",
-   "entry": 0.2112,
-   "sl": 0.2146694445445574,
-   "tp": 0.20657407394059016,
-   "slPct": 1.643,
-   "t0": 1792702799999,
-   "status": "sl",
-   "news": 0,
-   "blackout": false,
-   "exit": 0.2146694445445574,
-   "t1": 1792717200000,
-   "pct": -1.803,
-   "r": -1.1
   }
  ]
 }
