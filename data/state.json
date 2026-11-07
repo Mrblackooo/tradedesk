@@ -1,5 +1,5 @@
 {
- "updated": 1794064360623,
+ "updated": 1794079705829,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 51.84,
+   "price": 52.24,
    "entry": 52.02,
    "sl": 54.02596727803609,
    "tp": 49.01104908294587,
@@ -39,14 +39,14 @@
    "sym": "LINKUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
-   "dir": "LONG",
-   "action": "ATTIVO",
-   "since": 1794063599999,
-   "price": 10.883,
-   "entry": 10.91,
-   "sl": 10.825154089316408,
-   "tp": 11.079691821367183,
-   "size": 64.3,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1794067199999,
+   "price": 10.857,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
     "score": 0,
     "heads": []
@@ -59,8 +59,8 @@
    },
    "stage": "osservazione",
    "proof": {
-    "n": 4,
-    "avgR": -1.15
+    "n": 5,
+    "avgR": -1.16
    },
    "key": "LINKUSDT-1h-sma-5-50-1-2"
   },
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793969999999,
-   "price": 0.1821,
+   "price": 0.1817,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 694.48,
+   "price": 697.08,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793793599999,
-   "price": 0.3196,
+   "price": 0.3199,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,7 +158,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 75873.47,
+   "price": 75779.52,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -189,10 +189,10 @@
   }
  ],
  "paper": {
-  "n": 23,
-  "wr": 0.304,
-  "avgR": -0.34,
-  "sumPct": 7.13
+  "n": 24,
+  "wr": 0.292,
+  "avgR": -0.37,
+  "sumPct": 6.19
  },
  "recent": [
   {
@@ -206,9 +206,13 @@
    "tp": 11.079691821367183,
    "slPct": 0.778,
    "t0": 1794063599999,
-   "status": "open",
+   "status": "sl",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 10.825154089316408,
+   "t1": 1794063600000,
+   "pct": -0.938,
+   "r": -1.21
   },
   {
    "id": "LTCUSDT-1h-1793915999999",
