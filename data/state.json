@@ -1,10 +1,10 @@
 {
- "updated": 1794003556430,
+ "updated": 1794016807821,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-06T10:29:35.980Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.73).",
+ "briefing": null,
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 52.92,
+   "price": 52.43,
    "entry": 52.02,
    "sl": 54.02596727803609,
    "tp": 49.01104908294587,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793897999999,
-   "price": 10.956,
+   "price": 10.848,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793969999999,
-   "price": 0.1864,
+   "price": 0.1851,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793793599999,
-   "price": 0.3188,
+   "price": 0.3181,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,17 +129,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 76058,
+   "price": 76059.43,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders",
-     "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.556,
@@ -152,12 +149,7 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": -0.73,
-    "risk": "low",
-    "note": "sentiment -0.73 su 2 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   },
   {
    "sym": "BNBUSDT",
@@ -166,7 +158,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 695.27,
+   "price": 695.9,
    "entry": null,
    "sl": null,
    "tp": null,
