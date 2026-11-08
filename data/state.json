@@ -1,5 +1,5 @@
 {
- "updated": 1794169361896,
+ "updated": 1794182232965,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
@@ -10,14 +10,14 @@
    "sym": "LINKUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1794088799999,
-   "price": 10.667,
-   "entry": 10.783,
-   "sl": 10.865086635075803,
-   "tp": 10.618826729848392,
-   "size": 65.7,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1794175199999,
+   "price": 10.389,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
     "score": 0,
     "heads": []
@@ -30,8 +30,8 @@
    },
    "stage": "osservazione",
    "proof": {
-    "n": 5,
-    "avgR": -1.16
+    "n": 6,
+    "avgR": -0.67
    },
    "key": "LINKUSDT-1h-sma-5-50-1-2"
   },
@@ -42,7 +42,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 51.58,
+   "price": 50.02,
    "entry": 52.02,
    "sl": 54.02596727803609,
    "tp": 49.011049082945874,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793969999999,
-   "price": 0.1799,
+   "price": 0.1747,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 697.96,
+   "price": 683.81,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793793599999,
-   "price": 0.3203,
+   "price": 0.3194,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,7 +158,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 75889.62,
+   "price": 74666.01,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -182,10 +182,10 @@
   }
  ],
  "paper": {
-  "n": 24,
-  "wr": 0.292,
-  "avgR": -0.37,
-  "sumPct": 6.19
+  "n": 25,
+  "wr": 0.32,
+  "avgR": -0.29,
+  "sumPct": 7.56
  },
  "recent": [
   {
@@ -199,9 +199,13 @@
    "tp": 10.618826729848392,
    "slPct": 0.761,
    "t0": 1794088799999,
-   "status": "open",
+   "status": "tp",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 10.618826729848392,
+   "t1": 1794171600000,
+   "pct": 1.363,
+   "r": 1.79
   },
   {
    "id": "LINKUSDT-1h-1794063599999",
