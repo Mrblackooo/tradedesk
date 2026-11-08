@@ -1,40 +1,11 @@
 {
- "updated": 1794128779098,
+ "updated": 1794153328050,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-11-07T09:42:52.476Z",
- "briefing": null,
+ "scannedAt": "2026-11-08T09:57:42.492Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.34).",
  "signals": [
-  {
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 20/80 SL3/TP4.5 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1793915999999,
-   "price": 51.95,
-   "entry": 52.02,
-   "sl": 54.0259672780361,
-   "tp": 49.01104908294586,
-   "size": 13,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.6,
-    "t": 2.23,
-    "n": 25,
-    "sharpeTest": 4.68
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 1,
-    "avgR": -1.05
-   },
-   "key": "LTCUSDT-1h-sma-20-80-3-4.5"
-  },
   {
    "sym": "LINKUSDT",
    "tf": "1h",
@@ -42,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1794088799999,
-   "price": 10.745,
+   "price": 10.749,
    "entry": 10.783,
    "sl": 10.865086635075803,
    "tp": 10.618826729848392,
@@ -52,10 +23,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.467,
-    "t": 1.43,
-    "n": 60,
-    "sharpeTest": 3.16
+    "wrTest": 0.459,
+    "t": 1.18,
+    "n": 61,
+    "sharpeTest": 2.62
    },
    "stage": "osservazione",
    "proof": {
@@ -65,13 +36,42 @@
    "key": "LINKUSDT-1h-sma-5-50-1-2"
   },
   {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 20/80 SL3/TP4.5 ATR",
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1793915999999,
+   "price": 51.86,
+   "entry": 52.02,
+   "sl": 54.02596727803609,
+   "tp": 49.01104908294587,
+   "size": 13,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.652,
+    "t": 2.31,
+    "n": 23,
+    "sharpeTest": 4.61
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 1,
+    "avgR": -1.05
+   },
+   "key": "LTCUSDT-1h-sma-20-80-3-4.5"
+  },
+  {
    "sym": "ADAUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 30/100 SL1.5/TP3 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793969999999,
-   "price": 0.1802,
+   "price": 0.1809,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -82,9 +82,9 @@
    },
    "bt": {
     "wrTest": 0.478,
-    "t": 1.15,
+    "t": 1.01,
     "n": 23,
-    "sharpeTest": 2.55
+    "sharpeTest": 2.2
    },
    "stage": "osservazione",
    "proof": {
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 699.03,
+   "price": 698.48,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,14 +158,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 75936.08,
+   "price": 76077.59,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)"
+    ]
    },
    "bt": {
     "wrTest": 0.556,
@@ -178,7 +180,12 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.34,
+    "risk": "low",
+    "note": "sentiment +0.34 su 1 titoli"
+   }
   }
  ],
  "paper": {
