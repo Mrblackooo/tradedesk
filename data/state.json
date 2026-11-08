@@ -1,10 +1,10 @@
 {
- "updated": 1794153328050,
+ "updated": 1794169361896,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-08T09:57:42.492Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.34).",
+ "briefing": null,
  "signals": [
   {
    "sym": "LINKUSDT",
@@ -13,7 +13,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1794088799999,
-   "price": 10.749,
+   "price": 10.667,
    "entry": 10.783,
    "sl": 10.865086635075803,
    "tp": 10.618826729848392,
@@ -42,10 +42,10 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 51.86,
+   "price": 51.58,
    "entry": 52.02,
    "sl": 54.02596727803609,
-   "tp": 49.01104908294587,
+   "tp": 49.011049082945874,
    "size": 13,
    "news": {
     "score": 0,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793969999999,
-   "price": 0.1809,
+   "price": 0.1799,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 698.48,
+   "price": 697.96,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793793599999,
-   "price": 0.3207,
+   "price": 0.3203,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,16 +158,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 76077.59,
+   "price": 75889.62,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.556,
@@ -180,12 +178,7 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": 0.34,
-    "risk": "low",
-    "note": "sentiment +0.34 su 1 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   }
  ],
  "paper": {
