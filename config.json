@@ -26,25 +26,6 @@
  },
  "watch": [
   {
-   "sym": "LINKUSDT",
-   "tf": "1h",
-   "st": "sma",
-   "a": 5,
-   "b": 50,
-   "ks": 1,
-   "kt": 2,
-   "lo": false,
-   "active": true,
-   "adopted": "2026-10-25T08:11:26.509Z",
-   "bt": {
-    "wrTest": 0.459,
-    "t": 1.18,
-    "n": 61,
-    "sharpeTest": 2.62
-   },
-   "tested": "2026-11-08T09:57:42.491Z"
-  },
-  {
    "sym": "LTCUSDT",
    "tf": "1h",
    "st": "sma",
@@ -56,31 +37,31 @@
    "active": true,
    "adopted": "2026-11-03T10:31:37.239Z",
    "bt": {
-    "wrTest": 0.652,
-    "t": 2.31,
-    "n": 23,
-    "sharpeTest": 4.61
+    "wrTest": 0.636,
+    "t": 2.27,
+    "n": 22,
+    "sharpeTest": 4.39
    },
-   "tested": "2026-11-08T09:57:42.492Z"
+   "tested": "2026-11-09T11:00:40.670Z"
   },
   {
-   "sym": "ADAUSDT",
+   "sym": "LINKUSDT",
    "tf": "1h",
    "st": "sma",
-   "a": 30,
-   "b": 100,
-   "ks": 1.5,
-   "kt": 3,
+   "a": 5,
+   "b": 50,
+   "ks": 1,
+   "kt": 2,
    "lo": false,
    "active": true,
-   "adopted": "2026-10-27T08:44:01.090Z",
+   "adopted": "2026-10-25T08:11:26.509Z",
    "bt": {
-    "wrTest": 0.478,
-    "t": 1.01,
-    "n": 23,
-    "sharpeTest": 2.2
+    "wrTest": 0.45,
+    "t": 1.09,
+    "n": 60,
+    "sharpeTest": 2.42
    },
-   "tested": "2026-11-08T09:57:42.492Z"
+   "tested": "2026-11-09T11:00:40.671Z"
   },
   {
    "sym": "BNBUSDT",
@@ -99,7 +80,7 @@
     "n": 23,
     "sharpeTest": 4.46
    },
-   "tested": "2026-11-08T09:57:42.492Z"
+   "tested": "2026-11-09T11:00:40.671Z"
   },
   {
    "sym": "TRXUSDT",
@@ -113,12 +94,12 @@
    "active": true,
    "adopted": "2026-10-12T10:24:01.305Z",
    "bt": {
-    "wrTest": 0.531,
-    "t": 1.4,
-    "n": 32,
-    "sharpeTest": 1.89
+    "wrTest": 0.515,
+    "t": 1.3,
+    "n": 33,
+    "sharpeTest": 1.76
    },
-   "tested": "2026-11-08T09:57:42.492Z"
+   "tested": "2026-11-09T11:00:40.671Z"
   },
   {
    "sym": "BTCUSDT",
@@ -137,8 +118,27 @@
     "n": 27,
     "sharpeTest": 1.88
    },
-   "tested": "2026-11-08T09:57:42.492Z"
+   "tested": "2026-11-09T11:00:40.672Z"
+  },
+  {
+   "sym": "DOGEUSDT",
+   "tf": "1d",
+   "st": "sma",
+   "a": 5,
+   "b": 80,
+   "ks": 1,
+   "kt": 2,
+   "lo": false,
+   "active": true,
+   "adopted": "2026-11-09T11:00:40.672Z",
+   "bt": {
+    "wrTest": 0.7,
+    "t": 2.38,
+    "n": 20,
+    "sharpeTest": 1.86
+   },
+   "tested": "2026-11-09T11:00:40.672Z"
   }
  ],
- "scannedAt": "2026-11-08T09:57:42.492Z"
+ "scannedAt": "2026-11-09T11:00:40.672Z"
 }
