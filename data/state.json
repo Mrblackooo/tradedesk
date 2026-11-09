@@ -1,10 +1,10 @@
 {
- "updated": 1794182232965,
+ "updated": 1794203939586,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-08T09:57:42.492Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.14).",
  "signals": [
   {
    "sym": "LINKUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794175199999,
-   "price": 10.389,
+   "price": 10.451,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,10 +42,10 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 50.02,
+   "price": 50.61,
    "entry": 52.02,
-   "sl": 54.02596727803609,
-   "tp": 49.011049082945874,
+   "sl": 54.0259672780361,
+   "tp": 49.01104908294586,
    "size": 13,
    "news": {
     "score": 0,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793969999999,
-   "price": 0.1747,
+   "price": 0.175,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 683.81,
+   "price": 685.05,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793793599999,
-   "price": 0.3194,
+   "price": 0.3177,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,14 +158,17 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 74666.01,
+   "price": 74510.28,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "Binance's bitcoin mining pool finds just one block in a week as shutdown nears",
+     "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility"
+    ]
    },
    "bt": {
     "wrTest": 0.556,
@@ -178,7 +181,12 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": -0.14,
+    "risk": "low",
+    "note": "sentiment -0.14 su 2 titoli"
+   }
   }
  ],
  "paper": {
