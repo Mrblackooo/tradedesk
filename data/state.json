@@ -1,10 +1,10 @@
 {
- "updated": 1794269220068,
+ "updated": 1794294476493,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-09T11:00:40.672Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.07).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.35).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,10 +13,10 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 51.44,
+   "price": 51.51,
    "entry": 52.02,
-   "sl": 54.025967278036134,
-   "tp": 49.0110490829458,
+   "sl": 54.025967278036326,
+   "tp": 49.01104908294552,
    "size": 13,
    "news": {
     "score": 0,
@@ -39,14 +39,14 @@
    "sym": "LINKUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
-   "dir": "LONG",
-   "action": "ATTIVO",
-   "since": 1794243599999,
-   "price": 10.664,
-   "entry": 10.688,
-   "sl": 10.551227832467193,
-   "tp": 10.961544335065616,
-   "size": 39.1,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1794290399999,
+   "price": 10.638,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
     "score": 0,
     "heads": []
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 692.63,
+   "price": 690.01,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3178,
+   "price": 0.3185,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,15 +129,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 75369.55,
+   "price": 74732.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -1,
+    "score": 0,
     "heads": [
-     "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals"
+     "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more",
+     "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough"
     ]
    },
    "bt": {
@@ -153,9 +154,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.07,
+    "score": -0.35,
     "risk": "low",
-    "note": "sentiment +0.07 su 1 titoli"
+    "note": "sentiment -0.35 su 2 titoli"
    }
   },
   {
@@ -165,7 +166,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.07005,
+   "price": 0.07011,
    "entry": null,
    "sl": null,
    "tp": null,
