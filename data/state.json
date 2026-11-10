@@ -1,10 +1,10 @@
 {
- "updated": 1794239909429,
+ "updated": 1794269220068,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-09T11:00:40.672Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.02).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.07).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,10 +13,10 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 52.2,
+   "price": 51.44,
    "entry": 52.02,
-   "sl": 54.025967278036084,
-   "tp": 49.01104908294588,
+   "sl": 54.025967278036134,
+   "tp": 49.0110490829458,
    "size": 13,
    "news": {
     "score": 0,
@@ -39,14 +39,14 @@
    "sym": "LINKUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 5/50 SL1/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1794175199999,
-   "price": 10.785,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1794243599999,
+   "price": 10.664,
+   "entry": 10.688,
+   "sl": 10.551227832467193,
+   "tp": 10.961544335065616,
+   "size": 39.1,
    "news": {
     "score": 0,
     "heads": []
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 691,
+   "price": 692.63,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3177,
+   "price": 0.3178,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,18 +129,15 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 75525.93,
+   "price": 75369.55,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 1,
+    "score": -1,
     "heads": [
-     "Bitcoin bulls can't rely on ETF flows",
-     "Live news: Bitcoin remains under pressure as stocks surge, oil slumps",
-     "Strategy buys 1,036 Bitcoin as BTC holdings climb to 850,364",
-     "BTC price eyes $73K amid Nvidia volatility: Three things to know in Bitcoin this week"
+     "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals"
     ]
    },
    "bt": {
@@ -156,9 +153,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.02,
+    "score": 0.07,
     "risk": "low",
-    "note": "sentiment -0.02 su 4 titoli"
+    "note": "sentiment +0.07 su 1 titoli"
    }
   },
   {
@@ -168,7 +165,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.07086,
+   "price": 0.07005,
    "entry": null,
    "sl": null,
    "tp": null,
