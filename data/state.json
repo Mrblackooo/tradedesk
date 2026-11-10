@@ -1,10 +1,10 @@
 {
- "updated": 1794325106593,
+ "updated": 1794346003168,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-10T10:50:59.129Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.59).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.01).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,10 +13,10 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 50.5,
+   "price": 50.4,
    "entry": 52.02,
-   "sl": 54.02596727803593,
-   "tp": 49.011049082946116,
+   "sl": 54.025967278035814,
+   "tp": 49.01104908294628,
    "size": 13,
    "news": {
     "score": 0,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 681.71,
+   "price": 677.56,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3194,
+   "price": 0.3179,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.06798,
+   "price": 0.06781,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 73409.78,
+   "price": 73932.45,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -137,11 +137,8 @@
    "news": {
     "score": -1,
     "heads": [
-     "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings",
-     "Bitcoin lags stock rebound in advance of U.S. inflation report",
-     "Bitcoin slips before U.S. inflation report as traders price in Fed rate increase",
-     "Live news: Bitcoin trading near $74,000 after disappointing inflation data",
-     "Bitcoin’s ‘best buying opportunity ever’ has arrived: Mark Moss"
+     "Mercado Bitcoin to resume cash withdrawals after $49M hack",
+     "Bitcoin nears 11-week low after ‘discouraging’ US CPI inflation beat"
     ]
    },
    "bt": {
@@ -157,9 +154,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.59,
+    "score": -0.01,
     "risk": "low",
-    "note": "sentiment -0.59 su 5 titoli"
+    "note": "sentiment -0.01 su 2 titoli"
    }
   },
   {
@@ -169,7 +166,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 82.9,
+   "price": 83.41,
    "entry": null,
    "sl": null,
    "tp": null,
