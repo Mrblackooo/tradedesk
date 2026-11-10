@@ -38,30 +38,11 @@
    "adopted": "2026-11-03T10:31:37.239Z",
    "bt": {
     "wrTest": 0.636,
-    "t": 2.27,
+    "t": 2.21,
     "n": 22,
-    "sharpeTest": 4.39
+    "sharpeTest": 4.23
    },
-   "tested": "2026-11-09T11:00:40.670Z"
-  },
-  {
-   "sym": "LINKUSDT",
-   "tf": "1h",
-   "st": "sma",
-   "a": 5,
-   "b": 50,
-   "ks": 1,
-   "kt": 2,
-   "lo": false,
-   "active": true,
-   "adopted": "2026-10-25T08:11:26.509Z",
-   "bt": {
-    "wrTest": 0.45,
-    "t": 1.09,
-    "n": 60,
-    "sharpeTest": 2.42
-   },
-   "tested": "2026-11-09T11:00:40.671Z"
+   "tested": "2026-11-10T10:50:59.127Z"
   },
   {
    "sym": "BNBUSDT",
@@ -80,7 +61,7 @@
     "n": 23,
     "sharpeTest": 4.46
    },
-   "tested": "2026-11-09T11:00:40.671Z"
+   "tested": "2026-11-10T10:50:59.129Z"
   },
   {
    "sym": "TRXUSDT",
@@ -99,26 +80,7 @@
     "n": 33,
     "sharpeTest": 1.76
    },
-   "tested": "2026-11-09T11:00:40.671Z"
-  },
-  {
-   "sym": "BTCUSDT",
-   "tf": "4h",
-   "st": "sma",
-   "a": 20,
-   "b": 80,
-   "ks": 2,
-   "kt": 3,
-   "lo": false,
-   "active": true,
-   "adopted": "2026-10-12T10:24:01.305Z",
-   "bt": {
-    "wrTest": 0.556,
-    "t": 1.68,
-    "n": 27,
-    "sharpeTest": 1.88
-   },
-   "tested": "2026-11-09T11:00:40.672Z"
+   "tested": "2026-11-10T10:50:59.129Z"
   },
   {
    "sym": "DOGEUSDT",
@@ -137,8 +99,46 @@
     "n": 20,
     "sharpeTest": 1.86
    },
-   "tested": "2026-11-09T11:00:40.672Z"
+   "tested": "2026-11-10T10:50:59.129Z"
+  },
+  {
+   "sym": "BTCUSDT",
+   "tf": "4h",
+   "st": "sma",
+   "a": 20,
+   "b": 80,
+   "ks": 2,
+   "kt": 3,
+   "lo": false,
+   "active": true,
+   "adopted": "2026-10-12T10:24:01.305Z",
+   "bt": {
+    "wrTest": 0.556,
+    "t": 1.68,
+    "n": 27,
+    "sharpeTest": 1.88
+   },
+   "tested": "2026-11-10T10:50:59.129Z"
+  },
+  {
+   "sym": "SOLUSDT",
+   "tf": "1d",
+   "st": "sma",
+   "a": 20,
+   "b": 30,
+   "ks": 2,
+   "kt": 3,
+   "lo": false,
+   "active": true,
+   "adopted": "2026-11-10T10:50:59.129Z",
+   "bt": {
+    "wrTest": 0.545,
+    "t": 2.04,
+    "n": 22,
+    "sharpeTest": 1.57
+   },
+   "tested": "2026-11-10T10:50:59.129Z"
   }
  ],
- "scannedAt": "2026-11-09T11:00:40.672Z"
+ "scannedAt": "2026-11-10T10:50:59.129Z"
 }
