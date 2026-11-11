@@ -1,10 +1,10 @@
 {
- "updated": 1794413710640,
+ "updated": 1794437077432,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-11T10:27:58.240Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.52).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.72).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,10 +13,10 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 51.34,
+   "price": 50.2,
    "entry": 52.02,
-   "sl": 54.025967278036354,
-   "tp": 49.011049082945476,
+   "sl": 54.02596727803629,
+   "tp": 49.01104908294557,
    "size": 13,
    "news": {
     "score": 0,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 685.96,
+   "price": 682.07,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3165,
+   "price": 0.3175,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.06902,
+   "price": 0.06759,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 84.92,
+   "price": 83.74,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,19 +158,15 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 74209.9,
+   "price": 74080.16,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -2,
+    "score": 0,
     "heads": [
-     "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
-     "Bitcoin barely flinches at hot CPI as ETF selling slows",
-     "Bitcoin sits out stock rebound as ETF outflows extend to fourth day",
-     "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
-     "Bitcoin Covenants Part 5: MATT and OP_CHECKCONTRACTVERIFY — How Bitcoin could carry state across transactions"
+     "US data center restrictions could give Bitcoin miners an edge in AI, though challenges remain"
     ]
    },
    "bt": {
@@ -186,9 +182,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.52,
+    "score": 0.72,
     "risk": "low",
-    "note": "sentiment +0.52 su 5 titoli"
+    "note": "sentiment +0.72 su 1 titoli"
    }
   }
  ],
