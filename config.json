@@ -40,9 +40,9 @@
     "wrTest": 0.636,
     "t": 2.21,
     "n": 22,
-    "sharpeTest": 4.23
+    "sharpeTest": 4.13
    },
-   "tested": "2026-11-10T10:50:59.127Z"
+   "tested": "2026-11-11T10:27:58.239Z"
   },
   {
    "sym": "BNBUSDT",
@@ -61,7 +61,7 @@
     "n": 23,
     "sharpeTest": 4.46
    },
-   "tested": "2026-11-10T10:50:59.129Z"
+   "tested": "2026-11-11T10:27:58.240Z"
   },
   {
    "sym": "TRXUSDT",
@@ -80,7 +80,7 @@
     "n": 33,
     "sharpeTest": 1.76
    },
-   "tested": "2026-11-10T10:50:59.129Z"
+   "tested": "2026-11-11T10:27:58.240Z"
   },
   {
    "sym": "DOGEUSDT",
@@ -97,28 +97,9 @@
     "wrTest": 0.7,
     "t": 2.38,
     "n": 20,
-    "sharpeTest": 1.86
+    "sharpeTest": 1.85
    },
-   "tested": "2026-11-10T10:50:59.129Z"
-  },
-  {
-   "sym": "BTCUSDT",
-   "tf": "4h",
-   "st": "sma",
-   "a": 20,
-   "b": 80,
-   "ks": 2,
-   "kt": 3,
-   "lo": false,
-   "active": true,
-   "adopted": "2026-10-12T10:24:01.305Z",
-   "bt": {
-    "wrTest": 0.556,
-    "t": 1.68,
-    "n": 27,
-    "sharpeTest": 1.88
-   },
-   "tested": "2026-11-10T10:50:59.129Z"
+   "tested": "2026-11-11T10:27:58.240Z"
   },
   {
    "sym": "SOLUSDT",
@@ -137,8 +118,27 @@
     "n": 22,
     "sharpeTest": 1.57
    },
-   "tested": "2026-11-10T10:50:59.129Z"
+   "tested": "2026-11-11T10:27:58.240Z"
+  },
+  {
+   "sym": "BTCUSDT",
+   "tf": "4h",
+   "st": "sma",
+   "a": 20,
+   "b": 80,
+   "ks": 2,
+   "kt": 3,
+   "lo": false,
+   "active": true,
+   "adopted": "2026-10-12T10:24:01.305Z",
+   "bt": {
+    "wrTest": 0.556,
+    "t": 1.68,
+    "n": 27,
+    "sharpeTest": 1.88
+   },
+   "tested": "2026-11-11T10:27:58.240Z"
   }
  ],
- "scannedAt": "2026-11-10T10:50:59.129Z"
+ "scannedAt": "2026-11-11T10:27:58.240Z"
 }
