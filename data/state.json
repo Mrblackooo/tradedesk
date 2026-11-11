@@ -1,10 +1,10 @@
 {
- "updated": 1794360376460,
+ "updated": 1794385001315,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-10T10:50:59.129Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.63).",
+ "briefing": null,
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,10 +13,10 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 50.8,
+   "price": 50.84,
    "entry": 52.02,
-   "sl": 54.02596727803593,
-   "tp": 49.011049082946116,
+   "sl": 54.02596727803581,
+   "tp": 49.0110490829463,
    "size": 13,
    "news": {
     "score": 0,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 679.7,
+   "price": 682.47,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.318,
+   "price": 0.3177,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.06824,
+   "price": 0.06817,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,16 +129,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 73529.07,
+   "price": 74067.34,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "LNbits rushes emergency patch after reported Bitcoin wallet thefts"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.556,
@@ -151,12 +149,7 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": -0.63,
-    "risk": "low",
-    "note": "sentiment -0.63 su 1 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   },
   {
    "sym": "SOLUSDT",
@@ -165,7 +158,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 83.09,
+   "price": 83.28,
    "entry": null,
    "sl": null,
    "tp": null,
