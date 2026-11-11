@@ -1,10 +1,10 @@
 {
- "updated": 1794346003168,
+ "updated": 1794360376460,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-10T10:50:59.129Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.01).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.63).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,10 +13,10 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 50.4,
+   "price": 50.8,
    "entry": 52.02,
-   "sl": 54.025967278035814,
-   "tp": 49.01104908294628,
+   "sl": 54.02596727803593,
+   "tp": 49.011049082946116,
    "size": 13,
    "news": {
     "score": 0,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 677.56,
+   "price": 679.7,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3179,
+   "price": 0.318,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.06781,
+   "price": 0.06824,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,16 +129,15 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 73932.45,
+   "price": 73529.07,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -1,
+    "score": 0,
     "heads": [
-     "Mercado Bitcoin to resume cash withdrawals after $49M hack",
-     "Bitcoin nears 11-week low after ‘discouraging’ US CPI inflation beat"
+     "LNbits rushes emergency patch after reported Bitcoin wallet thefts"
     ]
    },
    "bt": {
@@ -154,9 +153,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.01,
+    "score": -0.63,
     "risk": "low",
-    "note": "sentiment -0.01 su 2 titoli"
+    "note": "sentiment -0.63 su 1 titoli"
    }
   },
   {
@@ -166,7 +165,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 83.41,
+   "price": 83.09,
    "entry": null,
    "sl": null,
    "tp": null,
