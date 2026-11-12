@@ -1,23 +1,23 @@
 {
- "updated": 1794483859277,
+ "updated": 1794510615751,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-12T10:44:31.573Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-2.25).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – SOL: neutro (+0.48); BTC: negativo (-0.65).",
  "signals": [
   {
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 20/80 SL3/TP4.5 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1793915999999,
-   "price": 49.23,
-   "entry": 52.02,
-   "sl": 54.025967278033214,
-   "tp": 49.01104908295018,
-   "size": 13,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1794484799999,
+   "price": 49.88,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
     "score": 0,
     "heads": []
@@ -30,8 +30,8 @@
    },
    "stage": "osservazione",
    "proof": {
-    "n": 1,
-    "avgR": -1.05
+    "n": 2,
+    "avgR": 0.2
    },
    "key": "LTCUSDT-1h-sma-20-80-3-4.5"
   },
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 665.04,
+   "price": 654.75,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3163,
+   "price": 0.3159,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.06661,
+   "price": 0.06607,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,14 +129,17 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 82.51,
+   "price": 81.58,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
+     "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform"
+    ]
    },
    "bt": {
     "wrTest": 0.545,
@@ -149,7 +152,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "SOLUSDT-1d-sma-20-30-2-3"
+   "key": "SOLUSDT-1d-sma-20-30-2-3",
+   "llm": {
+    "score": 0.48,
+    "risk": "low",
+    "note": "sentiment +0.48 su 2 titoli"
+   }
   },
   {
    "sym": "BTCUSDT",
@@ -158,19 +166,15 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 72946.15,
+   "price": 71656.48,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -2,
+    "score": 0,
     "heads": [
-     "Bitcoin dips with Nvidia as ETF outflows reach day five",
-     "Live updates: Bitcoin ETFs bleed $300 million as AI stocks slide again",
-     "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
-     "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
-     "BlackRock Bitcoin ETF outflows hit $2B over nine sessions"
+     "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down"
     ]
    },
    "bt": {
@@ -186,17 +190,17 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -2.25,
+    "score": -0.65,
     "risk": "low",
-    "note": "sentiment -2.25 su 5 titoli"
+    "note": "sentiment -0.65 su 1 titoli"
    }
   }
  ],
  "paper": {
-  "n": 25,
-  "wr": 0.32,
-  "avgR": -0.29,
-  "sumPct": 7.56
+  "n": 26,
+  "wr": 0.346,
+  "avgR": -0.22,
+  "sumPct": 13.18
  },
  "recent": [
   {
@@ -248,9 +252,13 @@
    "tp": 49.01104908294587,
    "slPct": 3.856,
    "t0": 1793915999999,
-   "status": "open",
+   "status": "tp",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 49.01104908294587,
+   "t1": 1794481200000,
+   "pct": 5.624,
+   "r": 1.46
   },
   {
    "id": "LTCUSDT-1h-1793825999999",
