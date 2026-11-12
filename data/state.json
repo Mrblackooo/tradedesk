@@ -1,10 +1,10 @@
 {
- "updated": 1794437077432,
+ "updated": 1794453883721,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-11T10:27:58.240Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.72).",
+ "briefing": null,
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,10 +13,10 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 50.2,
+   "price": 49.88,
    "entry": 52.02,
-   "sl": 54.02596727803629,
-   "tp": 49.01104908294557,
+   "sl": 54.02596727803633,
+   "tp": 49.01104908294551,
    "size": 13,
    "news": {
     "score": 0,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 682.07,
+   "price": 678.57,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3175,
+   "price": 0.3173,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.06759,
+   "price": 0.06726,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 83.74,
+   "price": 83.12,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,16 +158,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 74080.16,
+   "price": 73766.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "US data center restrictions could give Bitcoin miners an edge in AI, though challenges remain"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.556,
@@ -180,12 +178,7 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": 0.72,
-    "risk": "low",
-    "note": "sentiment +0.72 su 1 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   }
  ],
  "paper": {
