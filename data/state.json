@@ -1,10 +1,10 @@
 {
- "updated": 1794453883721,
+ "updated": 1794483859277,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-11-11T10:27:58.240Z",
- "briefing": null,
+ "scannedAt": "2026-11-12T10:44:31.573Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-2.25).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,10 +13,10 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1793915999999,
-   "price": 49.88,
+   "price": 49.23,
    "entry": 52.02,
-   "sl": 54.02596727803633,
-   "tp": 49.01104908294551,
+   "sl": 54.025967278033214,
+   "tp": 49.01104908295018,
    "size": 13,
    "news": {
     "score": 0,
@@ -24,9 +24,9 @@
    },
    "bt": {
     "wrTest": 0.636,
-    "t": 2.21,
+    "t": 2.37,
     "n": 22,
-    "sharpeTest": 4.13
+    "sharpeTest": 4.49
    },
    "stage": "osservazione",
    "proof": {
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 678.57,
+   "price": 665.04,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -52,10 +52,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.652,
-    "t": 2.14,
-    "n": 23,
-    "sharpeTest": 4.46
+    "wrTest": 0.682,
+    "t": 2.51,
+    "n": 22,
+    "sharpeTest": 5.06
    },
    "stage": "osservazione",
    "proof": {
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3173,
+   "price": 0.3163,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.06726,
+   "price": 0.06661,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 83.12,
+   "price": 82.51,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,14 +158,20 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 73766.01,
+   "price": 72946.15,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
-    "heads": []
+    "score": -2,
+    "heads": [
+     "Bitcoin dips with Nvidia as ETF outflows reach day five",
+     "Live updates: Bitcoin ETFs bleed $300 million as AI stocks slide again",
+     "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
+     "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
+     "BlackRock Bitcoin ETF outflows hit $2B over nine sessions"
+    ]
    },
    "bt": {
     "wrTest": 0.556,
@@ -178,7 +184,12 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": -2.25,
+    "risk": "low",
+    "note": "sentiment -2.25 su 5 titoli"
+   }
   }
  ],
  "paper": {
