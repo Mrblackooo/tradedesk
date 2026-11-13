@@ -1,10 +1,10 @@
 {
- "updated": 1794510615751,
+ "updated": 1794529916891,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-12T10:44:31.573Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – SOL: neutro (+0.48); BTC: negativo (-0.65).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – SOL: neutro (+0.26); BTC: negativo (-0.92).",
  "signals": [
   {
    "sym": "LTCUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794484799999,
-   "price": 49.88,
+   "price": 50.1,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 654.75,
+   "price": 655.97,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3159,
+   "price": 0.3155,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.06607,
+   "price": 0.06645,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 81.58,
+   "price": 81.53,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -137,8 +137,7 @@
    "news": {
     "score": 0,
     "heads": [
-     "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
-     "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform"
+     "DTCC Plans Solana Expansion as Wallet Rules Limit Access"
     ]
    },
    "bt": {
@@ -154,9 +153,9 @@
    },
    "key": "SOLUSDT-1d-sma-20-30-2-3",
    "llm": {
-    "score": 0.48,
+    "score": 0.26,
     "risk": "low",
-    "note": "sentiment +0.48 su 2 titoli"
+    "note": "sentiment +0.26 su 1 titoli"
    }
   },
   {
@@ -166,15 +165,15 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 71656.48,
+   "price": 71178,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
+    "score": -1,
     "heads": [
-     "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down"
+     "Strategy stock sheds 5% amid MSCI index removal, Bitcoin sell-off"
     ]
    },
    "bt": {
@@ -190,9 +189,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.65,
+    "score": -0.92,
     "risk": "low",
-    "note": "sentiment -0.65 su 1 titoli"
+    "note": "sentiment -0.92 su 1 titoli"
    }
   }
  ],
