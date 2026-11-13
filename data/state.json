@@ -1,10 +1,10 @@
 {
- "updated": 1794583622303,
+ "updated": 1794605544226,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-13T10:40:07.908Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.44).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-2.73).",
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 632.05,
+   "price": 632.7,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794484799999,
-   "price": 49,
+   "price": 49.45,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3127,
+   "price": 0.3128,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.06459,
+   "price": 0.06478,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 79.5,
+   "price": 79.26,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,7 +158,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 68557.99,
+   "price": 68303.02,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -166,9 +166,10 @@
    "news": {
     "score": -1,
     "heads": [
-     "Bitcoin's momentum gauge is turning red, could send prices back below $60,000",
-     "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
-     "Bitcoin returns to 200-week trend line as analyst sees risk of $57.7K next"
+     "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+     "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
+     "Metaplanet swings to $170M loss as Bitcoin sale hits earnings",
+     "Bitcoin holds below $70K as stocks slip despite a cooler US PPI print"
     ]
    },
    "bt": {
@@ -184,9 +185,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.44,
+    "score": -2.73,
     "risk": "low",
-    "note": "sentiment -0.44 su 3 titoli"
+    "note": "sentiment -2.73 su 4 titoli"
    }
   }
  ],
