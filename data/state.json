@@ -1,40 +1,11 @@
 {
- "updated": 1794553668715,
+ "updated": 1794583622303,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-11-12T10:44:31.573Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-1.68).",
+ "scannedAt": "2026-11-13T10:40:07.908Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.44).",
  "signals": [
-  {
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 20/80 SL3/TP4.5 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1794484799999,
-   "price": 49.06,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.636,
-    "t": 2.37,
-    "n": 22,
-    "sharpeTest": 4.49
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 2,
-    "avgR": 0.2
-   },
-   "key": "LTCUSDT-1h-sma-20-80-3-4.5"
-  },
   {
    "sym": "BNBUSDT",
    "tf": "1h",
@@ -42,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 636.18,
+   "price": 632.05,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -65,13 +36,42 @@
    "key": "BNBUSDT-1h-rsi-35-70-1.5-2"
   },
   {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 20/80 SL3/TP4.5 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1794484799999,
+   "price": 49,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.636,
+    "t": 2.41,
+    "n": 22,
+    "sharpeTest": 4.63
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 2,
+    "avgR": 0.2
+   },
+   "key": "LTCUSDT-1h-sma-20-80-3-4.5"
+  },
+  {
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3112,
+   "price": 0.3127,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.06475,
+   "price": 0.06459,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 80.4,
+   "price": 79.5,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,19 +158,17 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 69232.35,
+   "price": 68557.99,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -2,
+    "score": -1,
     "heads": [
-     "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value",
-     "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
-     "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
-     "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
-     "Bitcoin slides below $70K amid thin liquidity, ETF outflows"
+     "Bitcoin's momentum gauge is turning red, could send prices back below $60,000",
+     "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
+     "Bitcoin returns to 200-week trend line as analyst sees risk of $57.7K next"
     ]
    },
    "bt": {
@@ -186,9 +184,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -1.68,
+    "score": -0.44,
     "risk": "low",
-    "note": "sentiment -1.68 su 5 titoli"
+    "note": "sentiment -0.44 su 3 titoli"
    }
   }
  ],
