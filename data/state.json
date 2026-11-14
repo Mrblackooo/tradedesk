@@ -1,10 +1,10 @@
 {
- "updated": 1794605544226,
+ "updated": 1794620466529,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-13T10:40:07.908Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-2.73).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.11).",
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 632.7,
+   "price": 631.25,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794484799999,
-   "price": 49.45,
+   "price": 49.43,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3128,
+   "price": 0.312,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.06478,
+   "price": 0.06443,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 79.26,
+   "price": 77.43,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,18 +158,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 68303.02,
+   "price": 68326,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -1,
+    "score": 0,
     "heads": [
-     "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
-     "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
-     "Metaplanet swings to $170M loss as Bitcoin sale hits earnings",
-     "Bitcoin holds below $70K as stocks slip despite a cooler US PPI print"
+     "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
+     "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system"
     ]
    },
    "bt": {
@@ -185,9 +183,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -2.73,
+    "score": 0.11,
     "risk": "low",
-    "note": "sentiment -2.73 su 4 titoli"
+    "note": "sentiment +0.11 su 2 titoli"
    }
   }
  ],
