@@ -1,10 +1,10 @@
 {
- "updated": 1794620466529,
+ "updated": 1794643521539,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-13T10:40:07.908Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.11).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-1.14).",
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 631.25,
+   "price": 616.39,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794484799999,
-   "price": 49.43,
+   "price": 48.21,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.312,
+   "price": 0.3132,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.06443,
+   "price": 0.0626,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 77.43,
+   "price": 75.26,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,16 +158,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 68326,
+   "price": 67238.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
+    "score": -1,
     "heads": [
-     "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
-     "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system"
+     "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
+     "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11"
     ]
    },
    "bt": {
@@ -183,9 +183,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.11,
+    "score": -1.14,
     "risk": "low",
-    "note": "sentiment +0.11 su 2 titoli"
+    "note": "sentiment -1.14 su 2 titoli"
    }
   }
  ],
