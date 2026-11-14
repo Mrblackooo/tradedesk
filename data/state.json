@@ -1,10 +1,10 @@
 {
- "updated": 1794685894995,
+ "updated": 1794698797990,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-14T09:53:52.747Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.75).",
+ "briefing": null,
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 589.38,
+   "price": 577.59,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794484799999,
-   "price": 45.43,
+   "price": 43.91,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3084,
+   "price": 0.3066,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05967,
+   "price": 0.05647,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 72.09,
+   "price": 69.38,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,16 +158,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 65614.47,
+   "price": 63788.91,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.556,
@@ -180,12 +178,7 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": -0.75,
-    "risk": "low",
-    "note": "sentiment -0.75 su 1 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   }
  ],
  "paper": {
