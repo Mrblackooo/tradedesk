@@ -1,10 +1,10 @@
 {
- "updated": 1794818346398,
+ "updated": 1794855421458,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-11-15T10:29:20.062Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.7).",
+ "scannedAt": "2026-11-16T10:44:59.582Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BNB: neutro (+0.14); SOL: neutro (-0.29); BTC: neutro (-0.19).",
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,14 +13,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 590.54,
+   "price": 591.52,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "Binance Pay Later offers credit backed by Bitcoin, Ether and BNB holdings"
+    ]
    },
    "bt": {
     "wrTest": 0.65,
@@ -33,7 +35,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BNBUSDT-1h-rsi-35-70-1.5-2"
+   "key": "BNBUSDT-1h-rsi-35-70-1.5-2",
+   "llm": {
+    "score": 0.14,
+    "risk": "low",
+    "note": "sentiment +0.14 su 1 titoli"
+   }
   },
   {
    "sym": "TRXUSDT",
@@ -42,7 +49,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.303,
+   "price": 0.3069,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -53,9 +60,9 @@
    },
    "bt": {
     "wrTest": 0.515,
-    "t": 1.3,
+    "t": 1.21,
     "n": 33,
-    "sharpeTest": 1.76
+    "sharpeTest": 1.61
    },
    "stage": "osservazione",
    "proof": {
@@ -71,7 +78,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05875,
+   "price": 0.0595,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -94,49 +101,23 @@
    "key": "DOGEUSDT-1d-sma-5-80-1-2"
   },
   {
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 20/80 SL3/TP4.5 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1794484799999,
-   "price": 44.6,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.667,
-    "t": 2.69,
-    "n": 21,
-    "sharpeTest": 5.02
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 2,
-    "avgR": 0.2
-   },
-   "key": "LTCUSDT-1h-sma-20-80-3-4.5"
-  },
-  {
    "sym": "SOLUSDT",
    "tf": "1d",
    "strat": "Incrocio SMA 20/30 SL2/TP3 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 71.04,
+   "price": 71.47,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "Solana drops ‘beta’ label after more than six years",
+     "Zelle picks Solana for ZelleUSD stablecoin and international payments"
+    ]
    },
    "bt": {
     "wrTest": 0.545,
@@ -149,7 +130,41 @@
     "n": 0,
     "avgR": null
    },
-   "key": "SOLUSDT-1d-sma-20-30-2-3"
+   "key": "SOLUSDT-1d-sma-20-30-2-3",
+   "llm": {
+    "score": -0.29,
+    "risk": "low",
+    "note": "sentiment -0.29 su 2 titoli"
+   }
+  },
+  {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 20/80 SL3/TP4.5 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1794484799999,
+   "price": 44.9,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.737,
+    "t": 3.35,
+    "n": 19,
+    "sharpeTest": 5.69
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 2,
+    "avgR": 0.2
+   },
+   "key": "LTCUSDT-1h-sma-20-80-3-4.5"
   },
   {
    "sym": "BTCUSDT",
@@ -158,17 +173,18 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 64611.15,
+   "price": 65080.02,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 2,
+    "score": 0,
     "heads": [
-     "Bitcoin miners were hijacked and their BTC rewards redirected to an attacker",
-     "Bitcoin’s biggest bet is now a drop below $60,000, not a rally above $100,000",
-     "Harvard, Dartmouth keep Bitcoin ETF stakes steady as fund gains 42% in Q3"
+     "Nvidia turmoil tests Bitcoin miners’ AI funding plans",
+     "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves",
+     "Strategy buys $33M in Bitcoin, spends $228M on STRC buybacks",
+     "Binance Pay Later offers credit backed by Bitcoin, Ether and BNB holdings"
     ]
    },
    "bt": {
@@ -184,9 +200,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.7,
+    "score": -0.19,
     "risk": "low",
-    "note": "sentiment +0.7 su 3 titoli"
+    "note": "sentiment -0.19 su 4 titoli"
    }
   }
  ],
