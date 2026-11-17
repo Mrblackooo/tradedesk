@@ -1,10 +1,10 @@
 {
- "updated": 1794855421458,
+ "updated": 1794882322750,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-16T10:44:59.582Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BNB: neutro (+0.14); SOL: neutro (-0.29); BTC: neutro (-0.19).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.61).",
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,16 +13,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 591.52,
+   "price": 591.61,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "Binance Pay Later offers credit backed by Bitcoin, Ether and BNB holdings"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.65,
@@ -35,12 +33,7 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BNBUSDT-1h-rsi-35-70-1.5-2",
-   "llm": {
-    "score": 0.14,
-    "risk": "low",
-    "note": "sentiment +0.14 su 1 titoli"
-   }
+   "key": "BNBUSDT-1h-rsi-35-70-1.5-2"
   },
   {
    "sym": "TRXUSDT",
@@ -49,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3069,
+   "price": 0.3054,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -78,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.0595,
+   "price": 0.05886,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -107,17 +100,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 71.47,
+   "price": 71.74,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "Solana drops ‘beta’ label after more than six years",
-     "Zelle picks Solana for ZelleUSD stablecoin and international payments"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.545,
@@ -130,12 +120,7 @@
     "n": 0,
     "avgR": null
    },
-   "key": "SOLUSDT-1d-sma-20-30-2-3",
-   "llm": {
-    "score": -0.29,
-    "risk": "low",
-    "note": "sentiment -0.29 su 2 titoli"
-   }
+   "key": "SOLUSDT-1d-sma-20-30-2-3"
   },
   {
    "sym": "LTCUSDT",
@@ -144,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794484799999,
-   "price": 44.9,
+   "price": 44.77,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -173,18 +158,15 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 65080.02,
+   "price": 64588.32,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
+    "score": -1,
     "heads": [
-     "Nvidia turmoil tests Bitcoin miners’ AI funding plans",
-     "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves",
-     "Strategy buys $33M in Bitcoin, spends $228M on STRC buybacks",
-     "Binance Pay Later offers credit backed by Bitcoin, Ether and BNB holdings"
+     "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off"
     ]
    },
    "bt": {
@@ -200,9 +182,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.19,
+    "score": -0.61,
     "risk": "low",
-    "note": "sentiment -0.19 su 4 titoli"
+    "note": "sentiment -0.61 su 1 titoli"
    }
   }
  ],
