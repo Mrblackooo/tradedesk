@@ -1,5 +1,5 @@
 {
- "updated": 1794833547694,
+ "updated": 1794922481252,
  "feePct": 0.05,
  "strategies": [],
  "report": [
@@ -14,10 +14,10 @@
     "b": 75,
     "ks": 1.5,
     "kt": 3,
-    "wr": 0.333,
-    "n": 51,
-    "t": -1.18,
-    "costR": 0.566
+    "wr": 0.34,
+    "n": 53,
+    "t": -1.17,
+    "costR": 0.565
    },
    "ok": false,
    "why": [
@@ -37,17 +37,17 @@
     "st": "rsi",
     "a": 20,
     "b": 85,
-    "ks": 1.5,
-    "kt": 3,
-    "wr": 0.412,
-    "n": 17,
-    "t": 0.14,
-    "costR": 0.261
+    "ks": 1,
+    "kt": 2,
+    "wr": 0.375,
+    "n": 16,
+    "t": -0.05,
+    "costR": 0.392
    },
    "ok": false,
    "why": [
     "costi",
-    "train",
+    "test",
     "trade",
     "signif"
    ]
@@ -71,6 +71,7 @@
    "ok": false,
    "why": [
     "test",
+    "stab",
     "signif"
    ]
   },
@@ -88,7 +89,7 @@
     "wr": 0.4,
     "n": 20,
     "t": 0.17,
-    "costR": 0.41
+    "costR": 0.409
    },
    "ok": false,
    "why": [
@@ -102,7 +103,7 @@
    "sym": "ETHUSDT",
    "tf": "15m",
    "candles": 60000,
-   "atrPct": 0.401,
+   "atrPct": 0.4,
    "best": {
     "st": "rsi",
     "a": 15,
@@ -116,6 +117,7 @@
    },
    "ok": false,
    "why": [
+    "train",
     "trade",
     "signif"
    ]
@@ -124,7 +126,7 @@
    "sym": "ETHUSDT",
    "tf": "30m",
    "candles": 60000,
-   "atrPct": 0.558,
+   "atrPct": 0.559,
    "best": {
     "st": "rsi",
     "a": 15,
@@ -147,7 +149,7 @@
    "sym": "SOLUSDT",
    "tf": "5m",
    "candles": 60000,
-   "atrPct": 0.203,
+   "atrPct": 0.204,
    "best": {
     "st": "rsi",
     "a": 20,
@@ -172,15 +174,15 @@
    "candles": 60000,
    "atrPct": 0.473,
    "best": {
-    "st": "rsi",
-    "a": 15,
-    "b": 80,
-    "ks": 1,
-    "kt": 2,
-    "wr": 0.333,
-    "n": 15,
-    "t": 0.31,
-    "costR": 0.211
+    "st": "rsitrend",
+    "a": 35,
+    "b": 100,
+    "ks": 1.5,
+    "kt": 3,
+    "wr": 0.314,
+    "n": 35,
+    "t": 0.35,
+    "costR": 0.141
    },
    "ok": false,
    "why": [
@@ -214,7 +216,7 @@
    "sym": "XRPUSDT",
    "tf": "5m",
    "candles": 60000,
-   "atrPct": 0.188,
+   "atrPct": 0.189,
    "best": {
     "st": "rsi",
     "a": 25,
@@ -224,7 +226,7 @@
     "wr": 0.6,
     "n": 10,
     "t": 0.67,
-    "costR": 0.531
+    "costR": 0.529
    },
    "ok": false,
    "why": [
@@ -247,7 +249,7 @@
     "wr": 0.615,
     "n": 13,
     "t": 1.36,
-    "costR": 0.157
+    "costR": 0.158
    },
    "ok": false,
    "why": [
