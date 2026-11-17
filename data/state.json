@@ -1,10 +1,10 @@
 {
- "updated": 1794913338322,
+ "updated": 1794944668355,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-11-16T10:44:59.582Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.88).",
+ "scannedAt": "2026-11-17T11:33:26.075Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.73); SOL: neutro (+0.05).",
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 587.92,
+   "price": 588.05,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -23,10 +23,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.65,
-    "t": 2.18,
-    "n": 20,
-    "sharpeTest": 4.56
+    "wrTest": 0.684,
+    "t": 2.49,
+    "n": 19,
+    "sharpeTest": 5.01
    },
    "stage": "osservazione",
    "proof": {
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3057,
+   "price": 0.308,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -52,10 +52,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.515,
-    "t": 1.21,
-    "n": 33,
-    "sharpeTest": 1.61
+    "wrTest": 0.5,
+    "t": 1.01,
+    "n": 32,
+    "sharpeTest": 1.36
    },
    "stage": "osservazione",
    "proof": {
@@ -65,13 +65,49 @@
    "key": "TRXUSDT-4h-brk-20-0-1-2"
   },
   {
+   "sym": "BTCUSDT",
+   "tf": "4h",
+   "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1793318399999,
+   "price": 63778.11,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": [
+     "Bitcoin drops 2.5% as Nvidia stock risks new 5-month lows into Q3 earnings"
+    ]
+   },
+   "bt": {
+    "wrTest": 0.556,
+    "t": 1.65,
+    "n": 27,
+    "sharpeTest": 1.83
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 2,
+    "avgR": 0.17
+   },
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": -0.73,
+    "risk": "low",
+    "note": "sentiment -0.73 su 1 titoli"
+   }
+  },
+  {
    "sym": "DOGEUSDT",
    "tf": "1d",
    "strat": "Incrocio SMA 5/80 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05842,
+   "price": 0.05896,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,14 +136,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 72.21,
+   "price": 72.79,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "Solana Foundation takes majority interest in crypto data firm CoinGecko"
+    ]
    },
    "bt": {
     "wrTest": 0.545,
@@ -120,7 +158,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "SOLUSDT-1d-sma-20-30-2-3"
+   "key": "SOLUSDT-1d-sma-20-30-2-3",
+   "llm": {
+    "score": 0.05,
+    "risk": "low",
+    "note": "sentiment +0.05 su 1 titoli"
+   }
   },
   {
    "sym": "LTCUSDT",
@@ -129,7 +172,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794484799999,
-   "price": 44.4,
+   "price": 44.43,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -150,44 +193,6 @@
     "avgR": 0.2
    },
    "key": "LTCUSDT-1h-sma-20-80-3-4.5"
-  },
-  {
-   "sym": "BTCUSDT",
-   "tf": "4h",
-   "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1793318399999,
-   "price": 64168.02,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": 0,
-    "heads": [
-     "Live updates: Bitcoin holds near $64,000 as tech slides ahead of Nvidia earnings",
-     "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says",
-     "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion"
-    ]
-   },
-   "bt": {
-    "wrTest": 0.556,
-    "t": 1.68,
-    "n": 27,
-    "sharpeTest": 1.88
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 2,
-    "avgR": 0.17
-   },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": 0.88,
-    "risk": "low",
-    "note": "sentiment +0.88 su 3 titoli"
-   }
   }
  ],
  "paper": {
