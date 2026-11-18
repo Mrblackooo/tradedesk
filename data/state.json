@@ -1,10 +1,10 @@
 {
- "updated": 1794966802338,
+ "updated": 1794996022979,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-17T11:33:26.075Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-1.82); SOL: neutro (+0.39).",
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 592.83,
+   "price": 591.9,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3082,
+   "price": 0.3089,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,14 +71,18 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 64449.95,
+   "price": 64640,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
-    "heads": []
+    "score": -1,
+    "heads": [
+     "Live updates: Bitcoin stuck near $65,000 as popular 'basis trade' returns dry up",
+     "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.",
+     "Bitcoin ETFs lose $240M as CryptoQuant flags bearish market phase"
+    ]
    },
    "bt": {
     "wrTest": 0.556,
@@ -91,7 +95,12 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": -1.82,
+    "risk": "low",
+    "note": "sentiment -1.82 su 3 titoli"
+   }
   },
   {
    "sym": "DOGEUSDT",
@@ -100,7 +109,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05934,
+   "price": 0.0597,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,14 +138,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 74.35,
+   "price": 75.23,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "SOL comes out of Breakpoint 7% higher as Solana exits beta"
+    ]
    },
    "bt": {
     "wrTest": 0.545,
@@ -149,7 +160,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "SOLUSDT-1d-sma-20-30-2-3"
+   "key": "SOLUSDT-1d-sma-20-30-2-3",
+   "llm": {
+    "score": 0.39,
+    "risk": "low",
+    "note": "sentiment +0.39 su 1 titoli"
+   }
   },
   {
    "sym": "LTCUSDT",
@@ -158,7 +174,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794484799999,
-   "price": 44.61,
+   "price": 44.67,
    "entry": null,
    "sl": null,
    "tp": null,
