@@ -1,10 +1,13 @@
 {
- "updated": 1794996022979,
+ "updated": 1795027582819,
  "riskPct": 0.5,
- "blackout": null,
+ "blackout": {
+  "title": "FOMC Meeting Minutes",
+  "t": 1795028400000
+ },
  "minPaper": 10,
- "scannedAt": "2026-11-17T11:33:26.075Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-1.82); SOL: neutro (+0.39).",
+ "scannedAt": "2026-11-18T11:16:36.291Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – SOL: neutro (+0.11); BTC: positivo (+0.54).",
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +16,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 591.9,
+   "price": 584.46,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +45,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3089,
+   "price": 0.3087,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -65,51 +68,13 @@
    "key": "TRXUSDT-4h-brk-20-0-1-2"
   },
   {
-   "sym": "BTCUSDT",
-   "tf": "4h",
-   "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1793318399999,
-   "price": 64640,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": -1,
-    "heads": [
-     "Live updates: Bitcoin stuck near $65,000 as popular 'basis trade' returns dry up",
-     "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months.",
-     "Bitcoin ETFs lose $240M as CryptoQuant flags bearish market phase"
-    ]
-   },
-   "bt": {
-    "wrTest": 0.556,
-    "t": 1.65,
-    "n": 27,
-    "sharpeTest": 1.83
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 2,
-    "avgR": 0.17
-   },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": -1.82,
-    "risk": "low",
-    "note": "sentiment -1.82 su 3 titoli"
-   }
-  },
-  {
    "sym": "DOGEUSDT",
    "tf": "1d",
    "strat": "Incrocio SMA 5/80 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.0597,
+   "price": 0.059,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -138,7 +103,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 75.23,
+   "price": 73.97,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -146,7 +111,7 @@
    "news": {
     "score": 0,
     "heads": [
-     "SOL comes out of Breakpoint 7% higher as Solana exits beta"
+     "CoinShares sells all treasury ETH, halves SOL holdings for buybacks"
     ]
    },
    "bt": {
@@ -162,39 +127,79 @@
    },
    "key": "SOLUSDT-1d-sma-20-30-2-3",
    "llm": {
-    "score": 0.39,
+    "score": 0.11,
     "risk": "low",
-    "note": "sentiment +0.39 su 1 titoli"
+    "note": "sentiment +0.11 su 1 titoli"
    }
   },
   {
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 20/80 SL3/TP4.5 ATR",
+   "sym": "BTCUSDT",
+   "tf": "4h",
+   "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
-   "since": 1794484799999,
-   "price": 44.67,
+   "since": 1793318399999,
+   "price": 63223.26,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin",
+     "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans",
+     "MARA prices $185M debt offering after $1.1B Bitcoin sale",
+     "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
+     "Bitcoin Covenants Part 6: FE Covenants — Enforcing covenants through cryptographically restricted signing keys"
+    ]
    },
    "bt": {
-    "wrTest": 0.737,
-    "t": 3.35,
-    "n": 19,
-    "sharpeTest": 5.69
+    "wrTest": 0.556,
+    "t": 1.71,
+    "n": 27,
+    "sharpeTest": 1.94
    },
    "stage": "osservazione",
    "proof": {
     "n": 2,
-    "avgR": 0.2
+    "avgR": 0.17
    },
-   "key": "LTCUSDT-1h-sma-20-80-3-4.5"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.54,
+    "risk": "low",
+    "note": "sentiment +0.54 su 5 titoli"
+   }
+  },
+  {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 20/50 SL2/TP4 ATR",
+   "dir": "SHORT",
+   "action": "IN ATTESA (evento macro)",
+   "since": 1794992399999,
+   "price": 43.98,
+   "entry": 44.61,
+   "sl": 45.43660653823469,
+   "tp": 42.95678692353061,
+   "size": 27,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.564,
+    "t": 2.17,
+    "n": 39,
+    "sharpeTest": 4.61
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "LTCUSDT-1h-sma-20-50-2-4"
   }
  ],
  "paper": {
