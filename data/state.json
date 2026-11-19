@@ -1,13 +1,10 @@
 {
- "updated": 1795027582819,
+ "updated": 1795049124948,
  "riskPct": 0.5,
- "blackout": {
-  "title": "FOMC Meeting Minutes",
-  "t": 1795028400000
- },
+ "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-18T11:16:36.291Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – SOL: neutro (+0.11); BTC: positivo (+0.54).",
+ "briefing": null,
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -16,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 584.46,
+   "price": 584.76,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -45,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794225599999,
-   "price": 0.3087,
+   "price": 0.3109,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -74,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.059,
+   "price": 0.05904,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -103,16 +100,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 73.97,
+   "price": 73.77,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "CoinShares sells all treasury ETH, halves SOL holdings for buybacks"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.545,
@@ -125,12 +120,7 @@
     "n": 0,
     "avgR": null
    },
-   "key": "SOLUSDT-1d-sma-20-30-2-3",
-   "llm": {
-    "score": 0.11,
-    "risk": "low",
-    "note": "sentiment +0.11 su 1 titoli"
-   }
+   "key": "SOLUSDT-1d-sma-20-30-2-3"
   },
   {
    "sym": "BTCUSDT",
@@ -139,20 +129,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 63223.26,
+   "price": 63192,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin",
-     "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans",
-     "MARA prices $185M debt offering after $1.1B Bitcoin sale",
-     "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
-     "Bitcoin Covenants Part 6: FE Covenants — Enforcing covenants through cryptographically restricted signing keys"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.556,
@@ -165,24 +149,19 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": 0.54,
-    "risk": "low",
-    "note": "sentiment +0.54 su 5 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   },
   {
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 20/50 SL2/TP4 ATR",
    "dir": "SHORT",
-   "action": "IN ATTESA (evento macro)",
+   "action": "ATTIVO",
    "since": 1794992399999,
-   "price": 43.98,
+   "price": 44.3,
    "entry": 44.61,
    "sl": 45.43660653823469,
-   "tp": 42.95678692353061,
+   "tp": 42.956786923530615,
    "size": 27,
    "news": {
     "score": 0,
