@@ -1,10 +1,10 @@
 {
- "updated": 1795049124948,
+ "updated": 1795075150706,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-18T11:16:36.291Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BNB: neutro (+0.2); BTC: positivo (+0.73).",
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,14 +13,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 584.76,
+   "price": 589.71,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "CZ says tokenized Anthropic is coming to BNB Chain on IPO day"
+    ]
    },
    "bt": {
     "wrTest": 0.684,
@@ -33,20 +35,25 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BNBUSDT-1h-rsi-35-70-1.5-2"
+   "key": "BNBUSDT-1h-rsi-35-70-1.5-2",
+   "llm": {
+    "score": 0.2,
+    "risk": "low",
+    "note": "sentiment +0.2 su 1 titoli"
+   }
   },
   {
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1794225599999,
-   "price": 0.3109,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1795060799999,
+   "price": 0.3131,
+   "entry": 0.3115,
+   "sl": 0.30961244165054336,
+   "tp": 0.3152751166989132,
+   "size": 82.5,
    "news": {
     "score": 0,
     "heads": []
@@ -71,7 +78,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05904,
+   "price": 0.05958,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +107,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 73.77,
+   "price": 74.94,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,14 +136,18 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 63192,
+   "price": 63740.87,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal",
+     "Bitcoin retests $62K as Nasdaq futures rise ahead of Anthropic debut",
+     "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts"
+    ]
    },
    "bt": {
     "wrTest": 0.556,
@@ -149,7 +160,12 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.73,
+    "risk": "low",
+    "note": "sentiment +0.73 su 3 titoli"
+   }
   },
   {
    "sym": "LTCUSDT",
@@ -158,10 +174,10 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1794992399999,
-   "price": 44.3,
+   "price": 44.68,
    "entry": 44.61,
    "sl": 45.43660653823469,
-   "tp": 42.956786923530615,
+   "tp": 42.95678692353061,
    "size": 27,
    "news": {
     "score": 0,
@@ -188,6 +204,21 @@
   "sumPct": 13.18
  },
  "recent": [
+  {
+   "id": "TRXUSDT-4h-1795060799999",
+   "key": "TRXUSDT-4h-brk-20-0-1-2",
+   "sym": "TRXUSDT",
+   "tf": "4h",
+   "dir": "LONG",
+   "entry": 0.3115,
+   "sl": 0.30961244165054336,
+   "tp": 0.3152751166989132,
+   "slPct": 0.606,
+   "t0": 1795060799999,
+   "status": "open",
+   "news": 0,
+   "blackout": false
+  },
   {
    "id": "LINKUSDT-1h-1794088799999",
    "key": "LINKUSDT-1h-sma-5-50-1-2",
@@ -453,25 +484,6 @@
    "t1": 1793030400000,
    "pct": -1.136,
    "r": -1.16
-  },
-  {
-   "id": "BTCUSDT-4h-1792814399999",
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "sym": "BTCUSDT",
-   "tf": "4h",
-   "dir": "SHORT",
-   "entry": 80977.92,
-   "sl": 82514.25890696287,
-   "tp": 78673.41163955569,
-   "slPct": 1.897,
-   "t0": 1792814399999,
-   "status": "tp",
-   "news": 0,
-   "blackout": false,
-   "exit": 78673.41163955569,
-   "t1": 1793304000000,
-   "pct": 2.686,
-   "r": 1.42
   }
  ]
 }
