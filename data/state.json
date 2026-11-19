@@ -1,23 +1,23 @@
 {
- "updated": 1795108574386,
+ "updated": 1795131409461,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-19T11:14:57.920Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.42).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.52).",
  "signals": [
   {
    "sym": "TRXUSDT",
    "tf": "4h",
    "strat": "Breakout 20 SL1/TP2 ATR",
-   "dir": "LONG",
-   "action": "ATTIVO",
-   "since": 1795060799999,
-   "price": 0.3097,
-   "entry": 0.3115,
-   "sl": 0.30961244165054336,
-   "tp": 0.3152751166989132,
-   "size": 82.5,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1795118399999,
+   "price": 0.3103,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
     "score": 0,
     "heads": []
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 581.42,
+   "price": 579.36,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05802,
+   "price": 0.05811,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 72.9,
+   "price": 72.95,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,18 +129,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 62352.01,
+   "price": 61838,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -1,
+    "score": 0,
     "heads": [
-     "Trump Media wants to clear $884 million of debt without selling its bitcoin",
-     "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut",
-     "Bitcoin holds above $63,750 but Fed rate-hike threats loom large",
-     "Sweden’s H100 could tap Bitcoin trading pool to fund share buybacks"
+     "Why higher rates could slow Bitcoin buying at treasury firms",
+     "Bitcoin price ignores Anthropic debut as ANT share price dips below $100"
     ]
    },
    "bt": {
@@ -156,23 +154,23 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.42,
+    "score": -0.52,
     "risk": "low",
-    "note": "sentiment -0.42 su 4 titoli"
+    "note": "sentiment -0.52 su 2 titoli"
    }
   },
   {
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 20/50 SL2/TP4 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1794992399999,
-   "price": 42.5,
-   "entry": 44.61,
-   "sl": 45.43660653823469,
-   "tp": 42.95678692353061,
-   "size": 27,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1795111199999,
+   "price": 42.18,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
     "score": 0,
     "heads": []
