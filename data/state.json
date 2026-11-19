@@ -1,11 +1,40 @@
 {
- "updated": 1795075150706,
+ "updated": 1795108574386,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-11-18T11:16:36.291Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BNB: neutro (+0.2); BTC: positivo (+0.73).",
+ "scannedAt": "2026-11-19T11:14:57.920Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.42).",
  "signals": [
+  {
+   "sym": "TRXUSDT",
+   "tf": "4h",
+   "strat": "Breakout 20 SL1/TP2 ATR",
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1795060799999,
+   "price": 0.3097,
+   "entry": 0.3115,
+   "sl": 0.30961244165054336,
+   "tp": 0.3152751166989132,
+   "size": 82.5,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.515,
+    "t": 1.06,
+    "n": 33,
+    "sharpeTest": 1.43
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 6,
+    "avgR": -0.72
+   },
+   "key": "TRXUSDT-4h-brk-20-0-1-2"
+  },
   {
    "sym": "BNBUSDT",
    "tf": "1h",
@@ -13,16 +42,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 589.71,
+   "price": 581.42,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "CZ says tokenized Anthropic is coming to BNB Chain on IPO day"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.684,
@@ -35,41 +62,7 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BNBUSDT-1h-rsi-35-70-1.5-2",
-   "llm": {
-    "score": 0.2,
-    "risk": "low",
-    "note": "sentiment +0.2 su 1 titoli"
-   }
-  },
-  {
-   "sym": "TRXUSDT",
-   "tf": "4h",
-   "strat": "Breakout 20 SL1/TP2 ATR",
-   "dir": "LONG",
-   "action": "ATTIVO",
-   "since": 1795060799999,
-   "price": 0.3131,
-   "entry": 0.3115,
-   "sl": 0.30961244165054336,
-   "tp": 0.3152751166989132,
-   "size": 82.5,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.5,
-    "t": 1.01,
-    "n": 32,
-    "sharpeTest": 1.36
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 5,
-    "avgR": -0.62
-   },
-   "key": "TRXUSDT-4h-brk-20-0-1-2"
+   "key": "BNBUSDT-1h-rsi-35-70-1.5-2"
   },
   {
    "sym": "DOGEUSDT",
@@ -78,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05958,
+   "price": 0.05802,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -107,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 74.94,
+   "price": 72.9,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -136,24 +129,25 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 63740.87,
+   "price": 62352.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
+    "score": -1,
     "heads": [
-     "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal",
-     "Bitcoin retests $62K as Nasdaq futures rise ahead of Anthropic debut",
-     "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts"
+     "Trump Media wants to clear $884 million of debt without selling its bitcoin",
+     "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut",
+     "Bitcoin holds above $63,750 but Fed rate-hike threats loom large",
+     "Sweden’s H100 could tap Bitcoin trading pool to fund share buybacks"
     ]
    },
    "bt": {
     "wrTest": 0.556,
-    "t": 1.71,
+    "t": 1.68,
     "n": 27,
-    "sharpeTest": 1.94
+    "sharpeTest": 1.89
    },
    "stage": "osservazione",
    "proof": {
@@ -162,9 +156,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.73,
+    "score": -0.42,
     "risk": "low",
-    "note": "sentiment +0.73 su 3 titoli"
+    "note": "sentiment -0.42 su 4 titoli"
    }
   },
   {
@@ -174,7 +168,7 @@
    "dir": "SHORT",
    "action": "ATTIVO",
    "since": 1794992399999,
-   "price": 44.68,
+   "price": 42.5,
    "entry": 44.61,
    "sl": 45.43660653823469,
    "tp": 42.95678692353061,
@@ -184,10 +178,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.564,
-    "t": 2.17,
-    "n": 39,
-    "sharpeTest": 4.61
+    "wrTest": 0.579,
+    "t": 2.23,
+    "n": 38,
+    "sharpeTest": 4.65
    },
    "stage": "osservazione",
    "proof": {
@@ -198,10 +192,10 @@
   }
  ],
  "paper": {
-  "n": 26,
-  "wr": 0.346,
-  "avgR": -0.22,
-  "sumPct": 13.18
+  "n": 27,
+  "wr": 0.333,
+  "avgR": -0.26,
+  "sumPct": 12.41
  },
  "recent": [
   {
@@ -215,9 +209,13 @@
    "tp": 0.3152751166989132,
    "slPct": 0.606,
    "t0": 1795060799999,
-   "status": "open",
+   "status": "sl",
    "news": 0,
-   "blackout": false
+   "blackout": false,
+   "exit": 0.30961244165054336,
+   "t1": 1795104000000,
+   "pct": -0.766,
+   "r": -1.26
   },
   {
    "id": "LINKUSDT-1h-1794088799999",
