@@ -26,25 +26,6 @@
  },
  "watch": [
   {
-   "sym": "TRXUSDT",
-   "tf": "4h",
-   "st": "brk",
-   "a": 20,
-   "b": 0,
-   "ks": 1,
-   "kt": 2,
-   "lo": false,
-   "active": true,
-   "adopted": "2026-10-12T10:24:01.305Z",
-   "bt": {
-    "wrTest": 0.515,
-    "t": 1.06,
-    "n": 33,
-    "sharpeTest": 1.43
-   },
-   "tested": "2026-11-19T11:14:57.919Z"
-  },
-  {
    "sym": "BNBUSDT",
    "tf": "1h",
    "st": "rsi",
@@ -61,7 +42,26 @@
     "n": 19,
     "sharpeTest": 5.01
    },
-   "tested": "2026-11-19T11:14:57.920Z"
+   "tested": "2026-11-20T10:59:59.234Z"
+  },
+  {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "st": "sma",
+   "a": 20,
+   "b": 50,
+   "ks": 2,
+   "kt": 4,
+   "lo": false,
+   "active": true,
+   "adopted": "2026-11-18T11:16:36.291Z",
+   "bt": {
+    "wrTest": 0.568,
+    "t": 2.24,
+    "n": 37,
+    "sharpeTest": 4.67
+   },
+   "tested": "2026-11-20T10:59:59.235Z"
   },
   {
    "sym": "DOGEUSDT",
@@ -80,7 +80,7 @@
     "n": 20,
     "sharpeTest": 1.85
    },
-   "tested": "2026-11-19T11:14:57.920Z"
+   "tested": "2026-11-20T10:59:59.235Z"
   },
   {
    "sym": "SOLUSDT",
@@ -99,7 +99,7 @@
     "n": 22,
     "sharpeTest": 1.56
    },
-   "tested": "2026-11-19T11:14:57.920Z"
+   "tested": "2026-11-20T10:59:59.235Z"
   },
   {
    "sym": "BTCUSDT",
@@ -114,31 +114,31 @@
    "adopted": "2026-10-12T10:24:01.305Z",
    "bt": {
     "wrTest": 0.556,
-    "t": 1.68,
+    "t": 1.7,
     "n": 27,
-    "sharpeTest": 1.89
+    "sharpeTest": 1.93
    },
-   "tested": "2026-11-19T11:14:57.920Z"
+   "tested": "2026-11-20T10:59:59.235Z"
   },
   {
-   "sym": "LTCUSDT",
-   "tf": "1h",
+   "sym": "AVAXUSDT",
+   "tf": "1d",
    "st": "sma",
-   "a": 20,
+   "a": 5,
    "b": 50,
    "ks": 2,
-   "kt": 4,
+   "kt": 3,
    "lo": false,
    "active": true,
-   "adopted": "2026-11-18T11:16:36.291Z",
+   "adopted": "2026-11-20T10:59:59.235Z",
    "bt": {
-    "wrTest": 0.579,
-    "t": 2.23,
-    "n": 38,
-    "sharpeTest": 4.65
+    "wrTest": 0.48,
+    "t": 2.1,
+    "n": 25,
+    "sharpeTest": 1.56
    },
-   "tested": "2026-11-19T11:14:57.920Z"
+   "tested": "2026-11-20T10:59:59.235Z"
   }
  ],
- "scannedAt": "2026-11-19T11:14:57.920Z"
+ "scannedAt": "2026-11-20T10:59:59.235Z"
 }
