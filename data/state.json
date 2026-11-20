@@ -1,40 +1,11 @@
 {
- "updated": 1795148083927,
+ "updated": 1795179806951,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-11-19T11:14:57.920Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.72).",
+ "scannedAt": "2026-11-20T10:59:59.235Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.31).",
  "signals": [
-  {
-   "sym": "TRXUSDT",
-   "tf": "4h",
-   "strat": "Breakout 20 SL1/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1795118399999,
-   "price": 0.3092,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.515,
-    "t": 1.06,
-    "n": 33,
-    "sharpeTest": 1.43
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 6,
-    "avgR": -0.72
-   },
-   "key": "TRXUSDT-4h-brk-20-0-1-2"
-  },
   {
    "sym": "BNBUSDT",
    "tf": "1h",
@@ -42,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 571.43,
+   "price": 567.62,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -65,13 +36,42 @@
    "key": "BNBUSDT-1h-rsi-35-70-1.5-2"
   },
   {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 20/50 SL2/TP4 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1795111199999,
+   "price": 41.44,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.568,
+    "t": 2.24,
+    "n": 37,
+    "sharpeTest": 4.67
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "LTCUSDT-1h-sma-20-50-2-4"
+  },
+  {
    "sym": "DOGEUSDT",
    "tf": "1d",
    "strat": "Incrocio SMA 5/80 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05726,
+   "price": 0.05651,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 72.51,
+   "price": 70.99,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 61819.06,
+   "price": 61573.78,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -137,15 +137,16 @@
    "news": {
     "score": 0,
     "heads": [
-     "Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt",
-     "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak"
+     "Bitcoin, stocks and gold traders getting nervous, and volatility gauges are surging",
+     "Bitcoin drops for third straight day as Asian tech shares slide",
+     "Bitcoin nears repeat of chart pattern that preceded 2023’s $25K retest"
     ]
    },
    "bt": {
     "wrTest": 0.556,
-    "t": 1.68,
+    "t": 1.7,
     "n": 27,
-    "sharpeTest": 1.89
+    "sharpeTest": 1.93
    },
    "stage": "osservazione",
    "proof": {
@@ -154,19 +155,19 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.72,
+    "score": -0.31,
     "risk": "low",
-    "note": "sentiment -0.72 su 2 titoli"
+    "note": "sentiment -0.31 su 3 titoli"
    }
   },
   {
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 20/50 SL2/TP4 ATR",
+   "sym": "AVAXUSDT",
+   "tf": "1d",
+   "strat": "Incrocio SMA 5/50 SL2/TP3 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
-   "since": 1795111199999,
-   "price": 41.61,
+   "since": 1794700799999,
+   "price": 6.801,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -176,17 +177,17 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.579,
-    "t": 2.23,
-    "n": 38,
-    "sharpeTest": 4.65
+    "wrTest": 0.48,
+    "t": 2.1,
+    "n": 25,
+    "sharpeTest": 1.56
    },
    "stage": "osservazione",
    "proof": {
     "n": 0,
     "avgR": null
    },
-   "key": "LTCUSDT-1h-sma-20-50-2-4"
+   "key": "AVAXUSDT-1d-sma-5-50-2-3"
   }
  ],
  "paper": {
