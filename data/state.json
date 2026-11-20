@@ -1,10 +1,10 @@
 {
- "updated": 1795179806951,
+ "updated": 1795208388837,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-20T10:59:59.235Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.31).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-1.29).",
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 567.62,
+   "price": 534.01,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1795111199999,
-   "price": 41.44,
+   "price": 39.73,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05651,
+   "price": 0.05278,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 70.99,
+   "price": 67.55,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,17 +129,17 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 61573.78,
+   "price": 58417.99,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
+    "score": -3,
     "heads": [
-     "Bitcoin, stocks and gold traders getting nervous, and volatility gauges are surging",
-     "Bitcoin drops for third straight day as Asian tech shares slide",
-     "Bitcoin nears repeat of chart pattern that preceded 2023’s $25K retest"
+     "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
+     "Bitcoin falls below $60K for first time since July amid broader market selloff",
+     "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off"
     ]
    },
    "bt": {
@@ -155,9 +155,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.31,
+    "score": -1.29,
     "risk": "low",
-    "note": "sentiment -0.31 su 3 titoli"
+    "note": "sentiment -1.29 su 3 titoli"
    }
   },
   {
@@ -167,7 +167,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794700799999,
-   "price": 6.801,
+   "price": 6.45,
    "entry": null,
    "sl": null,
    "tp": null,
