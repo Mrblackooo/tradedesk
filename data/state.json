@@ -1,10 +1,10 @@
 {
- "updated": 1795131409461,
+ "updated": 1795148083927,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-19T11:14:57.920Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.52).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.72).",
  "signals": [
   {
    "sym": "TRXUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1795118399999,
-   "price": 0.3103,
+   "price": 0.3092,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 579.36,
+   "price": 571.43,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05811,
+   "price": 0.05726,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 72.95,
+   "price": 72.51,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 61838,
+   "price": 61819.06,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -137,8 +137,8 @@
    "news": {
     "score": 0,
     "heads": [
-     "Why higher rates could slow Bitcoin buying at treasury firms",
-     "Bitcoin price ignores Anthropic debut as ANT share price dips below $100"
+     "Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt",
+     "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak"
     ]
    },
    "bt": {
@@ -154,9 +154,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.52,
+    "score": -0.72,
     "risk": "low",
-    "note": "sentiment -0.52 su 2 titoli"
+    "note": "sentiment -0.72 su 2 titoli"
    }
   },
   {
@@ -166,7 +166,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1795111199999,
-   "price": 42.18,
+   "price": 41.61,
    "entry": null,
    "sl": null,
    "tp": null,
