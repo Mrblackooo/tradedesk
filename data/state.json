@@ -1,10 +1,10 @@
 {
- "updated": 1795208388837,
+ "updated": 1795226743663,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-20T10:59:59.235Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-1.29).",
+ "briefing": null,
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 534.01,
+   "price": 539.51,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1795111199999,
-   "price": 39.73,
+   "price": 40.67,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05278,
+   "price": 0.05463,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 67.55,
+   "price": 68.85,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,18 +129,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 58417.99,
+   "price": 59057.81,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -3,
-    "heads": [
-     "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play",
-     "Bitcoin falls below $60K for first time since July amid broader market selloff",
-     "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off"
-    ]
+    "score": 0,
+    "heads": []
    },
    "bt": {
     "wrTest": 0.556,
@@ -153,12 +149,7 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": -1.29,
-    "risk": "low",
-    "note": "sentiment -1.29 su 3 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   },
   {
    "sym": "AVAXUSDT",
@@ -167,7 +158,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794700799999,
-   "price": 6.45,
+   "price": 6.507,
    "entry": null,
    "sl": null,
    "tp": null,
