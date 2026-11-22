@@ -1,10 +1,10 @@
 {
- "updated": 1795369490480,
+ "updated": 1795387799605,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-22T10:50:12.750Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.15).",
+ "briefing": null,
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 557.86,
+   "price": 556.14,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794700799999,
-   "price": 6.686,
+   "price": 6.653,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05527,
+   "price": 0.05508,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 70.47,
+   "price": 70.16,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1795111199999,
-   "price": 40.12,
+   "price": 39.84,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,16 +158,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 60909.77,
+   "price": 60857.57,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.538,
@@ -180,12 +178,7 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": 0.15,
-    "risk": "low",
-    "note": "sentiment +0.15 su 1 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   }
  ],
  "paper": {
