@@ -1,10 +1,10 @@
 {
- "updated": 1795298867640,
+ "updated": 1795313900233,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-21T10:44:19.477Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.13).",
+ "briefing": null,
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 548.07,
+   "price": 546.72,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1795111199999,
-   "price": 39.79,
+   "price": 39.72,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794700799999,
-   "price": 6.598,
+   "price": 6.567,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05509,
+   "price": 0.05499,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,16 +158,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 60230,
+   "price": 59878.88,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -1,
-    "heads": [
-     "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave"
-    ]
+    "score": 0,
+    "heads": []
    },
    "bt": {
     "wrTest": 0.556,
@@ -180,12 +178,7 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": 0.13,
-    "risk": "low",
-    "note": "sentiment +0.13 su 1 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   }
  ],
  "paper": {
