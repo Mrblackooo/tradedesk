@@ -1,10 +1,10 @@
 {
- "updated": 1795403661964,
+ "updated": 1795438789755,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-11-22T10:50:12.750Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.03).",
+ "scannedAt": "2026-11-23T11:57:12.041Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.76).",
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 558.35,
+   "price": 556.37,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -36,13 +36,42 @@
    "key": "BNBUSDT-1h-rsi-35-70-1.5-2"
   },
   {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 20/50 SL2/TP4 ATR",
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1795388399999,
+   "price": 40.88,
+   "entry": 39.95,
+   "sl": 39.2412516400506,
+   "tp": 41.36749671989881,
+   "size": 28.2,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.605,
+    "t": 2.4,
+    "n": 38,
+    "sharpeTest": 5.01
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "LTCUSDT-1h-sma-20-50-2-4"
+  },
+  {
    "sym": "AVAXUSDT",
    "tf": "1d",
    "strat": "Incrocio SMA 5/50 SL2/TP3 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794700799999,
-   "price": 6.65,
+   "price": 6.702,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05512,
+   "price": 0.05565,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 71.09,
+   "price": 72.24,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -123,50 +152,25 @@
    "key": "SOLUSDT-1d-sma-20-30-2-3"
   },
   {
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 20/50 SL2/TP4 ATR",
-   "dir": "LONG",
-   "action": "ATTIVO",
-   "since": 1795388399999,
-   "price": 40.16,
-   "entry": 39.95,
-   "sl": 39.2412516400506,
-   "tp": 41.36749671989881,
-   "size": 28.2,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.568,
-    "t": 2.24,
-    "n": 37,
-    "sharpeTest": 4.67
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 0,
-    "avgR": null
-   },
-   "key": "LTCUSDT-1h-sma-20-50-2-4"
-  },
-  {
    "sym": "BTCUSDT",
    "tf": "4h",
    "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 61214.31,
+   "price": 61309.17,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
+    "score": 1,
     "heads": [
-     "Will Bitcoin’s big rebound hold? More tampered Ledgers found: Hodler’s Digest"
+     "Bitcoin's losing streak is second-longest ever, and some observers see more downside",
+     "Bitcoin rebounds from 2-year low as Wall Street futures recover",
+     "Live updates: Bitcoin climbs back above $61,000 as stocks rebound from AI rout",
+     "Bitcoin breaks a record streak of 'lower highs.' Here's what it means",
+     "This Swedish bitcoin treasury firm lost 30 BTC trading part of its own stack"
     ]
    },
    "bt": {
@@ -182,9 +186,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.03,
+    "score": -0.76,
     "risk": "low",
-    "note": "sentiment +0.03 su 1 titoli"
+    "note": "sentiment -0.76 su 5 titoli"
    }
   }
  ],
