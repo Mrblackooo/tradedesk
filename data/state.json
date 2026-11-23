@@ -1,10 +1,10 @@
 {
- "updated": 1795387799605,
+ "updated": 1795403661964,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-22T10:50:12.750Z",
- "briefing": null,
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.03).",
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793977199999,
-   "price": 556.14,
+   "price": 558.35,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794700799999,
-   "price": 6.653,
+   "price": 6.65,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05508,
+   "price": 0.05512,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 70.16,
+   "price": 71.09,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -126,14 +126,14 @@
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 20/50 SL2/TP4 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1795111199999,
-   "price": 39.84,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1795388399999,
+   "price": 40.16,
+   "entry": 39.95,
+   "sl": 39.2412516400506,
+   "tp": 41.36749671989881,
+   "size": 28.2,
    "news": {
     "score": 0,
     "heads": []
@@ -158,14 +158,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 60857.57,
+   "price": 61214.31,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "Will Bitcoin’s big rebound hold? More tampered Ledgers found: Hodler’s Digest"
+    ]
    },
    "bt": {
     "wrTest": 0.538,
@@ -178,7 +180,12 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.03,
+    "risk": "low",
+    "note": "sentiment +0.03 su 1 titoli"
+   }
   }
  ],
  "paper": {
