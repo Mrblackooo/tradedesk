@@ -1,5 +1,5 @@
 {
- "updated": 1795445333085,
+ "updated": 1795532292448,
  "feePct": 0.05,
  "strategies": [],
  "report": [
@@ -12,12 +12,12 @@
     "st": "rsi",
     "a": 20,
     "b": 85,
-    "ks": 1,
+    "ks": 1.5,
     "kt": 2,
-    "wr": 0.5,
-    "n": 12,
-    "t": 0.14,
-    "costR": 0.829
+    "wr": 0.615,
+    "n": 13,
+    "t": 0.77,
+    "costR": 0.552
    },
    "ok": false,
    "why": [
@@ -32,22 +32,22 @@
    "sym": "BTCUSDT",
    "tf": "15m",
    "candles": 60000,
-   "atrPct": 0.255,
+   "atrPct": 0.256,
    "best": {
     "st": "rsi",
     "a": 20,
     "b": 85,
-    "ks": 1.5,
+    "ks": 1,
     "kt": 2,
-    "wr": 0.563,
+    "wr": 0.375,
     "n": 16,
-    "t": 0.73,
-    "costR": 0.261
+    "t": -0.05,
+    "costR": 0.391
    },
    "ok": false,
    "why": [
     "costi",
-    "train",
+    "test",
     "trade",
     "signif"
    ]
@@ -88,7 +88,7 @@
     "wr": 0.5,
     "n": 20,
     "t": 0.27,
-    "costR": 0.6
+    "costR": 0.599
    },
    "ok": false,
    "why": [
@@ -102,7 +102,7 @@
    "sym": "ETHUSDT",
    "tf": "15m",
    "candles": 60000,
-   "atrPct": 0.399,
+   "atrPct": 0.4,
    "best": {
     "st": "rsi",
     "a": 15,
@@ -124,7 +124,7 @@
    "sym": "ETHUSDT",
    "tf": "30m",
    "candles": 60000,
-   "atrPct": 0.56,
+   "atrPct": 0.561,
    "best": {
     "st": "rsitrend",
     "a": 35,
@@ -146,7 +146,7 @@
    "sym": "SOLUSDT",
    "tf": "5m",
    "candles": 60000,
-   "atrPct": 0.209,
+   "atrPct": 0.21,
    "best": {
     "st": "rsi",
     "a": 20,
@@ -156,7 +156,7 @@
     "wr": 0.375,
     "n": 8,
     "t": 0.79,
-    "costR": 0.319
+    "costR": 0.318
    },
    "ok": false,
    "why": [
@@ -169,7 +169,7 @@
    "sym": "SOLUSDT",
    "tf": "15m",
    "candles": 60000,
-   "atrPct": 0.471,
+   "atrPct": 0.472,
    "best": {
     "st": "rsi",
     "a": 15,
@@ -213,17 +213,17 @@
    "sym": "XRPUSDT",
    "tf": "5m",
    "candles": 60000,
-   "atrPct": 0.195,
+   "atrPct": 0.196,
    "best": {
     "st": "rsi",
     "a": 25,
     "b": 85,
-    "ks": 1,
-    "kt": 1.5,
-    "wr": 0.556,
-    "n": 9,
-    "t": 0.45,
-    "costR": 0.513
+    "ks": 0.8,
+    "kt": 1.2,
+    "wr": 0.6,
+    "n": 10,
+    "t": 0.34,
+    "costR": 0.638
    },
    "ok": false,
    "why": [
@@ -261,18 +261,17 @@
    "atrPct": 0.617,
    "best": {
     "st": "rsi",
-    "a": 15,
-    "b": 80,
-    "ks": 1,
-    "kt": 2,
-    "wr": 0.5,
-    "n": 10,
-    "t": 1.23,
-    "costR": 0.162
+    "a": 25,
+    "b": 75,
+    "ks": 1.5,
+    "kt": 3,
+    "wr": 0.373,
+    "n": 67,
+    "t": 0.13,
+    "costR": 0.108
    },
    "ok": false,
    "why": [
-    "trade",
     "signif"
    ]
   }
