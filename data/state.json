@@ -1,10 +1,10 @@
 {
- "updated": 1795516062673,
+ "updated": 1795553389048,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-11-23T11:57:12.041Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: positivo (+0.53).",
+ "scannedAt": "2026-11-24T13:22:41.069Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.64).",
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1795445999999,
-   "price": 546.75,
+   "price": 548.62,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -23,10 +23,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.667,
-    "t": 2.24,
-    "n": 18,
-    "sharpeTest": 4.51
+    "wrTest": 0.632,
+    "t": 1.71,
+    "n": 19,
+    "sharpeTest": 3.62
    },
    "stage": "osservazione",
    "proof": {
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1795442399999,
-   "price": 41.18,
+   "price": 40.86,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -52,10 +52,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.605,
-    "t": 2.4,
+    "wrTest": 0.579,
+    "t": 2.17,
     "n": 38,
-    "sharpeTest": 5.01
+    "sharpeTest": 4.76
    },
    "stage": "osservazione",
    "proof": {
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794700799999,
-   "price": 6.713,
+   "price": 6.57,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -82,9 +82,9 @@
    },
    "bt": {
     "wrTest": 0.48,
-    "t": 2.03,
+    "t": 2.02,
     "n": 25,
-    "sharpeTest": 1.71
+    "sharpeTest": 1.72
    },
    "stage": "osservazione",
    "proof": {
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05571,
+   "price": 0.05533,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 70.84,
+   "price": 69.33,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,18 +158,18 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 59970.01,
+   "price": 59682.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 1,
+    "score": -1,
     "heads": [
-     "Bitcoin falls below $60,000 as rally on Jensen Huang’s Nvidia return fades",
-     "Bitcoin dips back under $60K as gold seals worst 60-day loss since 1980s",
-     "Bitcoin ETFs keep bleeding as BlackRock’s IBIT shares gain nearly 5%",
-     "Why 42 Macro says it’s waiting to buy the Bitcoin dip"
+     "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story",
+     "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
+     "Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years",
+     "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price"
     ]
    },
    "bt": {
@@ -185,9 +185,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.53,
+    "score": -0.64,
     "risk": "low",
-    "note": "sentiment +0.53 su 4 titoli"
+    "note": "sentiment -0.64 su 4 titoli"
    }
   }
  ],
