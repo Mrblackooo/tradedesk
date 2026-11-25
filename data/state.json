@@ -1,10 +1,10 @@
 {
- "updated": 1795553389048,
+ "updated": 1795578519127,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-24T13:22:41.069Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-0.64).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.3).",
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1795445999999,
-   "price": 548.62,
+   "price": 542.88,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -39,14 +39,14 @@
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 20/50 SL2/TP4 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1795442399999,
-   "price": 40.86,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1795561199999,
+   "price": 40.54,
+   "entry": 40.98,
+   "sl": 41.962901339359036,
+   "tp": 39.01419732128192,
+   "size": 20.8,
    "news": {
     "score": 0,
     "heads": []
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794700799999,
-   "price": 6.57,
+   "price": 6.512,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05533,
+   "price": 0.05458,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 69.33,
+   "price": 69.24,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,18 +158,15 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 59682.01,
+   "price": 59384.01,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -1,
+    "score": 0,
     "heads": [
-     "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story",
-     "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares",
-     "Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years",
-     "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price"
+     "CleanSpark weighs selling more Bitcoin than it mines to de-risk books"
     ]
    },
    "bt": {
@@ -185,9 +182,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": -0.64,
+    "score": 0.3,
     "risk": "low",
-    "note": "sentiment -0.64 su 4 titoli"
+    "note": "sentiment +0.3 su 1 titoli"
    }
   }
  ],
