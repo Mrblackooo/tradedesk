@@ -1,5 +1,5 @@
 {
- "updated": 1795532292448,
+ "updated": 1795617150910,
  "feePct": 0.05,
  "strategies": [],
  "report": [
@@ -7,17 +7,17 @@
    "sym": "BTCUSDT",
    "tf": "5m",
    "candles": 60000,
-   "atrPct": 0.121,
+   "atrPct": 0.122,
    "best": {
     "st": "rsi",
     "a": 20,
     "b": 85,
     "ks": 1.5,
     "kt": 2,
-    "wr": 0.615,
-    "n": 13,
-    "t": 0.77,
-    "costR": 0.552
+    "wr": 0.583,
+    "n": 12,
+    "t": 0.48,
+    "costR": 0.549
    },
    "ok": false,
    "why": [
@@ -66,7 +66,7 @@
     "wr": 0.294,
     "n": 51,
     "t": -1.5,
-    "costR": 0.165
+    "costR": 0.164
    },
    "ok": false,
    "why": [
@@ -78,7 +78,7 @@
    "sym": "ETHUSDT",
    "tf": "5m",
    "candles": 60000,
-   "atrPct": 0.167,
+   "atrPct": 0.168,
    "best": {
     "st": "rsi",
     "a": 15,
@@ -88,7 +88,7 @@
     "wr": 0.5,
     "n": 20,
     "t": 0.27,
-    "costR": 0.599
+    "costR": 0.596
    },
    "ok": false,
    "why": [
@@ -102,20 +102,21 @@
    "sym": "ETHUSDT",
    "tf": "15m",
    "candles": 60000,
-   "atrPct": 0.4,
+   "atrPct": 0.399,
    "best": {
     "st": "rsi",
     "a": 15,
-    "b": 80,
+    "b": 75,
     "ks": 1.5,
-    "kt": 3,
-    "wr": 0.308,
-    "n": 13,
-    "t": 0.3,
+    "kt": 2,
+    "wr": 0.5,
+    "n": 18,
+    "t": 0,
     "costR": 0.167
    },
    "ok": false,
    "why": [
+    "test",
     "trade",
     "signif"
    ]
@@ -146,17 +147,17 @@
    "sym": "SOLUSDT",
    "tf": "5m",
    "candles": 60000,
-   "atrPct": 0.21,
+   "atrPct": 0.211,
    "best": {
     "st": "rsi",
     "a": 20,
     "b": 85,
     "ks": 1.5,
     "kt": 3,
-    "wr": 0.375,
-    "n": 8,
-    "t": 0.79,
-    "costR": 0.318
+    "wr": 0.286,
+    "n": 7,
+    "t": 0.33,
+    "costR": 0.317
    },
    "ok": false,
    "why": [
@@ -169,7 +170,7 @@
    "sym": "SOLUSDT",
    "tf": "15m",
    "candles": 60000,
-   "atrPct": 0.472,
+   "atrPct": 0.471,
    "best": {
     "st": "rsi",
     "a": 15,
@@ -213,7 +214,7 @@
    "sym": "XRPUSDT",
    "tf": "5m",
    "candles": 60000,
-   "atrPct": 0.196,
+   "atrPct": 0.197,
    "best": {
     "st": "rsi",
     "a": 25,
@@ -223,7 +224,7 @@
     "wr": 0.6,
     "n": 10,
     "t": 0.34,
-    "costR": 0.638
+    "costR": 0.634
    },
    "ok": false,
    "why": [
