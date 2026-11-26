@@ -1,10 +1,10 @@
 {
- "updated": 1795702689733,
+ "updated": 1795734204392,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-26T11:59:37.971Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.32).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BNB: neutro (+0.06); BTC: neutro (-0.05).",
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,14 +13,16 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1795618799999,
-   "price": 552.97,
+   "price": 553.74,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "BNB Chain details new layer-1 for trading, private finance and AI"
+    ]
    },
    "bt": {
     "wrTest": 0.579,
@@ -33,7 +35,12 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BNBUSDT-1h-rsi-35-70-1.5-2"
+   "key": "BNBUSDT-1h-rsi-35-70-1.5-2",
+   "llm": {
+    "score": 0.06,
+    "risk": "low",
+    "note": "sentiment +0.06 su 1 titoli"
+   }
   },
   {
    "sym": "AVAXUSDT",
@@ -42,7 +49,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794700799999,
-   "price": 6.64,
+   "price": 6.596,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +78,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1795651199999,
-   "price": 43.87,
+   "price": 43.95,
    "entry": 42.79,
    "sl": 41.756413730626036,
    "tp": 44.85717253874792,
@@ -100,7 +107,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05709,
+   "price": 0.05646,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +136,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 71.34,
+   "price": 71.06,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,19 +165,15 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 60816.62,
+   "price": 60496.02,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": -1,
+    "score": 0,
     "heads": [
-     "Bitcoin ETFs are bleeding cash and the Fed is unlikely to help",
-     "Bitcoin little changed, DeFi tokens lead the bounce as U.S. marks Thanksgiving",
-     "Bitcoin price eyes $61K as Talos warns of thin Thanksgiving liquidity",
-     "Bitcoin ETF November outflows top $5B, Morgan Stanley bucks trend",
-     "Switzerland’s first spot Bitcoin ETF ticks up 0.6% in opening hour"
+     "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds"
     ]
    },
    "bt": {
@@ -186,9 +189,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.32,
+    "score": -0.05,
     "risk": "low",
-    "note": "sentiment +0.32 su 5 titoli"
+    "note": "sentiment -0.05 su 1 titoli"
    }
   }
  ],
