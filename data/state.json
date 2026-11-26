@@ -1,10 +1,10 @@
 {
- "updated": 1795667354888,
+ "updated": 1795702689733,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-11-25T12:15:44.380Z",
- "briefing": null,
+ "scannedAt": "2026-11-26T11:59:37.971Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.32).",
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1795618799999,
-   "price": 560.36,
+   "price": 552.97,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -23,10 +23,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.632,
-    "t": 1.71,
+    "wrTest": 0.579,
+    "t": 1.09,
     "n": 19,
-    "sharpeTest": 3.62
+    "sharpeTest": 2.36
    },
    "stage": "osservazione",
    "proof": {
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794700799999,
-   "price": 6.701,
+   "price": 6.64,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -65,13 +65,42 @@
    "key": "AVAXUSDT-1d-sma-5-50-2-3"
   },
   {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 20/50 SL2/TP4 ATR",
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1795651199999,
+   "price": 43.87,
+   "entry": 42.79,
+   "sl": 41.756413730626036,
+   "tp": 44.85717253874792,
+   "size": 20.7,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.59,
+    "t": 2.34,
+    "n": 39,
+    "sharpeTest": 5.08
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "LTCUSDT-1h-sma-20-50-2-4"
+  },
+  {
    "sym": "DOGEUSDT",
    "tf": "1d",
    "strat": "Incrocio SMA 5/80 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05696,
+   "price": 0.05709,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 71.25,
+   "price": 71.34,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -123,49 +152,26 @@
    "key": "SOLUSDT-1d-sma-20-30-2-3"
   },
   {
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 20/50 SL2/TP4 ATR",
-   "dir": "LONG",
-   "action": "ATTIVO",
-   "since": 1795651199999,
-   "price": 43.98,
-   "entry": 42.79,
-   "sl": 41.756413730626036,
-   "tp": 44.85717253874792,
-   "size": 20.7,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.59,
-    "t": 2.42,
-    "n": 39,
-    "sharpeTest": 5.23
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 0,
-    "avgR": null
-   },
-   "key": "LTCUSDT-1h-sma-20-50-2-4"
-  },
-  {
    "sym": "BTCUSDT",
    "tf": "4h",
    "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 61071.04,
+   "price": 60816.62,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
-    "score": 0,
-    "heads": []
+    "score": -1,
+    "heads": [
+     "Bitcoin ETFs are bleeding cash and the Fed is unlikely to help",
+     "Bitcoin little changed, DeFi tokens lead the bounce as U.S. marks Thanksgiving",
+     "Bitcoin price eyes $61K as Talos warns of thin Thanksgiving liquidity",
+     "Bitcoin ETF November outflows top $5B, Morgan Stanley bucks trend",
+     "Switzerland’s first spot Bitcoin ETF ticks up 0.6% in opening hour"
+    ]
    },
    "bt": {
     "wrTest": 0.538,
@@ -178,7 +184,12 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.32,
+    "risk": "low",
+    "note": "sentiment +0.32 su 5 titoli"
+   }
   }
  ],
  "paper": {
