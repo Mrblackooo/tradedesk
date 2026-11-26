@@ -1,10 +1,10 @@
 {
- "updated": 1795646557304,
+ "updated": 1795667354888,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-25T12:15:44.380Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: negativo (-1.01).",
+ "briefing": null,
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1795618799999,
-   "price": 552.37,
+   "price": 560.36,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794700799999,
-   "price": 6.602,
+   "price": 6.701,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05585,
+   "price": 0.05696,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 70.49,
+   "price": 71.25,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -126,14 +126,14 @@
    "sym": "LTCUSDT",
    "tf": "1h",
    "strat": "Incrocio SMA 20/50 SL2/TP4 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1795629599999,
-   "price": 42.38,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "LONG",
+   "action": "ATTIVO",
+   "since": 1795651199999,
+   "price": 43.98,
+   "entry": 42.79,
+   "sl": 41.756413730626036,
+   "tp": 44.85717253874792,
+   "size": 20.7,
    "news": {
     "score": 0,
     "heads": []
@@ -158,18 +158,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 60208.9,
+   "price": 61071.04,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "'This time actually seems different': Crypto veterans brace for more pain as bitcoin tumbles",
-     "Braiins warns of Bitcoin mining attacks affecting over 1,000 sites",
-     "Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4%"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.538,
@@ -182,12 +178,7 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": -1.01,
-    "risk": "low",
-    "note": "sentiment -1.01 su 3 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   }
  ],
  "paper": {
