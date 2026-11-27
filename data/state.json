@@ -1,23 +1,23 @@
 {
- "updated": 1795791251504,
+ "updated": 1795821689269,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-27T11:51:33.234Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.12).",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.04).",
  "signals": [
   {
    "sym": "BNBUSDT",
    "tf": "1h",
    "strat": "RSI 35/70 SL1.5/TP2 ATR",
-   "dir": "SHORT",
-   "action": "ATTIVO",
-   "since": 1795755599999,
-   "price": 547.19,
-   "entry": 563.62,
-   "sl": 568.9909091031448,
-   "tp": 556.4587878624736,
-   "size": 52.5,
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1795795199999,
+   "price": 553.07,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
    "news": {
     "score": 0,
     "heads": []
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794700799999,
-   "price": 6.546,
+   "price": 6.588,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05673,
+   "price": 0.05754,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 70.81,
+   "price": 71.39,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1795759199999,
-   "price": 43.3,
+   "price": 44.53,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -158,7 +158,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 59288.65,
+   "price": 59827.74,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -166,11 +166,7 @@
    "news": {
     "score": 0,
     "heads": [
-     "Bitcoin 'death cross' is coming. Here's what happened after previous 13.",
-     "Bitcoin on course to end seven-week losing streak while trailing stock rebound",
-     "Live updates: Bitcoin dips below $60,000 as Nasdaq 100 gives up most of its early gains",
-     "Next ECB chief favors tokenized bank deposits over stablecoins and bitcoin",
-     "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday’s rebound"
+     "Bitcoin whales pile into BTC despite shrinking profit cushion"
     ]
    },
    "bt": {
@@ -186,9 +182,9 @@
    },
    "key": "BTCUSDT-4h-sma-20-80-2-3",
    "llm": {
-    "score": 0.12,
+    "score": 0.04,
     "risk": "low",
-    "note": "sentiment +0.12 su 5 titoli"
+    "note": "sentiment +0.04 su 1 titoli"
    }
   }
  ],
