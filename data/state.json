@@ -1,10 +1,10 @@
 {
- "updated": 1795734204392,
+ "updated": 1795755309623,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
  "scannedAt": "2026-11-26T11:59:37.971Z",
- "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BNB: neutro (+0.06); BTC: neutro (-0.05).",
+ "briefing": null,
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,16 +13,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1795618799999,
-   "price": 553.74,
+   "price": 563.61,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "BNB Chain details new layer-1 for trading, private finance and AI"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.579,
@@ -35,12 +33,7 @@
     "n": 0,
     "avgR": null
    },
-   "key": "BNBUSDT-1h-rsi-35-70-1.5-2",
-   "llm": {
-    "score": 0.06,
-    "risk": "low",
-    "note": "sentiment +0.06 su 1 titoli"
-   }
+   "key": "BNBUSDT-1h-rsi-35-70-1.5-2"
   },
   {
    "sym": "AVAXUSDT",
@@ -49,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794700799999,
-   "price": 6.596,
+   "price": 6.741,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -78,7 +71,7 @@
    "dir": "LONG",
    "action": "ATTIVO",
    "since": 1795651199999,
-   "price": 43.95,
+   "price": 44.56,
    "entry": 42.79,
    "sl": 41.756413730626036,
    "tp": 44.85717253874792,
@@ -107,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05646,
+   "price": 0.05769,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -136,7 +129,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 71.06,
+   "price": 72.67,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -165,16 +158,14 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 60496.02,
+   "price": 61420.08,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": [
-     "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds"
-    ]
+    "heads": []
    },
    "bt": {
     "wrTest": 0.538,
@@ -187,12 +178,7 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3",
-   "llm": {
-    "score": -0.05,
-    "risk": "low",
-    "note": "sentiment -0.05 su 1 titoli"
-   }
+   "key": "BTCUSDT-4h-sma-20-80-2-3"
   }
  ],
  "paper": {
