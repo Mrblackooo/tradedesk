@@ -1,32 +1,32 @@
 {
- "updated": 1795755309623,
+ "updated": 1795791251504,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-11-26T11:59:37.971Z",
- "briefing": null,
+ "scannedAt": "2026-11-27T11:51:33.234Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (+0.12).",
  "signals": [
   {
    "sym": "BNBUSDT",
    "tf": "1h",
    "strat": "RSI 35/70 SL1.5/TP2 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1795618799999,
-   "price": 563.61,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
+   "dir": "SHORT",
+   "action": "ATTIVO",
+   "since": 1795755599999,
+   "price": 547.19,
+   "entry": 563.62,
+   "sl": 568.9909091031448,
+   "tp": 556.4587878624736,
+   "size": 52.5,
    "news": {
     "score": 0,
     "heads": []
    },
    "bt": {
-    "wrTest": 0.579,
-    "t": 1.09,
+    "wrTest": 0.632,
+    "t": 1.26,
     "n": 19,
-    "sharpeTest": 2.36
+    "sharpeTest": 2.65
    },
    "stage": "osservazione",
    "proof": {
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794700799999,
-   "price": 6.741,
+   "price": 6.546,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -53,9 +53,9 @@
    },
    "bt": {
     "wrTest": 0.48,
-    "t": 1.99,
+    "t": 2.03,
     "n": 25,
-    "sharpeTest": 1.75
+    "sharpeTest": 1.7
    },
    "stage": "osservazione",
    "proof": {
@@ -65,42 +65,13 @@
    "key": "AVAXUSDT-1d-sma-5-50-2-3"
   },
   {
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 20/50 SL2/TP4 ATR",
-   "dir": "LONG",
-   "action": "ATTIVO",
-   "since": 1795651199999,
-   "price": 44.56,
-   "entry": 42.79,
-   "sl": 41.756413730626036,
-   "tp": 44.85717253874792,
-   "size": 20.7,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.59,
-    "t": 2.34,
-    "n": 39,
-    "sharpeTest": 5.08
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 0,
-    "avgR": null
-   },
-   "key": "LTCUSDT-1h-sma-20-50-2-4"
-  },
-  {
    "sym": "DOGEUSDT",
    "tf": "1d",
    "strat": "Incrocio SMA 5/80 SL1/TP2 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05769,
+   "price": 0.05673,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -129,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 72.67,
+   "price": 70.81,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -152,13 +123,13 @@
    "key": "SOLUSDT-1d-sma-20-30-2-3"
   },
   {
-   "sym": "BTCUSDT",
-   "tf": "4h",
-   "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 20/50 SL2/TP4 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
-   "since": 1793318399999,
-   "price": 61420.08,
+   "since": 1795759199999,
+   "price": 43.3,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -166,6 +137,41 @@
    "news": {
     "score": 0,
     "heads": []
+   },
+   "bt": {
+    "wrTest": 0.59,
+    "t": 2.48,
+    "n": 39,
+    "sharpeTest": 5.49
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "LTCUSDT-1h-sma-20-50-2-4"
+  },
+  {
+   "sym": "BTCUSDT",
+   "tf": "4h",
+   "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1793318399999,
+   "price": 59288.65,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": [
+     "Bitcoin 'death cross' is coming. Here's what happened after previous 13.",
+     "Bitcoin on course to end seven-week losing streak while trailing stock rebound",
+     "Live updates: Bitcoin dips below $60,000 as Nasdaq 100 gives up most of its early gains",
+     "Next ECB chief favors tokenized bank deposits over stablecoins and bitcoin",
+     "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday’s rebound"
+    ]
    },
    "bt": {
     "wrTest": 0.538,
@@ -178,7 +184,12 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": 0.12,
+    "risk": "low",
+    "note": "sentiment +0.12 su 5 titoli"
+   }
   }
  ],
  "paper": {
