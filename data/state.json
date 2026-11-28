@@ -1,10 +1,10 @@
 {
- "updated": 1795841188338,
+ "updated": 1795873291874,
  "riskPct": 0.5,
  "blackout": null,
  "minPaper": 10,
- "scannedAt": "2026-11-27T11:51:33.234Z",
- "briefing": null,
+ "scannedAt": "2026-11-28T11:27:02.895Z",
+ "briefing": "Sentiment delle ultime 6 ore (modello FinBERT) – BTC: neutro (-0.17).",
  "signals": [
   {
    "sym": "BNBUSDT",
@@ -13,7 +13,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1795795199999,
-   "price": 555.33,
+   "price": 549.51,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -23,10 +23,10 @@
     "heads": []
    },
    "bt": {
-    "wrTest": 0.632,
-    "t": 1.26,
-    "n": 19,
-    "sharpeTest": 2.65
+    "wrTest": 0.65,
+    "t": 1.69,
+    "n": 20,
+    "sharpeTest": 3.48
    },
    "stage": "osservazione",
    "proof": {
@@ -42,7 +42,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1794700799999,
-   "price": 6.606,
+   "price": 6.453,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -53,9 +53,9 @@
    },
    "bt": {
     "wrTest": 0.48,
-    "t": 2.03,
+    "t": 2.08,
     "n": 25,
-    "sharpeTest": 1.7
+    "sharpeTest": 1.62
    },
    "stage": "osservazione",
    "proof": {
@@ -71,7 +71,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 0.05754,
+   "price": 0.05638,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -100,7 +100,7 @@
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793923199999,
-   "price": 71.67,
+   "price": 70.42,
    "entry": null,
    "sl": null,
    "tp": null,
@@ -123,49 +123,22 @@
    "key": "SOLUSDT-1d-sma-20-30-2-3"
   },
   {
-   "sym": "LTCUSDT",
-   "tf": "1h",
-   "strat": "Incrocio SMA 20/50 SL2/TP4 ATR",
-   "dir": "FLAT",
-   "action": "FLAT (SL/TP colpito)",
-   "since": 1795759199999,
-   "price": 44.55,
-   "entry": null,
-   "sl": null,
-   "tp": null,
-   "size": null,
-   "news": {
-    "score": 0,
-    "heads": []
-   },
-   "bt": {
-    "wrTest": 0.59,
-    "t": 2.48,
-    "n": 39,
-    "sharpeTest": 5.49
-   },
-   "stage": "osservazione",
-   "proof": {
-    "n": 0,
-    "avgR": null
-   },
-   "key": "LTCUSDT-1h-sma-20-50-2-4"
-  },
-  {
    "sym": "BTCUSDT",
    "tf": "4h",
    "strat": "Incrocio SMA 20/80 SL2/TP3 ATR",
    "dir": "FLAT",
    "action": "FLAT (SL/TP colpito)",
    "since": 1793318399999,
-   "price": 60052.72,
+   "price": 59109.36,
    "entry": null,
    "sl": null,
    "tp": null,
    "size": null,
    "news": {
     "score": 0,
-    "heads": []
+    "heads": [
+     "Bitcoin not delivering: The bear market has digital asset veteran questioning BTC's value"
+    ]
    },
    "bt": {
     "wrTest": 0.538,
@@ -178,7 +151,41 @@
     "n": 2,
     "avgR": 0.17
    },
-   "key": "BTCUSDT-4h-sma-20-80-2-3"
+   "key": "BTCUSDT-4h-sma-20-80-2-3",
+   "llm": {
+    "score": -0.17,
+    "risk": "low",
+    "note": "sentiment -0.17 su 1 titoli"
+   }
+  },
+  {
+   "sym": "LTCUSDT",
+   "tf": "1h",
+   "strat": "Incrocio SMA 20/50 SL2/TP4 ATR",
+   "dir": "FLAT",
+   "action": "FLAT (SL/TP colpito)",
+   "since": 1795759199999,
+   "price": 43.71,
+   "entry": null,
+   "sl": null,
+   "tp": null,
+   "size": null,
+   "news": {
+    "score": 0,
+    "heads": []
+   },
+   "bt": {
+    "wrTest": 0.639,
+    "t": 2.73,
+    "n": 36,
+    "sharpeTest": 5.96
+   },
+   "stage": "osservazione",
+   "proof": {
+    "n": 0,
+    "avgR": null
+   },
+   "key": "LTCUSDT-1h-sma-20-50-2-4"
   }
  ],
  "paper": {
